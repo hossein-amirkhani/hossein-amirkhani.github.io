@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /news/
 title: "News"
 author_profile: true
@@ -6,9 +7,6 @@ redirect_from:
   - /news
   - /news.html
 ---
-News
-======
-------
 <font size="3">
 <div style="overflow-y: auto; max-height: 300px; padding-right: 10px; font-size: 15.5px;">
 <ul>
