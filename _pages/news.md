@@ -22,7 +22,7 @@ News
   <li>
     <b>Jan 2024</b>. Our multi-cancer early detection test has been published in BMJ Oncology. 
     This innovative test, featuring a sex-specific panel of 10 proteins, can now detect 18 different early-stage cancers.
-    <a href="[https://aclanthology.org/2023.acl-long.149/](https://bmjoncology.bmj.com/content/3/1/e000073?rss=1)" target="_blank">[paper]</a>
+    <a href="https://bmjoncology.bmj.com/content/3/1/e000073?rss=1" target="_blank">[paper]</a>
   </li>
 </ul>
 </div>
