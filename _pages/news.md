@@ -22,6 +22,9 @@ redirect_from:
     This innovative test, featuring a sex-specific panel of 10 proteins, can now detect 18 different early-stage cancers.
     <a href="https://bmjoncology.bmj.com/content/3/1/e000073?rss=1" target="_blank">[paper]</a>
   </li>
+  <li>
+    <b>Dec 2023</b>. I have started recording some Persian videos about Natural Language Processing (NLP) using Hugging Face Transformers, based on <a href="https://www.oreilly.com/library/view/natural-language-processing/9781098136789/" target="_blank">this excellent book</a> and <a href="https://github.com/nlp-with-transformers/notebooks" target="_blank">the accompanying notebooks</a>. [videos]
+  </li>
 </ul>
 </div>
 </font>
