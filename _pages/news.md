@@ -11,7 +11,7 @@ redirect_from:
 <div style="overflow-y: auto; max-height: 300px; padding-right: 10px; font-size: 15.5px;">
 <ul>
   <li>
-    <b>Jan 2024</b>. I have embarked on a part-time collaboration with <a href="https://tapsage.ir/" target="_blank">Tapsage</a>. Our joint endeavor focuses on creating a cutting-edge platform for generative AI solutions. We are working diligently to optimize various components based on user needs, including retrieval (designed for use in Retrieval-Augmented Generation, or RAG), reranking, function calling, generation, and guardrail implementation. 
+    <b>Jan 2024</b>. I have embarked on a part-time collaboration with <a href="https://tapsage.ir/" target="_blank">Tapsage</a>. Our joint endeavor focuses on creating a cutting-edge platform for generative AI solutions. We are working diligently to optimize various components based on user needs, including retrieval, reranking, function calling, generation, and guardrail implementation. 
   </li>
   <li>
     <b>Jan 2024</b>. Our early cancer detection research has been covered by various media outlets, including 
