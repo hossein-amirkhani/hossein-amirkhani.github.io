@@ -11,6 +11,9 @@ redirect_from:
 <div style="overflow-y: auto; max-height: 300px; padding-right: 10px; font-size: 15.5px;">
 <ul>
   <li>
+    <b>Jan 2024</b>. I have embarked on a part-time collaboration with <a href="https://tapsage.ir/" target="_blank">Tapsage</a>. Our joint endeavor focuses on creating a cutting-edge platform for generative AI solutions. We are working diligently to optimize various components based on user needs, including retrieval (designed for use in Retrieval-Augmented Generation, or RAG), reranking, function calling, generation, and guardrail implementation. 
+  </li>
+  <li>
     <b>Jan 2024</b>. Our early cancer detection research has been covered by various media outlets, including 
     <a href="https://www.theguardian.com/society/2024/jan/09/dna-test-can-detect-18-early-stage-cancers-scientists-say" target="_blank">The Guardian</a>, 
     <a href="https://www.telegraph.co.uk/news/2024/01/10/new-generation-cancer-tests-screen-major-organs-novelna/" target="_blank">The Telegraph</a>, 
