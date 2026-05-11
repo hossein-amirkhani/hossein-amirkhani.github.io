@@ -1,17 +1,22 @@
 ---
 layout: archive
-permalink: /ai-supervision/
-title: "Why AI Coding Agents Need Human Supervision"
+permalink: /agentic-engineering-notes/
+title: "Notes on Agentic Engineering: Where the Human Still Matters"
 author_profile: true
 redirect_from:
+  - /agentic-engineering-notes
+  - /agentic-engineering-notes.html
+  - /ai-supervision/
   - /ai-supervision
   - /ai-supervision.html
 ---
 
 <p style="font-size: 16px; color: #555; margin-top: -10px;">
-A growing collection of lessons learned from working alongside AI coding agents in real projects.
-Each entry is a short case study: what the agent did, where its frame of reasoning fell short, and what a human-in-the-loop caught.
-Newest lessons appear at the top.
+Simon Willison recently started documenting <a href="https://simonwillison.net/guides/agentic-engineering-patterns/" target="_blank"><i>Agentic Engineering Patterns</i></a> &mdash; practices for getting good results out of coding agents like Claude Code and Codex, where the agent both writes and <i>executes</i> code, iterating largely on its own. This page is my running companion to that idea, told from the other side of the loop: short case studies from my own projects where the agent did exactly what I asked &mdash; and a human in the loop still made the difference.
+</p>
+
+<p style="font-size: 16px; color: #555;">
+Each entry describes what the agent did, where its frame of reasoning fell short, and what the intervention cost &mdash; or saved. Newest notes appear at the top.
 </p>
 
 <style>
