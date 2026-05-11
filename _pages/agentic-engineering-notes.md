@@ -12,7 +12,7 @@ redirect_from:
 ---
 
 <p style="font-size: 16px; color: #555; margin-top: -10px;">
-Simon Willison recently started documenting <a href="https://simonwillison.net/guides/agentic-engineering-patterns/" target="_blank"><i>Agentic Engineering Patterns</i></a> &mdash; practices for getting good results out of coding agents like Claude Code and Codex, where the agent both writes and <i>executes</i> code, iterating largely on its own. This page is my running companion to that idea, told from the other side of the loop: short case studies from my own projects where the agent did exactly what I asked &mdash; and a human in the loop still made the difference.
+Simon Willison recently started documenting <a href="https://simonwillison.net/guides/agentic-engineering-patterns/" target="_blank"><i>Agentic Engineering Patterns</i></a> &mdash; practices for getting good results out of coding agents like Claude Code and Codex, where the agent both writes and <i>executes</i> code, iterating largely on its own. This page is my running companion to that idea, told from the other side of the loop: short case studies from my own projects where a human in the loop still made the difference.
 </p>
 
 <p style="font-size: 16px; color: #555;">
