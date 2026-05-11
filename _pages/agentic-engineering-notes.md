@@ -75,10 +75,10 @@ Each entry describes what the agent did, where its frame of reasoning fell short
   }
   .lesson-body .lesson-takeaway {
     margin-top: 10px;
-    padding: 10px 14px;
-    background: #f7faff;
-    border-left: 3px solid #2f5d8a;
-    border-radius: 4px;
+    padding: 0;
+    background: transparent;
+    border-left: none;
+    border-radius: 0;
     font-style: italic;
     color: #1f2937;
   }
@@ -87,7 +87,7 @@ Each entry describes what the agent did, where its frame of reasoning fell short
     .lesson-title { color: #f3f4f6; }
     .lesson-body { color: #d1d5db; }
     .lesson-body .label { color: #f3f4f6; }
-    .lesson-body .lesson-takeaway { background: #111827; color: #e5e7eb; border-left-color: #6ea8d8; }
+    .lesson-body .lesson-takeaway { background: transparent; color: #e5e7eb; border-left: none; }
     .lesson-date { background: #2b3a52; color: #cfe1f5; }
   }
 </style>
