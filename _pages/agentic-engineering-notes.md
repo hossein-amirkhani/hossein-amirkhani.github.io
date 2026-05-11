@@ -16,7 +16,7 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
 </p>
 
 <p style="font-size: 16px; color: #555;">
-Each entry describes what the agent did, where its frame of reasoning fell short, and what the intervention cost &mdash; or saved. Newest notes appear at the top.
+Each entry describes what the agent did, where its frame of reasoning fell short, and what the intervention cost &mdash; or saved.
 </p>
 
 <style>
