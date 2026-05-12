@@ -8,5 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am an accomplished machine learning expert with over 10 years of experience leading AI initiatives in academia and industry. I have pioneered the application of advanced techniques like transformers and generative AI across domains including biotech, ad-tech, and NLP. I hold a PhD in Artificial Intelligence and have co-authored multiple papers at top AI journals and conferences. I established the first data mining and machine learning lab at the University of Qom, where I supervised 25+ graduate students. I am recognized for my research, teaching, and ability to build high-impact ML systems from prototype to production. With deep knowledge spanning algorithms, data pipelines, and model deployment, I am a visionary leader in leveraging AI to solve real-world problems.
+I'm a machine learning engineer at Meta, where I build evaluation systems for generative AI &mdash; the infrastructure that determines whether a model is ready to ship to billions of users.
 
+Before Meta, I spent a decade at the intersection of NLP research and production ML. I led NLP teams processing millions of pages daily, built cancer detection pipelines from prototype to deployment, and published 30+ papers at venues like EMNLP and PAMI.
+
+I hold a PhD in Artificial Intelligence and founded the first data mining and machine learning lab at the University of Qom, where I supervised 25+ graduate theses. I've shipped systems across biotech, ad-tech, and large-scale NLP &mdash; always focused on closing the gap between research ideas and production reality.
