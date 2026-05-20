@@ -97,6 +97,22 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
   <li class="lesson-card">
     <div class="lesson-header">
       <span class="lesson-date">May 20, 2026</span>
+      <h3 class="lesson-title">Reading code is changing &mdash; but it's not going away</h3>
+    </div>
+    <div class="lesson-body">
+      <p><span class="label">The principle.</span> In the age of agentic engineering, understanding code without reading every line is becoming one of the core skills. Whether it's code an AI generated for you or code a colleague wrote (with AI help), you need to grasp intent, structure, and risk at a glance.</p>
+
+      <p><span class="label">On code review.</span> We already use AI agents to review pull requests. But copy-pasting AI-generated review comments adds no value &mdash; the code author could have run the same tool themselves. The real skill is reading the AI's review, deciding which comments are valid, and judging how much they matter. You're not the reviewer's typist; you're its editor.</p>
+
+      <div class="lesson-takeaway">
+        AI generates the code and the reviews. Your job is to understand both well enough to know what matters and what doesn't &mdash; without reading every line yourself.
+      </div>
+    </div>
+  </li>
+
+  <li class="lesson-card">
+    <div class="lesson-header">
+      <span class="lesson-date">May 20, 2026</span>
       <h3 class="lesson-title">Start in the driver's seat, then gradually hand over the wheel</h3>
     </div>
     <div class="lesson-body">
