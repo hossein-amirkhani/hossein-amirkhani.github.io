@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /agentic-engineering-notes/
-title: "Notes on Agentic Engineering: Where the Human Still Matters"
+title: "Agentic Engineering"
 author_profile: true
 redirect_from:
   - /agentic-engineering-notes
