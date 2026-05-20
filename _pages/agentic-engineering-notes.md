@@ -12,11 +12,7 @@ redirect_from:
 ---
 
 <p style="font-size: 16px; color: #555; margin-top: -10px;">
-Simon Willison recently started documenting <a href="https://simonwillison.net/guides/agentic-engineering-patterns/" target="_blank"><i>Agentic Engineering Patterns</i></a> &mdash; practices for getting good results out of coding agents like Claude Code and Codex, where the agent both writes and <i>executes</i> code, iterating largely on its own. This page is my running companion to that idea, told from the other side of the loop: short case studies from my own projects where a human in the loop still made the difference.
-</p>
-
-<p style="font-size: 16px; color: #555;">
-Each entry describes what the agent did, where its frame of reasoning fell short, and what the intervention cost &mdash; or saved.
+Simon Willison recently started documenting <a href="https://simonwillison.net/guides/agentic-engineering-patterns/" target="_blank"><i>Agentic Engineering Patterns</i></a> &mdash; practices for getting good results out of coding agents that both write and execute code on their own. This page is my running companion to that idea, told from the other side of the loop: lessons and observations from my own experience working alongside AI coding agents.
 </p>
 
 <style>
@@ -100,28 +96,34 @@ Each entry describes what the agent did, where its frame of reasoning fell short
 
   <li class="lesson-card">
     <div class="lesson-header">
-      <span class="lesson-date">May 13, 2026</span>
-      <h3 class="lesson-title">How "take ours" silently overwrote five coworkers' PRs</h3>
+      <span class="lesson-date">May 20, 2026</span>
+      <h3 class="lesson-title">Start in the driver's seat, then gradually hand over the wheel</h3>
     </div>
     <div class="lesson-body">
-      <p><span class="label">Context.</span> I was rebasing a long-lived feature branch onto main with a coding agent. The branch had 14 commits &mdash; partly debug code, partly an intentional rollback of an architectural change a coworker and I had built earlier. Main had moved on with 356 commits since the branch was cut.</p>
+      <p><span class="label">The principle.</span> When you join a new team or start a new project, use AI as an assistant &mdash; not an autopilot. Read the documents yourself (with AI helping you summarize and search). Read the code yourself (with AI helping you navigate and explain). Double-check what the AI generates, not because it's wrong, but because reviewing its output is how <i>you</i> build context.</p>
 
-      <p><span class="label">The bug.</span> Pulling main produced five merge conflicts. The branch had reshaped a feature one way; main had reshaped it differently. The same files had been edited in incompatible directions on both sides.</p>
-
-      <p><span class="label">The instruction.</span> Faced with merge vs. rebase, I told the agent, <i>"let's go with the simplest option."</i> It picked merge.</p>
-
-      <p><span class="label">What the agent was about to do.</span> When the merge produced five conflicts, the agent reused the same framing on its own: <i>"the branch represents the desired rollback target, so the branch's side wins."</i> It ran <code>git checkout --ours</code> on every conflict, committed the merge, and was about to ask me to push. The diff looked plausible: all the rollback edits were intact, <code>git status</code> was clean. From inside the merge, nothing seemed wrong.</p>
-
-      <p><span class="label">Why it didn't notice.</span> The "branch is the rollback target" reasoning is true for the architectural pieces &mdash; the part the branch was explicitly designed to undo. It's false for every other line in those files. <code>--ours</code> doesn't know the difference between "an edit the branch made" and "an edit main made that the branch never saw." It treats every conflicted hunk as a single binary choice: branch wins or main wins. But these files had been touched by many people on main since the branch was cut &mdash; five different coworkers, roughly nine distinct features. None of their work appeared in the branch's diff because the branch had never seen it. <code>--ours</code> discarded all of it without a single warning.</p>
-
-      <p><span class="label">The human intervention.</span> I paused and said, <i>"if you're removing code I wrote, that's fine. If you're removing other people's code, that's not."</i> That one sentence reframed the whole task. The agent ran <code>git log -S</code> and <code>git blame</code> against main for each removed chunk, attributed every deletion to an author, and found work from five coworkers silently nuked across the five files. The fix was to redo the merge: take main's version of each conflicted file (<code>git checkout --theirs</code>), then surgically re-apply only the rollback edits that belonged to me. The surgical pass took roughly twenty minutes &mdash; much longer than the first attempt, but every preserved coworker contribution made it justified.</p>
-
-      <p><span class="label">What it would have cost otherwise.</span> Roughly nine landed features from five engineers, gone. They'd have noticed when their dashboards stopped working, their API routes returned 401s, or their newer evaluation columns disappeared. Best case: angry messages and a revert. Worst case: someone else discovers the regression in production after the rollback PR has been built on, and the recovery includes a partial revert tangled with downstream work.</p>
-
-      <p><span class="label">Lesson.</span> "Simplest option" is an instruction about effort, not about correctness &mdash; and the agent applied it twice in a row, once to pick merge and once to resolve conflicts, without checking back the second time. In a long-lived branch, every conflicted file is a multi-author timeline, not a binary us-vs-them. Default merge tooling (<code>--ours</code>, <code>--theirs</code>) treats both sides as monoliths and gives no signal when you're discarding unrelated contributions. The author-attribution step &mdash; <code>git blame</code> on every deletion &mdash; is cheap, and it converts "did the agent trample anyone's work?" from a vague worry into an answerable question.</p>
+      <p><span class="label">Why it matters.</span> Over time, as you understand the system better, you can give the agent more autonomy and spend less time monitoring its work. But if you hand over too much autonomy at the start &mdash; even if the AI does everything correctly &mdash; you stay behind. You can't meaningfully steer what you don't understand.</p>
 
       <div class="lesson-takeaway">
-        For any merge older than a sprint, run it.
+        Trust is built gradually. Start hands-on, increase autonomy as your own understanding grows. The goal isn't to supervise forever &mdash; it's to earn the confidence to stop.
+      </div>
+    </div>
+  </li>
+
+  <li class="lesson-card">
+    <div class="lesson-header">
+      <span class="lesson-date">May 13, 2026</span>
+      <h3 class="lesson-title">"Simplest option" erased nine features from five engineers</h3>
+    </div>
+    <div class="lesson-body">
+      <p><span class="label">What happened.</span> I asked an agent to merge a long-lived branch back into main. There were conflicts. The agent resolved all of them by keeping my branch's version and discarding everything else &mdash; silently deleting work from five other engineers.</p>
+
+      <p><span class="label">Why the agent missed it.</span> It reasoned: "this branch is the goal, so the branch should win every conflict." That logic was correct for my changes but wrong for everyone else's unrelated edits that happened to touch the same files.</p>
+
+      <p><span class="label">The fix.</span> I said: "if you're removing code I wrote, fine &mdash; if you're removing other people's code, that's not fine." The agent then checked who wrote each deleted line and preserved everything that wasn't mine. Took 20 minutes instead of 2, but saved nine features from five engineers.</p>
+
+      <div class="lesson-takeaway">
+        "Simplest option" is an instruction about effort, not correctness. In any shared codebase, ask: "whose work am I about to overwrite?" before accepting a bulk resolution.
       </div>
     </div>
   </li>
@@ -129,33 +131,19 @@ Each entry describes what the agent did, where its frame of reasoning fell short
   <li class="lesson-card">
     <div class="lesson-header">
       <span class="lesson-date">May 11, 2026</span>
-      <h3 class="lesson-title">When "fix and re-run" silently means "re-run the whole thing"</h3>
+      <h3 class="lesson-title">"Re-run" didn't mean "resume"</h3>
     </div>
     <div class="lesson-body">
-      <p><span class="label">Context.</span> I'm running a benchmark of <b>332 evaluation cases</b> against an LLM. Each case takes several minutes (the agent spins up a sandbox VM, the model has a conversation, then a grader scores it). The full run takes <b>multiple hours</b> end-to-end. I'm driving this with a Claude-based orchestrator agent.</p>
+      <p><span class="label">What happened.</span> I told an agent to fix a bug and re-run a multi-hour test suite. The agent was about to restart from scratch &mdash; re-running hundreds of already-passed tests &mdash; because "re-run" didn't mean "resume."</p>
 
-      <p><span class="label">The bug.</span> Partway through, the orchestrator detects an infrastructure bug &mdash; the LLM-judge isn't being called correctly, so every "criteria" assertion errors out. The agent does the right diagnostic work: identifies the file, applies a one-line fix, and prepares to relaunch.</p>
+      <p><span class="label">Why the agent missed it.</span> It optimized the literal instruction ("get a clean run") without considering the implicit constraint ("don't redo finished work"). Agents don't infer what you didn't say.</p>
 
-      <p><span class="label">The instruction.</span> I had told the agent: <i>"If a case fails due to an infra bug, fix the code and re-run until it's resolved."</i></p>
-
-      <p><span class="label">What the agent was about to do.</span> Kill the controller, apply the fix, relaunch. The controller has no built-in resume &mdash; on restart it iterates the suite from case 0. So <b>every case that had already completed correctly would have been re-run</b>.</p>
-
-      <p><span class="label">Why it didn't notice.</span> From the agent's perspective, it was doing exactly what I asked. Nothing in its local reasoning surfaced that "re-run" would silently include already-finished work. The agent wasn't tracking the implicit goal of <i>not wasting compute</i> &mdash; only the explicit goal of <i>getting a clean run</i>.</p>
-
-      <p><span class="label">The human intervention.</span> I asked: <i>"are you sure it won't rerun the previously verified ones?"</i> The agent immediately understood the gap and built the missing piece &mdash; a sidecar file the watcher appends to as cases finish, plus a launcher wrapper that reads it and passes the IDs as <code>exclude_ids</code> on relaunch. Cost: ~2 minutes to design and implement.</p>
-
-      <p><span class="label">What it would have cost otherwise.</span> Hours of duplicate compute &mdash; sandbox VMs, model inference quota, shared sampler time &mdash; to re-derive results that were already on disk.</p>
-
-      <p><span class="label">Lesson.</span> AI coding agents are excellent at executing within the scope of the instruction they're given. Side effects <i>outside</i> that scope &mdash; wasted resources, repeated work, partial-state recovery &mdash; only get caught when a human pattern-matches against the broader system. The instruction "run until clean" implicitly assumes "and don't redo what's already done," but agents don't infer those implicit constraints. They optimize the explicit one.</p>
+      <p><span class="label">The fix.</span> I asked one question: "won't this rerun the ones that already passed?" The agent immediately built a resume mechanism. Two minutes of work saved hours of wasted compute.</p>
 
       <div class="lesson-takeaway">
-        This is the case for keeping a human in the loop on long-running agentic workflows. Not because the agent is wrong &mdash; it's not &mdash; but because the agent's frame is narrower than the system's frame, and only the human sees the gap.
+        Agents optimize the goal you stated. Side effects outside that frame &mdash; wasted time, wasted money, repeated work &mdash; are invisible to them unless you name them.
       </div>
     </div>
   </li>
 
 </ul>
-
-<p style="font-size: 13.5px; color: #777; margin-top: 2em;">
-  More lessons will be added as I encounter them. If you've run into something similar, I'd love to hear about it.
-</p>
