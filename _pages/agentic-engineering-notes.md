@@ -96,6 +96,24 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
 
   <li class="lesson-card">
     <div class="lesson-header">
+      <span class="lesson-date">June 12, 2026</span>
+      <h3 class="lesson-title">"Just implement it" quietly became "build a second backend"</h3>
+    </div>
+    <div class="lesson-body">
+      <p><span class="label">What happened.</span> I asked an agent to add a test flow to an existing dashboard, with one requirement: it should behave exactly like the production path. Instead of reusing the production code, the agent quietly built a parallel version &mdash; a separate runner with its own handling for edge cases. Each piece looked reasonable alone, but together they formed a second system that only looked like the original.</p>
+
+      <p><span class="label">Why the agent missed it.</span> It focused on making the new flow <i>work</i>, and a separate copy works fine on its own. What it missed was that "behave like production" meant <i>use</i> the production path &mdash; not build something that merely looks like it.</p>
+
+      <p><span class="label">The fix.</span> I asked one question: "this separate runner &mdash; isn't it redundant?" That reframed the task. We removed the parallel code and routed the new flow through the same shared logic the production path already used.</p>
+
+      <div class="lesson-takeaway">
+        "Avoid duplication" isn't about tidiness &mdash; it's about correctness. Some argue it matters less in the age of AI, since agents can later update both copies if needed. But an agent only fixes what it's pointed at; it has no reason to know a parallel copy exists. So the two paths drift apart silently while both still look healthy. When a feature is meant to mirror an existing process, reuse is the default; duplication needs a stated reason.
+      </div>
+    </div>
+  </li>
+
+  <li class="lesson-card">
+    <div class="lesson-header">
       <span class="lesson-date">May 20, 2026</span>
       <h3 class="lesson-title">Reading code is changing &mdash; but it's not going away</h3>
     </div>
