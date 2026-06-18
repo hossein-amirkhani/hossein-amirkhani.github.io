@@ -96,6 +96,24 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
 
   <li class="lesson-card">
     <div class="lesson-header">
+      <span class="lesson-date">June 17, 2026</span>
+      <h3 class="lesson-title">"Should this already exist?" &mdash; the question agents skip</h3>
+    </div>
+    <div class="lesson-body">
+      <p><span class="label">What happened.</span> I asked an agent to add a feature that needed a common building block &mdash; the kind of thing most products already have somewhere. The agent built it from scratch instead of looking for the existing one. It looked like progress, but the custom version behaved subtly differently from the rest of the product, and each "fix" just made the local copy more elaborate without making it correct.</p>
+
+      <p><span class="label">Why the agent missed it.</span> It was working in the frame of "make this feature work." In that frame, building the component yourself is a perfectly reasonable move. What it didn't ask was whether this was a shared capability the team had already solved &mdash; something that should be reused, not reinvented.</p>
+
+      <p><span class="label">The fix.</span> The pushback wasn't "fix the implementation" &mdash; it was "why are we building this ourselves?" That reframed the task. The agent searched nearby projects, found the established component, and replaced the custom code with it. The fix removed code instead of adding more.</p>
+
+      <div class="lesson-takeaway">
+        Agents are good at filling in missing code &mdash; but that instinct can be the wrong one. For anything that's likely shared across a product, the first question isn't "can I build this?" but "should this already exist?" Search first, reuse the established pattern, and write custom code only for the part that's truly specific to your feature.
+      </div>
+    </div>
+  </li>
+
+  <li class="lesson-card">
+    <div class="lesson-header">
       <span class="lesson-date">June 12, 2026</span>
       <h3 class="lesson-title">"Just implement it" quietly became "build a second backend"</h3>
     </div>
