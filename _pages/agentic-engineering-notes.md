@@ -107,7 +107,7 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
       <p><span class="label">The fix.</span> The pushback was: "I'd expect to call a function that creates the task and returns the ID directly &mdash; no parsing." That reframed it. We swapped the command-line tool for the server-side API that returns structured data, and the workarounds disappeared.</p>
 
       <div class="lesson-takeaway">
-        When a tool isn't built for the job, making it "almost work" can feel like progress &mdash; but each workaround just hides a choice you should have revisited. If the fixes keep stacking up, that's usually the signal: step back and ask whether the tool is right, instead of patching around the fact that it isn't.
+        When a tool isn't built for the job, making it "almost work" can feel like progress &mdash; but each workaround just hides a choice you should have revisited. If the fixes keep stacking up, that's usually the signal: step back and ask whether the tool is right &mdash; instead of piling on more workarounds.
       </div>
     </div>
   </li>
