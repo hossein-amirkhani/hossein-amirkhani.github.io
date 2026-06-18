@@ -96,6 +96,24 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
 
   <li class="lesson-card">
     <div class="lesson-header">
+      <span class="lesson-date">June 18, 2026</span>
+      <h3 class="lesson-title">"Almost working" kept the wrong tool in place</h3>
+    </div>
+    <div class="lesson-body">
+      <p><span class="label">What happened.</span> I asked an agent to add a simple action: create a task and return its ID. The first version used a command-line tool that could create tasks but didn't reliably hand back the ID in a usable form. Instead of stepping back, the agent kept trying to make that tool work &mdash; searching for the task after creating it, parsing the command's output, writing the result to a temp file. Each workaround fixed the latest symptom but never questioned the real problem: the tool simply wasn't designed to give back a value, and no amount of patching would change that.</p>
+
+      <p><span class="label">Why the agent missed it.</span> Its frame was "how do I extract the ID from this command?" The right frame was "is this even the right tool for a job that needs a return value?" Because the command <i>did</i> create tasks, it felt close enough &mdash; and that's what made it dangerous: not obviously broken, just wrong enough to keep wasting time.</p>
+
+      <p><span class="label">The fix.</span> The pushback was: "I'd expect to call a function that creates the task and returns the ID directly &mdash; no parsing." That reframed it. We swapped the command-line tool for the server-side API that returns structured data, and the workarounds disappeared.</p>
+
+      <div class="lesson-takeaway">
+        When a tool isn't built for the job, making it "almost work" can feel like progress &mdash; but each workaround just hides a choice you should have revisited. If the fixes keep stacking up, that's usually the signal: step back and ask whether the tool is right, instead of patching around the fact that it isn't.
+      </div>
+    </div>
+  </li>
+
+  <li class="lesson-card">
+    <div class="lesson-header">
       <span class="lesson-date">June 12, 2026</span>
       <h3 class="lesson-title">"Just implement it" quietly became "build a second backend"</h3>
     </div>
