@@ -36,6 +36,29 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
     box-shadow: 0 4px 14px rgba(0,0,0,0.08);
     transform: translateY(-1px);
   }
+  /* Two-column inner layout: text on the left, illustration on the right */
+  .lesson-card-inner {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+  }
+  .lesson-main { flex: 1 1 auto; min-width: 0; }
+  .lesson-image {
+    flex: 0 0 132px;
+    width: 132px;
+    margin-top: 2px;
+  }
+  .lesson-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background: #eaf1f9;
+    display: block;
+  }
+  @media (max-width: 600px) {
+    .lesson-card-inner { flex-direction: column-reverse; }
+    .lesson-image { flex-basis: auto; width: 100%; max-width: 220px; align-self: center; }
+  }
   .lesson-header {
     display: flex;
     flex-wrap: wrap;
@@ -78,6 +101,36 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
     font-style: italic;
     color: #1f2937;
   }
+  /* Pagination: numbered page links at the bottom of the list */
+  .lesson-pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin: 1.5em 0 0.5em 0;
+  }
+  .lesson-pagination button {
+    min-width: 34px;
+    height: 34px;
+    padding: 0 10px;
+    border: 1px solid #d6deea;
+    background: #ffffff;
+    color: #2f5d8a;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .lesson-pagination button:hover:not(:disabled) { background: #eaf1f9; }
+  .lesson-pagination button.active {
+    background: #2f5d8a;
+    color: #ffffff;
+    border-color: #2f5d8a;
+    cursor: default;
+  }
+  .lesson-pagination button:disabled { opacity: 0.45; cursor: default; }
   @media (prefers-color-scheme: dark) {
     .lesson-card { background: #1f2937; border-color: #374151; border-left-color: #6ea8d8; }
     .lesson-title { color: #f3f4f6; }
@@ -85,6 +138,9 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
     .lesson-body .label { color: #f3f4f6; }
     .lesson-body .lesson-takeaway { background: transparent; color: #e5e7eb; border-left: none; }
     .lesson-date { background: #2b3a52; color: #cfe1f5; }
+    .lesson-pagination button { background: #1f2937; border-color: #374151; color: #cfe1f5; }
+    .lesson-pagination button:hover:not(:disabled) { background: #2b3a52; }
+    .lesson-pagination button.active { background: #6ea8d8; color: #11202f; border-color: #6ea8d8; }
   }
 </style>
 
@@ -92,9 +148,13 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
 
   <!-- ============================================================ -->
   <!-- NEW LESSONS GO HERE (newest first). Copy a <li> block below.  -->
+  <!-- Each card uses .lesson-card-inner > (.lesson-main + .lesson-image). -->
+  <!-- Add a matching illustration at /images/agentic-lessons/<slug>.png. -->
   <!-- ============================================================ -->
 
   <li class="lesson-card">
+   <div class="lesson-card-inner">
+    <div class="lesson-main">
     <div class="lesson-header">
       <span class="lesson-date">June 18, 2026</span>
       <h3 class="lesson-title">"Almost working" kept the wrong tool in place</h3>
@@ -110,9 +170,14 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
         When a tool isn't built for the job, making it "almost work" can feel like progress &mdash; but each workaround just hides a choice you should have revisited. If the fixes keep stacking up, that's usually the signal: step back and ask whether the tool is right &mdash; instead of piling on more workarounds.
       </div>
     </div>
+    </div>
+    <div class="lesson-image"><img src="/images/agentic-lessons/almost-working-wrong-tool.png" alt="A robot keeps patching the wrong tool while a person points to the right one" loading="lazy"></div>
+   </div>
   </li>
 
   <li class="lesson-card">
+   <div class="lesson-card-inner">
+    <div class="lesson-main">
     <div class="lesson-header">
       <span class="lesson-date">June 12, 2026</span>
       <h3 class="lesson-title">"Just implement it" quietly became "build a second backend"</h3>
@@ -128,9 +193,14 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
         "Avoid duplication" isn't about tidiness &mdash; it's about correctness. Some argue it matters less in the age of AI, since agents can later update both copies if needed. But an agent only fixes what it's pointed at; it has no reason to know a parallel copy exists. So the two paths drift apart silently while both still look healthy. When a feature is meant to mirror an existing process, reuse is the default; duplication needs a stated reason.
       </div>
     </div>
+    </div>
+    <div class="lesson-image"><img src="/images/agentic-lessons/second-backend.png" alt="A robot builds a redundant second backend stack beside the first" loading="lazy"></div>
+   </div>
   </li>
 
   <li class="lesson-card">
+   <div class="lesson-card-inner">
+    <div class="lesson-main">
     <div class="lesson-header">
       <span class="lesson-date">May 20, 2026</span>
       <h3 class="lesson-title">Reading code is changing &mdash; but it's not going away</h3>
@@ -144,9 +214,14 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
         AI generates the code and the reviews. Your job is to understand both well enough to know what matters and what doesn't &mdash; without reading every line yourself.
       </div>
     </div>
+    </div>
+    <div class="lesson-image"><img src="/images/agentic-lessons/reading-code.png" alt="A person reviews and judges AI-generated code held up by a robot" loading="lazy"></div>
+   </div>
   </li>
 
   <li class="lesson-card">
+   <div class="lesson-card-inner">
+    <div class="lesson-main">
     <div class="lesson-header">
       <span class="lesson-date">May 20, 2026</span>
       <h3 class="lesson-title">Start in the driver's seat, then gradually hand over the wheel</h3>
@@ -160,9 +235,14 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
         Trust is built gradually. Start hands-on, increase autonomy as your own understanding grows. The goal isn't to supervise forever &mdash; it's to earn the confidence to stop.
       </div>
     </div>
+    </div>
+    <div class="lesson-image"><img src="/images/agentic-lessons/drivers-seat.png" alt="A person drives while a friendly robot assists from the passenger seat" loading="lazy"></div>
+   </div>
   </li>
 
   <li class="lesson-card">
+   <div class="lesson-card-inner">
+    <div class="lesson-main">
     <div class="lesson-header">
       <span class="lesson-date">May 13, 2026</span>
       <h3 class="lesson-title">"Simplest option" erased nine features from five engineers</h3>
@@ -178,9 +258,14 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
         "Simplest option" is an instruction about effort, not correctness. In any shared codebase, ask: "whose work am I about to overwrite?" before accepting a bulk resolution.
       </div>
     </div>
+    </div>
+    <div class="lesson-image"><img src="/images/agentic-lessons/simplest-option.png" alt="A person stops a robot from discarding other engineers' colored code blocks" loading="lazy"></div>
+   </div>
   </li>
 
   <li class="lesson-card">
+   <div class="lesson-card-inner">
+    <div class="lesson-main">
     <div class="lesson-header">
       <span class="lesson-date">May 11, 2026</span>
       <h3 class="lesson-title">"Re-run" didn't mean "resume"</h3>
@@ -196,6 +281,66 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
         Agents optimize the goal you stated. Side effects outside that frame &mdash; wasted time, wasted money, repeated work &mdash; are invisible to them unless you name them.
       </div>
     </div>
+    </div>
+    <div class="lesson-image"><img src="/images/agentic-lessons/rerun-resume.png" alt="A robot about to restart completed work while a person points to resume" loading="lazy"></div>
+   </div>
   </li>
 
 </ul>
+
+<nav class="lesson-pagination" aria-label="Lessons pagination"></nav>
+
+<script>
+(function () {
+  var PER_PAGE = 5;
+  var list = document.querySelector('.lesson-list');
+  var nav = document.querySelector('.lesson-pagination');
+  if (!list || !nav) return;
+  var cards = Array.prototype.slice.call(list.querySelectorAll('.lesson-card'));
+  var pages = Math.ceil(cards.length / PER_PAGE);
+
+  function render(page) {
+    cards.forEach(function (card, i) {
+      var onPage = Math.floor(i / PER_PAGE) === (page - 1);
+      card.style.display = onPage ? '' : 'none';
+    });
+    nav.innerHTML = '';
+    if (pages <= 1) return;
+
+    var prev = document.createElement('button');
+    prev.textContent = 'Prev';
+    prev.disabled = page === 1;
+    prev.addEventListener('click', function () { go(page - 1); });
+    nav.appendChild(prev);
+
+    for (var p = 1; p <= pages; p++) {
+      (function (p) {
+        var b = document.createElement('button');
+        b.textContent = p;
+        if (p === page) b.className = 'active';
+        b.addEventListener('click', function () { go(p); });
+        nav.appendChild(b);
+      })(p);
+    }
+
+    var next = document.createElement('button');
+    next.textContent = 'Next';
+    next.disabled = page === pages;
+    next.addEventListener('click', function () { go(page + 1); });
+    nav.appendChild(next);
+  }
+
+  function go(page) {
+    if (page < 1 || page > pages) return;
+    render(page);
+    try { history.replaceState(null, '', '#page=' + page); } catch (e) {}
+    var top = list.getBoundingClientRect().top + window.pageYOffset - 20;
+    window.scrollTo({ top: top, behavior: 'smooth' });
+  }
+
+  var initial = 1;
+  var m = (location.hash || '').match(/page=(\d+)/);
+  if (m) { initial = Math.min(Math.max(parseInt(m[1], 10), 1), pages); }
+  render(initial);
+})();
+</script>
