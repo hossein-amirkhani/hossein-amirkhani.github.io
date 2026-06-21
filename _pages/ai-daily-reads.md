@@ -207,6 +207,83 @@ Every evening I review the past 24 hours across the AI world: news, papers, and 
     </div>
   </li>
 
+  <li class="day-card">
+    <div class="day-header">
+      <span class="day-date">June 20, 2026</span>
+      <span class="day-count">4 must-reads</span>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-20-item1.jpg' | relative_url }}" alt="">
+      <div class="read-content">
+        <p class="read-title">AWS launches two services to make AI agents safe and useful at work</p>
+        <p class="read-desc">Amazon's cloud arm rolled out a tool that finds and fixes code security holes and a shared knowledge base that gives agents real business context. The pitch is that agents in production keep failing for two reasons, missing context and weak security, and these aim straight at both.</p>
+        <a class="read-link" href="https://the-decoder.com/aws-says-ai-agents-lack-business-context-and-security-launches-two-services-to-patch-the-gaps/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-20-item2.jpg' | relative_url }}" alt="">
+      <div class="read-content">
+        <p class="read-title">A respected valuation expert warns an AI crash could be worse than the dot-com bust</p>
+        <p class="read-desc">NYU's Aswath Damodaran argues this boom is riskier because it is built on debt-financed physical infrastructure, not light software, and that AI costs do not fall to zero as users grow. A sober counterweight to the scaling optimism elsewhere this week.</p>
+        <a class="read-link" href="https://the-decoder.com/nyu-finance-professor-damodaran-warns-an-ai-crash-could-hit-harder-than-the-dot-com-bust/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-20-item3.jpg' | relative_url }}" alt="">
+      <div class="read-content">
+        <p class="read-title">ChatGPT adds a dedicated page for scheduled, recurring tasks</p>
+        <p class="read-desc">OpenAI gave ChatGPT one place to view, pause, and edit recurring tasks that run on their own and alert you only when something changes. It is a small feature, but it shows the steady shift from chatbot toward a standing personal assistant.</p>
+        <a class="read-link" href="https://the-decoder.com/chatgpt-keeps-creeping-toward-becoming-your-ai-personal-assistant-with-new-scheduled-task-controls/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-20-item4.jpg' | relative_url }}" alt="">
+      <div class="read-content">
+        <p class="read-title">Europe's fuzzy "deepfake" rules collide with AI-generated ads</p>
+        <p class="read-desc">A retail group whose members include Amazon, H&amp;M, and Ikea is asking the EU to exempt AI-generated product ads from new labeling rules, arguing a synthetic sofa photo is not a deepfake. It exposes how unclear the new transparency rules are as AI ad content explodes.</p>
+        <a class="read-link" href="https://the-decoder.com/the-eu-doesnt-really-know-what-a-deepfake-is-and-thats-becoming-a-problem-for-retail/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+  </li>
+
+  <li class="day-card">
+    <div class="day-header">
+      <span class="day-date">June 19, 2026</span>
+      <span class="day-count">3 must-reads</span>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-19-item1.jpg' | relative_url }}" alt="">
+      <div class="read-content">
+        <p class="read-title">S-Agent gives vision models a sense of 3D space</p>
+        <p class="read-desc">A new research framework lets a vision-language model plan, then call specialized tools to ground objects in 3D and reason across many views over time, instead of guessing from single frames. It boosts both open and closed models without retraining, a notable step for spatial reasoning.</p>
+        <a class="read-link" href="https://huggingface.co/papers/2606.20515" target="_blank" rel="noopener">Read the source</a><span class="read-source">huggingface.co</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-19-item2.jpg' | relative_url }}" alt="">
+      <div class="read-content">
+        <p class="read-title">Robots that learn by inventing their own play</p>
+        <p class="read-desc">A Berkeley paper has robots propose their own little tasks and practice them, building useful skills without a human writing out every goal. It is a clean example of self-directed learning, the kind of approach that could make robot training far less hand-held.</p>
+        <a class="read-link" href="https://huggingface.co/papers/2606.19419" target="_blank" rel="noopener">Read the source</a><span class="read-source">huggingface.co</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-19-item3.jpg' | relative_url }}" alt="">
+      <div class="read-content">
+        <p class="read-title">A coding benchmark grows up to test many languages</p>
+        <p class="read-desc">Researchers extended a popular live coding benchmark beyond Python to several programming languages, giving a fairer picture of how coding models actually perform across the stack. Useful if you care whether a model is genuinely good at code or just good at one language.</p>
+        <a class="read-link" href="https://huggingface.co/papers/2606.20517" target="_blank" rel="noopener">Read the source</a><span class="read-source">huggingface.co</span>
+      </div>
+    </div>
+  </li>
+
 </ul>
 
 <div class="daily-pagination" id="daily-pagination"></div>
