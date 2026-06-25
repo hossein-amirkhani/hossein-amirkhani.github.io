@@ -157,6 +157,49 @@ This page is generated automatically by an AI agent. Every evening it reviews th
 
   <li class="day-card">
     <div class="day-header">
+      <span class="day-date">June 24, 2026</span>
+      <span class="day-count">4 must-reads</span>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-24-item1.jpg' | relative_url }}" alt="Robot at a workstation holding its own glowing model core beside a code window" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Cursor is building its own from-scratch model, plus a Git platform for agents</div>
+        <div class="read-desc">The popular AI coding tool, now owned by SpaceX, says its first fully self-trained model ships within weeks and is meant to work beyond coding. It also unveiled Origin, a Git platform designed for thousands of AI agents working in one repo, and a mobile app. A clear bet that the coding-agent stack itself is becoming a frontier product.</div>
+        <a class="read-link" href="https://the-decoder.com/cursor-announces-its-own-ai-model-a-new-git-platform-and-a-mobile-app/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-24-item3.jpg' | relative_url }}" alt="Robot inside a globe of connected nodes simulating environments" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Alibaba's Qwen team releases a language world model for agents</div>
+        <div class="read-desc">Qwen-AgentWorld is a model that learns to simulate how environments respond to an agent's actions across many domains, so agents can train and plan against a realistic simulator instead of only the real world. The team reports it beats existing frontier models at this and improves downstream agent performance. A notable research push toward agents that can reason about consequences before acting.</div>
+        <a class="read-link" href="https://arxiv.org/abs/2606.24597" target="_blank" rel="noopener">Read the source</a><span class="read-source">arxiv.org</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-24-item4.jpg' | relative_url }}" alt="Robot seated at a table as an equal teammate with two people" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Karpathy calls a team-embedded Claude the third big shift in how we use LLMs</div>
+        <div class="read-desc">Reacting to Anthropic's new Claude Tag, Andrej Karpathy argued the model is becoming a persistent, asynchronous teammate that lives inside your tools and channels, not a website you visit or an app you open. He framed it as the third major redesign of how people interact with LLMs. A sharp, widely shared take on where AI-in-the-workplace is heading.</div>
+        <a class="read-link" href="https://x.com/karpathy/status/2069547676849557725" target="_blank" rel="noopener">Read the source</a><span class="read-source">x.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-24-item2.jpg' | relative_url }}" alt="Robot beside a film clapperboard and a video timeline strip" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">ByteDance shows a video model that makes 30-second clips in one shot</div>
+        <div class="read-desc">ByteDance previewed Seedance 2.5, which generates a single continuous video up to 30 seconds long, with scene and tempo changes and no stitching, plus four other new models. It is a meaningful step up in AI video length and control, and another sign of how fast Chinese labs are shipping generative-media tools.</div>
+        <a class="read-link" href="https://the-decoder.com/bytedances-seedance-2-5-breaks-the-30-second-barrier-for-ai-video-generation/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+  </li>
+
+  <li class="day-card">
+    <div class="day-header">
       <span class="day-date">June 23, 2026</span>
       <span class="day-count">4 must-reads</span>
     </div>
