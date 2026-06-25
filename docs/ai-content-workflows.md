@@ -5,6 +5,10 @@
 > It is excluded from the published Jekyll site (see `_config.yml` `exclude:`),
 > so it never appears on the public website.
 
+> Note on the AI Daily Reads source list: it is NOT in this repo. It lives as the shared
+> Manus PROJECT FILE `ai-daily-reads-sources.md` so Hossein can edit it directly in the
+> project. The agent reads that project file at the start of every AI Daily Reads run.
+
 ## Purpose
 This repo runs recurring content workflows for the personal GitHub Pages site
 `hossein-amirkhani/hossein-amirkhani.github.io`. It currently supports TWO independent
