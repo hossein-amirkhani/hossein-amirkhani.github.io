@@ -157,6 +157,49 @@ This page is generated automatically by an AI agent. Every evening it reviews th
 
   <li class="day-card">
     <div class="day-header">
+      <span class="day-date">June 25, 2026</span>
+      <span class="day-count">4 must-reads</span>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-25-item1.jpg' | relative_url }}" alt="Robot whose body fills in from translucent tiles all at once" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">ByteDance shows a diffusion-based language model that rivals normal LLMs</div>
+        <div class="read-desc">Most language models write one token at a time, left to right. ByteDance's iLLaDA is an 8B model trained a different way, filling in text in parallel like an image diffusion model, and it clearly beats its predecessor and stays competitive with strong conventional models. Evidence that this alternative recipe for building LLMs is becoming real.</div>
+        <a class="read-link" href="https://arxiv.org/abs/2606.25331" target="_blank" rel="noopener">Read the source</a><span class="read-source">arxiv.org</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-25-item2.jpg' | relative_url }}" alt="Small robots leaving one building for two others along a path" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Google keeps losing top AI researchers to Anthropic and OpenAI</div>
+        <div class="read-desc">Two more key people behind Gemini are reportedly leaving for Anthropic, following a Nobel laureate and a Gemini co-lead who recently departed. The exodus rattled Alphabet's stock and highlights how pre-IPO equity at rivals is reshaping the frontier-lab talent war. Worth watching because talent flows often precede shifts in who leads.</div>
+        <a class="read-link" href="https://the-decoder.com/google-keeps-losing-top-ai-researchers-to-rivals/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-25-item3.jpg' | relative_url }}" alt="Robot holding a processor chip in front of server racks" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Qualcomm pushes into AI data-center chips and buys Modular</div>
+        <div class="read-desc">Qualcomm announced a new data-center processor aimed at AI agents, with Meta set to deploy it from 2028, and is acquiring the AI software startup Modular for about 4 billion dollars. It widens the competition in AI chips beyond Nvidia, which matters for the cost and availability of compute everyone depends on.</div>
+        <a class="read-link" href="https://the-decoder.com/qualcomm-enters-the-data-center-market-with-its-own-processor/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-25-item4.jpg' | relative_url }}" alt="Robot beside an unbalanced scale holding two differently sized speech bubbles" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">A study finds most major chatbots still lean left on politics</div>
+        <div class="read-desc">A Washington Post analysis reports that most leading chatbots give left-leaning answers far more often than balanced ones, with even Grok skewing that way, while Google's Gemini was the main exception. A useful, concrete data point in the ongoing debate over political bias in AI systems many people now rely on.</div>
+        <a class="read-link" href="https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+  </li>
+
+  <li class="day-card">
+    <div class="day-header">
       <span class="day-date">June 24, 2026</span>
       <span class="day-count">4 must-reads</span>
     </div>
