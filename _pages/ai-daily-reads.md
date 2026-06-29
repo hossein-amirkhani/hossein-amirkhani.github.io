@@ -158,33 +158,15 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">June 28, 2026</span>
-      <span class="day-count">4 must-reads</span>
-    </div>
-
-    <div class="read-item">
-      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-28-item1.jpg' | relative_url }}" alt="Robot in a CEO chair watching a falling company cash chart" loading="lazy">
-      <div class="read-content">
-        <div class="read-title">Most AI models go broke running a fake startup for 500 days</div>
-        <div class="read-desc">In Princeton's new CEO-Bench, agents must run a simulated software company for 500 days. Most went bankrupt, and a simple no-AI rule-based strategy beat nearly all of them; only a few top models ended in profit. A sharp reminder that doing single tasks well is very different from steering an organization over time.</div>
-        <a class="read-link" href="https://arxiv.org/abs/2606.18543" target="_blank" rel="noopener">Read the source</a><span class="read-source">arxiv.org</span>
-      </div>
-    </div>
-
-    <div class="read-item">
-      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-28-item2.jpg' | relative_url }}" alt="A tiny robot lifting a large barbell beside two much bigger robots" loading="lazy">
-      <div class="read-content">
-        <div class="read-title">A 3B model matches giants on math and code</div>
-        <div class="read-desc">Weibo-parent Sina released VibeThinker-3B, which rivals models up to a few hundred times larger on hard math and coding tasks, though it lags on broad factual knowledge. The team argues reasoning compresses well into small models while world knowledge does not. A notable data point for the case that smarter training, not just size, drives capability.</div>
-        <a class="read-link" href="https://arxiv.org/abs/2606.16140" target="_blank" rel="noopener">Read the source</a><span class="read-source">arxiv.org</span>
-      </div>
+      <span class="day-count">2 must-reads</span>
     </div>
 
     <div class="read-item">
       <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-28-item3.jpg' | relative_url }}" alt="Robot at a routing panel directing a request to the cheapest model door" loading="lazy">
       <div class="read-content">
         <div class="read-title">Coinbase halves its AI bill by switching to cheaper Chinese models</div>
-        <div class="read-desc">Coinbase moved much of its work to low-cost Chinese models like GLM 5.2 and Kimi 2.7, using automatic routing and better caching to cut spending in half even as usage climbs. It joins a growing list of firms doing the same, which puts real pricing pressure on US labs heading toward IPOs. A concrete sign of how the cost side of AI is shifting.</div>
-        <a class="read-link" href="https://the-decoder.com/coinbase-joins-the-rush-to-chinese-ai-models-as-western-labs-face-a-pricing-stress-test/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+        <div class="read-desc">Coinbase's CEO says the company moved much of its work to low-cost Chinese models like GLM 5.2 and Kimi 2.7, using automatic routing and better caching to cut spending in half even as usage keeps climbing. It joins a growing list of firms doing the same, which puts real pricing pressure on US labs heading toward IPOs. A concrete sign of how the cost side of AI is shifting.</div>
+        <a class="read-link" href="https://x.com/brian_armstrong/status/2070670644577280109" target="_blank" rel="noopener">Read the source</a><span class="read-source">x.com</span>
       </div>
     </div>
 
