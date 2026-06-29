@@ -218,6 +218,19 @@ approval each day. The page intro already states explicitly that it is AI-genera
   include an item if its PRIMARY source is published inside that window, judged by the
   original publish date (arXiv submission date for papers, the post timestamp for tweets),
   not when a news site or aggregator resurfaced it. No grace period.
+- MANDATORY date verification (do not skip). "Trending today" or "appeared on today's
+  Hugging Face Daily list" or "a news site wrote about it today" does NOT mean it was
+  published today. Before including ANY item, open its PRIMARY source and read the actual
+  publish/submission date:
+  - Papers: open the arXiv abstract page and read the "Submitted on" date in the
+    Submission history. Hugging Face Daily lists papers by when they were surfaced, which
+    is often days after submission, so the HF date is NOT acceptable evidence. If the
+    arXiv submission date is outside the 24h window, the paper does not qualify, no matter
+    how much it is trending.
+  - Tweets/posts: open the post and read its timestamp.
+  - News: confirm the original reporting/announcement date, not the aggregator's repost
+    date.
+  If you cannot confirm the date is inside the window, do not include the item.
 - Review every category on equal footing, then let them compete. Each run MUST make a
   genuine pass through all parts of the sources file before selecting: news and industry,
   big-lab releases, tooling/agents, policy and economics, research papers (Hugging Face
@@ -247,10 +260,20 @@ approval each day. The page intro already states explicitly that it is AI-genera
   (a project file, NOT in the GitHub repo), which lists the resources to review. Treat it
   as the primary set of places to check, but follow strong leads beyond it. The source
   file may be edited to add/remove sources.
-- Primary source, with verified date. Link the lab's own post, the arXiv abstract, the
-  tweet itself, or the official filing, even if a news site surfaced it first. Before
-  publishing, verify both that the link resolves AND that its publish date falls inside
-  the window.
+- Primary source, with verified date. The "Read the source" link MUST point to the
+  PRIMARY source: the lab's own blog post, the arXiv abstract, the tweet/post itself, the
+  official filing, or the original reporting outlet (e.g. Reuters, Bloomberg, FT, The
+  Guardian, Axios) that broke it. Aggregators and roundups (The Decoder, Build Fast with
+  AI, newsletters, etc.) are for DISCOVERY only; do not use them as the link when a primary
+  source exists. Before publishing, verify both that the link resolves AND that its publish
+  date falls inside the window.
+- Avoid single-source bias. Do NOT lean on one outlet for discovery or for links. Each run
+  must sweep several different discovery sources from the list (for example Hacker News,
+  the labs' own blogs, arXiv / Hugging Face, Reddit, Import AI, plus a few news outlets),
+  not just one aggregator. There is no hard quota, but when equally good primary sources
+  exist, the day's `.read-source` domains should naturally vary rather than nearly all
+  being the same site. If most of a day's links would come from one outlet, stop and look
+  for the underlying primary sources or alternative coverage before publishing.
 
 ## Per-item content
 Each item needs: a short plain-English title, a 2-3 sentence explanation of what it is and
