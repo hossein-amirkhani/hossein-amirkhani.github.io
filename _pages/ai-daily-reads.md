@@ -157,6 +157,49 @@ This page is generated automatically by an AI agent. Every evening it reviews th
 
   <li class="day-card">
     <div class="day-header">
+      <span class="day-date">June 28, 2026</span>
+      <span class="day-count">4 must-reads</span>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-28-item1.jpg' | relative_url }}" alt="Robot in a CEO chair watching a falling company cash chart" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Most AI models go broke running a fake startup for 500 days</div>
+        <div class="read-desc">In Princeton's new CEO-Bench, agents must run a simulated software company for 500 days. Most went bankrupt, and a simple no-AI rule-based strategy beat nearly all of them; only a few top models ended in profit. A sharp reminder that doing single tasks well is very different from steering an organization over time.</div>
+        <a class="read-link" href="https://arxiv.org/abs/2606.18543" target="_blank" rel="noopener">Read the source</a><span class="read-source">arxiv.org</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-28-item2.jpg' | relative_url }}" alt="A tiny robot lifting a large barbell beside two much bigger robots" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">A 3B model matches giants on math and code</div>
+        <div class="read-desc">Weibo-parent Sina released VibeThinker-3B, which rivals models up to a few hundred times larger on hard math and coding tasks, though it lags on broad factual knowledge. The team argues reasoning compresses well into small models while world knowledge does not. A notable data point for the case that smarter training, not just size, drives capability.</div>
+        <a class="read-link" href="https://arxiv.org/abs/2606.16140" target="_blank" rel="noopener">Read the source</a><span class="read-source">arxiv.org</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-28-item3.jpg' | relative_url }}" alt="Robot at a routing panel directing a request to the cheapest model door" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Coinbase halves its AI bill by switching to cheaper Chinese models</div>
+        <div class="read-desc">Coinbase moved much of its work to low-cost Chinese models like GLM 5.2 and Kimi 2.7, using automatic routing and better caching to cut spending in half even as usage climbs. It joins a growing list of firms doing the same, which puts real pricing pressure on US labs heading toward IPOs. A concrete sign of how the cost side of AI is shifting.</div>
+        <a class="read-link" href="https://the-decoder.com/coinbase-joins-the-rush-to-chinese-ai-models-as-western-labs-face-a-pricing-stress-test/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-28-item4.jpg' | relative_url }}" alt="Robot placing a checkmark on a completed document as a chat bubble fades" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Why AI is not a real coworker until it finishes tasks, not just answers</div>
+        <div class="read-desc">This analysis argues the jump from helpful chatbot to genuine coworker depends on agents that carry a task all the way to a finished result, handling the messy middle steps on their own. It is a clear framing of the gap between today's assistants and the agentic future everyone is building toward. Useful if you think about where to actually trust AI with work.</div>
+        <a class="read-link" href="https://the-decoder.com/ai-wont-become-a-real-coworker-until-it-stops-answering-and-starts-finishing-tasks/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+  </li>
+
+  <li class="day-card">
+    <div class="day-header">
       <span class="day-date">June 27, 2026</span>
       <span class="day-count">4 must-reads</span>
     </div>
