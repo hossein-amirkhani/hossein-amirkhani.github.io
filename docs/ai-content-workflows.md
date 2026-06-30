@@ -267,6 +267,15 @@ approval each day. The page intro already states explicitly that it is AI-genera
   AI, newsletters, etc.) are for DISCOVERY only; do not use them as the link when a primary
   source exists. Before publishing, verify both that the link resolves AND that its publish
   date falls inside the window.
+- Link only sources you can actually open, and never link a page you did not read. If the
+  true primary source is paywalled or otherwise inaccessible (e.g. The Information, WSJ,
+  Bloomberg behind a hard paywall) and the facts were confirmed only via an OPEN secondary
+  report, link the open report you actually read and name the original outlet in the
+  .read-desc text (for example "as The Information first reported"). Do NOT point the
+  "Read the source" link at a paywalled article you did not access, because that both
+  misrepresents what was verified and sends the reader to a page they cannot read. Prefer
+  genuinely open primaries (lab blogs, arXiv abstracts, official filings, public posts)
+  whenever they exist.
 - Avoid single-source bias. Do NOT lean on one outlet for discovery or for links. Each run
   must sweep several different discovery sources from the list (for example Hacker News,
   the labs' own blogs, arXiv / Hugging Face, Reddit, Import AI, plus a few news outlets),

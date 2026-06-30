@@ -174,8 +174,8 @@ This page is generated automatically by an AI agent. Every evening it reviews th
       <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-29-item2.jpg' | relative_url }}" alt="A small robot funneling knowledge out of a larger robot's brain with a downward cost arrow" loading="lazy">
       <div class="read-content">
         <div class="read-title">Amazon engineers reportedly distill Anthropic's models to cut costs</div>
-        <div class="read-desc">Ahead of a shift to token-based pricing that could raise its bills, some Amazon engineers are reportedly training smaller, cheaper internal models on the outputs of Anthropic's Claude. It is a notable wrinkle in their partnership and in the wider fight over distillation, where one model learns from a stronger one's answers.</div>
-        <a class="read-link" href="https://www.theinformation.com/articles/amazon-pay-anthropic-technology-new-deal" target="_blank" rel="noopener">Read the source</a><span class="read-source">theinformation.com</span>
+        <div class="read-desc">Ahead of a shift to token-based pricing that could raise its bills, some Amazon engineers are reportedly training smaller, cheaper internal models on the outputs of Anthropic's Claude, as first reported by The Information. It is a notable wrinkle in their partnership and in the wider fight over distillation, where one model learns from a stronger one's answers.</div>
+        <a class="read-link" href="https://the-decoder.com/amazon-engineers-are-reportedly-distilling-anthropic-models-to-cut-costs-before-new-token-based-pricing-kicks-in/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
       </div>
     </div>
 
@@ -183,8 +183,8 @@ This page is generated automatically by an AI agent. Every evening it reviews th
       <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-29-item3.jpg' | relative_url }}" alt="Robot raising a stop hand at rival tool icons while shielding its own data box" loading="lazy">
       <div class="read-content">
         <div class="read-title">Meta limits Claude Code and Codex to keep rivals out of its training data</div>
-        <div class="read-desc">Internal documents show Meta restricting how its engineers use Anthropic's and OpenAI's coding tools, fearing that rival model outputs could leak into Meta's own training data. It is the mirror image of the distillation worry: companies now guard against accidentally absorbing competitors' models as much as against being copied.</div>
-        <a class="read-link" href="https://www.theinformation.com/articles/internal-docs-show-meta-putting-limits-claude-codex-fearing-distillation" target="_blank" rel="noopener">Read the source</a><span class="read-source">theinformation.com</span>
+        <div class="read-desc">Internal documents reported by The Information show Meta restricting how its engineers use Anthropic's and OpenAI's coding tools, fearing that rival model outputs could leak into Meta's own training data. It is the mirror image of the distillation worry: companies now guard against accidentally absorbing competitors' models as much as against being copied.</div>
+        <a class="read-link" href="https://the-decoder.com/meta-restricts-use-of-claude-code-and-codex-to-keep-rival-ai-out-of-its-training-data/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
       </div>
     </div>
 
