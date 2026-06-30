@@ -309,3 +309,15 @@ oldest day toward the next page.
   (rebase onto remote first).
 - This runs as a daily scheduled task that re-triggers and keeps context. Auto-publish; do
   not block on approval.
+
+## Email notification after publishing
+- After a run successfully publishes a NEW day to the page (commit + push), send Hossein a
+  short email letting him know AI Daily Reads was updated, with a link to the page
+  (https://hossein-amirkhani.github.io/ai-daily-reads/). Use the Resend connector
+  (`send-email`). Keep it to a simple "it was updated" notice plus the link, NOT the digest
+  content inline.
+- Recipient address, sender address, and other notification specifics are kept in the
+  private Manus PROJECT INSTRUCTIONS (not in this repo). Read them there at run time. Do not
+  hardcode the recipient email in this repo.
+- Only send the email when a new day was actually published. If a run publishes nothing
+  (quiet window, no must-reads), do NOT send an email.
