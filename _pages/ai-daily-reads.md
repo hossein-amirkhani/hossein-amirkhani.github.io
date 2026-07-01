@@ -157,6 +157,49 @@ This page is generated automatically by an AI agent. Every evening it reviews th
 
   <li class="day-card">
     <div class="day-header">
+      <span class="day-date">June 30, 2026</span>
+      <span class="day-count">4 must-reads</span>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-30-item1.jpg' | relative_url }}" alt="Robot beside a rising bar chart with a downward price tag" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Anthropic launches Claude Sonnet 5 at near-flagship quality for much less</div>
+        <div class="read-desc">Anthropic released Sonnet 5, which it calls its most agentic mid-tier model, closing much of the gap with its top Opus model on coding and reasoning while costing roughly 60 percent less per token. It becomes the default for free and paid users and is clearly aimed at broad developer adoption ahead of the company's planned IPO.</div>
+        <a class="read-link" href="https://www.anthropic.com/news/claude-sonnet-5" target="_blank" rel="noopener">Read the source</a><span class="read-source">anthropic.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-30-item2.jpg' | relative_url }}" alt="Cat-shaped robot opening a padlock over a code block with chip icons" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Meituan open-sources LongCat-2.0, a huge coding model trained on Chinese chips</div>
+        <div class="read-desc">Meituan revealed LongCat-2.0, a 1.6-trillion-parameter open agentic coding model with a 1-million-token context, and confirmed it was the stealth model topping developer charts. Notably, it was trained entirely on domestic Chinese chips rather than Nvidia GPUs, a sign that near-frontier training may not depend on US hardware.</div>
+        <a class="read-link" href="https://longcat.chat/blog/longcat-2.0/" target="_blank" rel="noopener">Read the source</a><span class="read-source">longcat.chat</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-30-item3.jpg' | relative_url }}" alt="Robot and a suited person reconciling ledgers with a human approval stamp" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Morgan Stanley halved a high-stakes task by making its agents less autonomous</div>
+        <div class="read-desc">The bank cut its daily profit-and-loss reconciliation work from up to six hours to two or three by deploying agents that keep humans firmly in the loop, turning each approved decision into a fixed, reusable rule. A useful counterpoint to full autonomy: in accuracy-critical work, constrained agents plus human sign-off won.</div>
+        <a class="read-link" href="https://venturebeat.com/ai/morgan-stanley-cut-its-riskiest-reconciliation-job-in-half-by-making-its-agents-less-autonomous/" target="_blank" rel="noopener">Read the source</a><span class="read-source">venturebeat.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-06-30-item4.jpg' | relative_url }}" alt="Robot editing a video timeline via a speech bubble instruction" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Google's Gemini Omni video model hits the API, editable by conversation</div>
+        <div class="read-desc">Google opened its Omni video model to developers, letting teams generate a finished clip with synced audio and then revise it through plain-language instructions, like relighting a shot or swapping on-screen text, without starting over. It collapses a multi-tool video pipeline into one model, with watermarking and deepfake limits built in.</div>
+        <a class="read-link" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/" target="_blank" rel="noopener">Read the source</a><span class="read-source">blog.google</span>
+      </div>
+    </div>
+  </li>
+
+  <li class="day-card">
+    <div class="day-header">
       <span class="day-date">June 29, 2026</span>
       <span class="day-count">4 must-reads</span>
     </div>
