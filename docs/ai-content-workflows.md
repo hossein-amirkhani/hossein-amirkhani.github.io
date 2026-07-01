@@ -212,25 +212,20 @@ would genuinely be missed if skipped. This workflow is AUTO-PUBLISHING: it does 
 approval each day. The page intro already states explicitly that it is AI-generated.
 
 ## Curation rules
-- Strict time window. Each run covers a fixed 24-hour window ending at the run time,
-  aligned to the 6 PM runs: from 6 PM the previous day to 6 PM on the run day (Hossein's
-  timezone). This applies to EVERY category equally, including papers and tweets. Only
-  include an item if its PRIMARY source is published inside that window, judged by the
-  original publish date (arXiv submission date for papers, the post timestamp for tweets),
-  not when a news site or aggregator resurfaced it. No grace period.
-- MANDATORY date verification (do not skip). "Trending today" or "appeared on today's
-  Hugging Face Daily list" or "a news site wrote about it today" does NOT mean it was
-  published today. Before including ANY item, open its PRIMARY source and read the actual
-  publish/submission date:
-  - Papers: open the arXiv abstract page and read the "Submitted on" date in the
-    Submission history. Hugging Face Daily lists papers by when they were surfaced, which
-    is often days after submission, so the HF date is NOT acceptable evidence. If the
-    arXiv submission date is outside the 24h window, the paper does not qualify, no matter
-    how much it is trending.
-  - Tweets/posts: open the post and read its timestamp.
-  - News: confirm the original reporting/announcement date, not the aggregator's repost
-    date.
-  If you cannot confirm the date is inside the window, do not include the item.
+- Time window, judged by the page you actually read. Each run covers roughly the past 24
+  hours, aligned to the 6 PM runs: from about 6 PM the previous day to 6 PM on the run day
+  (Hossein's timezone). Judge an item's recency by the date on the actual page you read,
+  NOT by tracing back to the ultimate origin. If a reputable outlet (e.g. The Decoder)
+  publishes or dates an article today, that is enough to include it and link that article;
+  you do NOT need to chase the original wire or first reporter. The only thing to avoid is
+  the clearly stale case: an item whose own page is plainly dated days earlier (for
+  example a blog post dated last week, or a paper whose arXiv "Submitted on" date is days
+  or weeks ago). When an item's own page shows an old date, exclude it; otherwise treat a
+  today-dated article as in-window.
+- Quick date sanity check (lightweight, not origin-tracing). Glance at the date shown on
+  the page you are linking. For papers, check the arXiv "Submitted on" date, since Hugging
+  Face Daily surfaces papers days after submission. For a news article, the outlet's own
+  article date is sufficient. Do not include something whose own page is clearly old.
 - Review every category on equal footing, then let them compete. Each run MUST make a
   genuine pass through all parts of the sources file before selecting: news and industry,
   big-lab releases, tooling/agents, policy and economics, research papers (Hugging Face
@@ -260,29 +255,22 @@ approval each day. The page intro already states explicitly that it is AI-genera
   (a project file, NOT in the GitHub repo), which lists the resources to review. Treat it
   as the primary set of places to check, but follow strong leads beyond it. The source
   file may be edited to add/remove sources.
-- Primary source, with verified date. The "Read the source" link MUST point to the
-  PRIMARY source: the lab's own blog post, the arXiv abstract, the tweet/post itself, the
-  official filing, or the original reporting outlet (e.g. Reuters, Bloomberg, FT, The
-  Guardian, Axios) that broke it. Aggregators and roundups (The Decoder, Build Fast with
-  AI, newsletters, etc.) are for DISCOVERY only; do not use them as the link when a primary
-  source exists. Before publishing, verify both that the link resolves AND that its publish
-  date falls inside the window.
-- Link only sources you can actually open, and never link a page you did not read. If the
-  true primary source is paywalled or otherwise inaccessible (e.g. The Information, WSJ,
-  Bloomberg behind a hard paywall) and the facts were confirmed only via an OPEN secondary
-  report, link the open report you actually read and name the original outlet in the
-  .read-desc text (for example "as The Information first reported"). Do NOT point the
-  "Read the source" link at a paywalled article you did not access, because that both
-  misrepresents what was verified and sends the reader to a page they cannot read. Prefer
-  genuinely open primaries (lab blogs, arXiv abstracts, official filings, public posts)
-  whenever they exist.
-- Avoid single-source bias. Do NOT lean on one outlet for discovery or for links. Each run
-  must sweep several different discovery sources from the list (for example Hacker News,
-  the labs' own blogs, arXiv / Hugging Face, Reddit, Import AI, plus a few news outlets),
-  not just one aggregator. There is no hard quota, but when equally good primary sources
-  exist, the day's `.read-source` domains should naturally vary rather than nearly all
-  being the same site. If most of a day's links would come from one outlet, stop and look
-  for the underlying primary sources or alternative coverage before publishing.
+- Link a source you can actually open and that you read. The "Read the source" link should
+  go to a readable article or page (a reputable outlet's article, a lab blog, an arXiv
+  abstract, a public post). Do NOT link a paywalled page you could not read just because it
+  is the "original"; if you read the story on an open outlet, link that open article. There
+  is no requirement to trace back to the first reporter. You may name the originating outlet
+  in the .read-desc text if useful (e.g. "as The Information reported"), but the LINK should
+  be the accessible page you used. Always confirm the link resolves before publishing.
+- SOURCE DIVERSITY is the binding rule (Hossein's main concern). A day's digest must NOT
+  become a list where every item points to the same outlet. Actively pull from several
+  different sources across the day (different news outlets, labs' own blogs, arXiv / Hugging
+  Face, Reddit, Import AI, etc.) so the `.read-source` domains visibly vary. Practical
+  guideline: avoid having one outlet account for most of a single day's items. The ONLY
+  exception is when an item from an already-used outlet is genuinely too important to omit;
+  then include it even if it adds to that outlet's count. If your shortlist is turning into
+  mostly one source, go find equally good items elsewhere before publishing rather than
+  filling from the same site.
 
 ## Per-item content
 Each item needs: a short plain-English title, a 2-3 sentence explanation of what it is and
