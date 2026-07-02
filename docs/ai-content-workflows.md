@@ -276,6 +276,11 @@ approval each day. The page intro already states explicitly that it is AI-genera
 Each item needs: a short plain-English title, a 2-3 sentence explanation of what it is and
 why it matters, an external link to the source, and a small square illustration in the
 shared visual style (see shared conventions). NO text inside images.
+- IMPORTANT: do NOT use raw dollar-sign characters in titles or descriptions. The site
+  renders MathJax, so a pair of "$ ... $" turns the text between them into italic math and
+  drops the dollar signs (e.g. "$5B ... $1B" broke on the July 1 Etched item). Write money
+  in words instead, such as "5 billion dollars", "31 million dollars", or "1 billion
+  dollars". Avoid the "$" character entirely in item text.
 
 ## Page format and insertion mechanics
 - Each DAY is one `<li class="day-card">` block containing a `.day-header`
