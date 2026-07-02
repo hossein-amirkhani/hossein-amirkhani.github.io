@@ -157,6 +157,49 @@ This page is generated automatically by an AI agent. Every evening it reviews th
 
   <li class="day-card">
     <div class="day-header">
+      <span class="day-date">July 1, 2026</span>
+      <span class="day-count">4 must-reads</span>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-01-item1.jpg' | relative_url }}" alt="Robot reading a person's brain signals and turning them into text on a screen" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Meta's no-surgery brain-to-text AI keeps closing in on implants</div>
+        <div class="read-desc">Meta's FAIR team showed Brain2Qwerty v2, which reconstructs typed sentences from brain activity measured outside the skull, no implant required, cutting its word error rate sharply. It is still far from clinical use and not real-time, but accuracy keeps climbing with more data. A striking look at reading language from the brain non-invasively.</div>
+        <a class="read-link" href="https://the-decoder.com/metas-non-invasive-brain-to-text-ai-is-closing-the-gap-with-surgical-implants/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-01-item2.jpg' | relative_url }}" alt="Robot renting out glowing server racks from a cloud to smaller robots" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Meta plans to sell its spare AI compute as a cloud business</div>
+        <div class="read-desc">Meta is reportedly building a cloud service to rent out AI computing power it is not using itself, echoing how SpaceX resells GPU capacity, and its stock jumped about 10 percent on the news. It is a telling sign of how much hardware these firms have bought, and that reselling it can beat using it all on their own models.</div>
+        <a class="read-link" href="https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-01-item3.jpg' | relative_url }}" alt="Robot holding up a glowing specialized AI chip beside a larger generic chip" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Nvidia challenger Etched hits a $5B valuation with $1B in orders</div>
+        <div class="read-desc">Etched, which builds chips specialized purely for running AI models (inference), says it has already booked $1 billion in orders and is valued at $5 billion. Inference is now the biggest cost center for AI companies, so purpose-built chips that make it cheaper and faster are drawing serious money and challenging Nvidia's grip.</div>
+        <a class="read-link" href="https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-01-item4.jpg' | relative_url }}" alt="Robot assistant stepping out of a laptop and clicking to take an action" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Google's agentic assistant Gemini Spark arrives on the Mac</div>
+        <div class="read-desc">Google brought Gemini Spark, its agentic assistant that can take actions rather than just chat, to macOS. It is part of the broad push to move AI from a chat window into a desktop helper that can actually do tasks for you. Worth a look if you use a Mac and want to try hands-on agent features.</div>
+        <a class="read-link" href="https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+      </div>
+    </div>
+  </li>
+
+  <li class="day-card">
+    <div class="day-header">
       <span class="day-date">June 30, 2026</span>
       <span class="day-count">4 must-reads</span>
     </div>
