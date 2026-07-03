@@ -157,6 +157,49 @@ This page is generated automatically by an AI agent. Every evening it reviews th
 
   <li class="day-card">
     <div class="day-header">
+      <span class="day-date">July 2, 2026</span>
+      <span class="day-count">4 must-reads</span>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-02-item1.jpg' | relative_url }}" alt="Robot picking a few relevant tool icons from a large wall of tools and wiring them into a flow" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Alibaba's SkillWeaver cuts agent tool costs by about 99 percent</div>
+        <div class="read-desc">Agents often choke when handed hundreds of tools to choose from. Alibaba's SkillWeaver breaks a task into steps, retrieves only the few relevant tools for each, and wires them into a plan, reportedly slashing token use by over 99 percent versus stuffing the whole tool library into the prompt. A practical fix for a real agentic-engineering bottleneck.</div>
+        <a class="read-link" href="https://venturebeat.com/ai/new-alibaba-ai-framework-skips-loading-every-tool-cutting-agent-token-use-99/" target="_blank" rel="noopener">Read the source</a><span class="read-source">venturebeat.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-02-item2.jpg' | relative_url }}" alt="Robot placing a slice of an equity pie into a public fund jar held by a crowd" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">OpenAI reportedly floated giving 5 percent of itself to a public fund</div>
+        <div class="read-desc">According to the Financial Times, OpenAI proposed donating 5 percent of its equity to a US sovereign wealth fund, with other AI firms expected to contribute similar stakes so the public could share in AI's gains. The talks are early and would likely need Congress, but it signals how the political stakes around AI wealth are rising.</div>
+        <a class="read-link" href="https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-02-item3.jpg' | relative_url }}" alt="Robot leading a small team of helper robots with toolboxes toward an office building" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Microsoft starts a 2.5 billion dollar arm to deploy AI inside big companies</div>
+        <div class="read-desc">Microsoft launched Frontier Company, a new group backed by 2.5 billion dollars and 6,000 engineers to embed with enterprises and make their AI projects actually succeed. It follows near-identical moves by Amazon, OpenAI, and Anthropic, a clear sign the hard part of AI has shifted from building models to getting them working in real organizations.</div>
+        <a class="read-link" href="https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-02-item4.jpg' | relative_url }}" alt="Robot working in a code editor window among several rival editor windows" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">China's Z.ai launches ZCode to take on Cursor, Claude Code and Copilot</div>
+        <div class="read-desc">Z.ai released ZCode, an AI coding environment built around its GLM-5.2 model, available on macOS, Windows, and Linux and able to plug in third-party models. It is another sign that low-cost Chinese labs are now competing directly in the developer-tool layer, not just on raw models. Worth watching if you use AI coding assistants.</div>
+        <a class="read-link" href="https://venturebeat.com/ai/z-ai-launches-zcode-to-challenge-cursor-claude-code-and-github-copilot/" target="_blank" rel="noopener">Read the source</a><span class="read-source">venturebeat.com</span>
+      </div>
+    </div>
+  </li>
+
+  <li class="day-card">
+    <div class="day-header">
       <span class="day-date">July 1, 2026</span>
       <span class="day-count">4 must-reads</span>
     </div>
