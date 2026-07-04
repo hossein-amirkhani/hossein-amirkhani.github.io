@@ -311,15 +311,21 @@ oldest day toward the next page.
   (rebase onto remote first).
 - This runs as a daily scheduled task that re-triggers and keeps context. Auto-publish; do
   not block on approval.
+- Do NOT send any email notification.
 
-## Email notification after publishing
-- After a run successfully publishes a NEW day to the page (commit + push), send Hossein a
-  short email letting him know AI Daily Reads was updated, with a link to the page
-  (https://hossein-amirkhani.github.io/ai-daily-reads/). Use the Resend connector
-  (`send-email`). Keep it to a simple "it was updated" notice plus the link, NOT the digest
-  content inline.
-- Recipient address, sender address, and other notification specifics are kept in the
-  private Manus PROJECT INSTRUCTIONS (not in this repo). Read them there at run time. Do not
-  hardcode the recipient email in this repo.
-- Only send the email when a new day was actually published. If a run publishes nothing
-  (quiet window, no must-reads), do NOT send an email.
+## Verify and self-heal if GitHub Pages build is stuck
+After pushing, verify the live page shows today's date and images return 200. GitHub Pages
+builds sometimes get stuck in "building" status for many minutes without completing. Follow
+this sequence:
+1. Wait about 60 seconds after the push, then check:
+   - `gh api repos/hossein-amirkhani/hossein-amirkhani.github.io/pages/builds/latest`
+     for `"status": "built"`.
+   - Curl the live page for today's date string and one image for HTTP 200.
+2. If the build is still "building" after 60 seconds, push an empty nudge commit:
+   `git -c user.name="Hossein Amirkhani" -c user.email="h.amirkhani.n@gmail.com" commit --allow-empty --author="Hossein Amirkhani <h.amirkhani.n@gmail.com>" -m "chore: nudge Pages rebuild"`
+   then `git push origin HEAD`.
+3. Wait another 90 seconds, then re-check. The nudge has resolved the stuck build every time
+   it has occurred so far.
+4. If it is STILL not built after the nudge, wait one more 90-second cycle. If it remains
+   stuck after three total checks, report the issue in the result message rather than looping
+   indefinitely.
