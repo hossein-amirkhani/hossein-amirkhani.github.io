@@ -235,6 +235,16 @@ approval each day. The page intro already states explicitly that it is AI-genera
   must-read bar and select the winners, whatever mix results. Some days may be all news,
   another day mostly papers; that is fine. The failure mode to avoid is filling the day
   from news feeds without actually evaluating papers and discussion.
+- MANDATORY: actually open papers and tweets each run. Do NOT skip them. Concretely:
+  - Papers: open Hugging Face Daily Papers (or arXiv recent) for the current day and scan
+    the top items. For any that look strong, check the arXiv submission date and evaluate
+    by affiliation/content/reputation. If none beats the news items, that is fine, but the
+    check must happen.
+  - Tweets/discussion: check at least one community source (Simon Willison, Reddit
+    r/MachineLearning, or notable AI leader posts) for anything genuinely important.
+  - In the result message, briefly note what was found in papers and discussion even if
+    nothing was selected (e.g. "checked HF Daily, top paper was X from Y, did not beat the
+    news items"). This makes the pass visible and prevents silently skipping categories.
 - How to judge a PAPER's importance (use these to decide if it beats other items):
   1. Author affiliation, in this priority order: frontier labs (e.g. OpenAI, Google
      DeepMind, Anthropic, Meta AI, Mistral), then major companies, then strong
