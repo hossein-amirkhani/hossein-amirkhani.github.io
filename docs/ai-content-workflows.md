@@ -226,26 +226,20 @@ approval each day. The page intro already states explicitly that it is AI-genera
   the page you are linking. For papers, check the arXiv "Submitted on" date, since Hugging
   Face Daily surfaces papers days after submission. For a news article, the outlet's own
   article date is sufficient. Do not include something whose own page is clearly old.
-- Review every category on equal footing, then let them compete. Each run MUST make a
-  genuine pass through all parts of the sources file before selecting: news and industry,
-  big-lab releases, tooling/agents, policy and economics, research papers (Hugging Face
-  Daily Papers, arXiv, Papers with Code), and community/discussion (Reddit, Simon
-  Willison, Import AI, notable tweets/threads). There are NO quotas and NO required
-  minimum per category. Do not force a paper or a tweet in. Judge everything on the same
-  must-read bar and select the winners, whatever mix results. Some days may be all news,
-  another day mostly papers; that is fine. The failure mode to avoid is filling the day
-  from news feeds without actually evaluating papers and discussion.
-- MANDATORY: actually open papers and tweets each run. Do NOT skip them. Concretely:
-  - Papers: open Hugging Face Daily Papers (or arXiv recent) for the current day and scan
-    the top items. For any that look strong, check the arXiv submission date and evaluate
-    by affiliation/content/reputation. If none beats the news items, that is fine, but the
-    check must happen.
-  - Tweets/discussion: check at least one community source (Simon Willison, Reddit
-    r/MachineLearning, or notable AI leader posts) for anything genuinely important.
-  - In the result message, briefly note what was found in papers and discussion even if
-    nothing was selected (e.g. "checked HF Daily, top paper was X from Y, did not beat the
-    news items"). This makes the pass visible and prevents silently skipping categories.
-- How to judge a PAPER's importance (use these to decide if it beats other items):
+- Fixed structure: every day has exactly 5 items in this order:
+  1. PAPER OF THE DAY: the top research paper. Open Hugging Face Daily Papers (or arXiv
+     recent) and pick the single best paper. Prefer frontier labs, then major companies,
+     then strong universities; weigh content (breakthrough or likely influential) and author
+     reputation. Always include one paper; pick the strongest available even on quiet days.
+  2. TWEET OF THE DAY: the top tweet or community discussion. Check Simon Willison, Reddit
+     r/MachineLearning, notable AI leader posts on X, or Import AI. Pick the single most
+     important or insightful post. Always include one; pick the best available.
+  3-5. THREE TOP NEWS: the three most important news/industry items from the window. Sweep
+     multiple outlets (The Decoder, TechCrunch, VentureBeat, Ars Technica, labs' own blogs,
+     etc.) and select the three that genuinely matter most.
+- This means the daily count is always 5. No more, no fewer. The mix is guaranteed: one
+  paper, one tweet/discussion, three news.
+- How to judge a PAPER's importance:
   1. Author affiliation, in this priority order: frontier labs (e.g. OpenAI, Google
      DeepMind, Anthropic, Meta AI, Mistral), then major companies, then strong
      universities.
@@ -257,10 +251,6 @@ approval each day. The page intro already states explicitly that it is AI-genera
   2. The substance and likely future impact of the comment (does it signal or shape where
      things are heading).
   3. Engagement on the post (meaningful discussion, not just raw virality).
-- Volume follows the window. Keep it short and high-signal, ceiling about 3-6 items, but
-  publish FEWER when the window is quiet, even just one item or none. Never pad with older
-  or weaker stories to hit a number. The number of items per day does NOT need to be the
-  same.
 - Start each run by reading the shared Manus project file `ai-daily-reads-sources.md`
   (a project file, NOT in the GitHub repo), which lists the resources to review. Treat it
   as the primary set of places to check, but follow strong leads beyond it. The source

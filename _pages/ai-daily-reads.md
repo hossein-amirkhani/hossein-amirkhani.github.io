@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <p style="font-size: 16px; color: #555; margin-top: -10px;">
-This page is generated automatically by an AI agent. Every evening it reviews the past 24 hours across the AI world (news, papers, and notable discussions), then selects only the must-reads: the few things you would actually miss if you skipped them. The agent also writes each short note and creates each illustration. Some days have more items, some have fewer. Every item links to its original source so you can read further.
+This page is generated automatically by an AI agent. Every evening it reviews the past 24 hours across the AI world and publishes five items: the top research paper of the day, the top tweet or community discussion, and three important news stories. The agent selects, writes each short note, and creates each illustration. Every item links to its original source so you can read further.
 </p>
 
 <style>
