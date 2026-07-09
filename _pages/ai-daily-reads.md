@@ -50,10 +50,7 @@ This page is generated automatically by an AI agent. Every evening it reviews th
     letter-spacing: 0.3px;
     white-space: nowrap;
   }
-  .day-count {
-    font-size: 12.5px;
-    color: #6b7280;
-  }
+
   .read-item {
     display: flex;
     gap: 14px;
@@ -134,7 +131,7 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   @media (prefers-color-scheme: dark) {
     .day-card { background: #1f2937; border-color: #374151; border-left-color: #6ea8d8; }
     .day-date { background: #2b3a52; color: #cfe1f5; }
-    .day-count { color: #9aa6b6; }
+
     .read-item { border-top-color: #2c3a4e; }
     .read-thumb { background: #243044; border-color: #374151; }
     .read-title { color: #f3f4f6; }
@@ -158,7 +155,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">July 8, 2026</span>
-      <span class="day-count">5 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -210,7 +206,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">July 7, 2026</span>
-      <span class="day-count">4 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -253,7 +248,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">July 6, 2026</span>
-      <span class="day-count">4 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -296,7 +290,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">July 5, 2026</span>
-      <span class="day-count">4 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -339,7 +332,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">July 3, 2026</span>
-      <span class="day-count">4 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -382,7 +374,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">July 2, 2026</span>
-      <span class="day-count">4 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -425,7 +416,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">July 1, 2026</span>
-      <span class="day-count">4 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -468,7 +458,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">June 30, 2026</span>
-      <span class="day-count">4 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -511,7 +500,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">June 29, 2026</span>
-      <span class="day-count">4 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -554,7 +542,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">June 28, 2026</span>
-      <span class="day-count">2 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -579,7 +566,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">June 27, 2026</span>
-      <span class="day-count">4 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -622,7 +608,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">June 26, 2026</span>
-      <span class="day-count">3 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -656,7 +641,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">June 25, 2026</span>
-      <span class="day-count">4 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -699,7 +683,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">June 24, 2026</span>
-      <span class="day-count">4 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -742,7 +725,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">June 23, 2026</span>
-      <span class="day-count">4 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -785,7 +767,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">June 22, 2026</span>
-      <span class="day-count">4 must-reads</span>
     </div>
 
     <div class="read-item">
@@ -828,7 +809,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <li class="day-card">
     <div class="day-header">
       <span class="day-date">June 21, 2026</span>
-      <span class="day-count">1 must-read</span>
     </div>
 
     <div class="read-item">

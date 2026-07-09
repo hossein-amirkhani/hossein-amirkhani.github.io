@@ -296,8 +296,9 @@ shared visual style (see shared conventions). NO text inside images.
 
 ## Page format and insertion mechanics
 - Each DAY is one `<li class="day-card">` block containing a `.day-header`
-  (`<span class="day-date">Month D, YYYY</span>` + a `<span class="day-count">N must-reads</span>`)
-  followed by one `.read-item` per item. Each `.read-item` is:
+  (`<span class="day-date">Month D, YYYY</span>`) followed by one `.read-item` per item.
+  Do NOT include a count like "N must-reads" (it is always 5 and adds no information).
+  Each `.read-item` is:
   `<img class="read-thumb">` + a `.read-content` div with `.read-title`, `.read-desc`,
   and an `<a class="read-link">Read the source</a><span class="read-source">domain</span>`.
 - New days go at the TOP, immediately after the marker comment:
@@ -305,7 +306,7 @@ shared visual style (see shared conventions). NO text inside images.
 - Images live in the repo at `images/daily-reads/YYYY-MM-DD-itemN.jpg`, downscaled to about
   600px on the long edge (JPEG ~quality 85) to keep the repo light. Reference them with
   `{{ '/images/daily-reads/...' | relative_url }}`.
-- The page CSS (`.day-card`, `.day-header`, `.day-date`, `.day-count`, `.read-item`,
+- The page CSS (`.day-card`, `.day-header`, `.day-date`, `.read-item`,
   `.read-thumb`, `.read-content`, `.read-title`, `.read-desc`, `.read-link`, `.read-source`,
   `.daily-pagination`) and the pagination `<script>` already live in the page. Reuse them;
   do not duplicate.
