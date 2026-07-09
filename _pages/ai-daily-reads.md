@@ -166,7 +166,7 @@ This page is generated automatically by an AI agent. Every evening it reviews th
       <div class="read-content">
         <div class="read-title">Paper of the day: Gemma 4 Technical Report (Google)</div>
         <div class="read-desc">Google released the full technical report for Gemma 4, its latest open-weights model family. The report details the architecture, training recipe, and safety evaluations. It is the strongest frontier-lab paper on today's Hugging Face Daily list and a useful reference for anyone working with or evaluating open models.</div>
-        <a class="read-link" href="https://huggingface.co/papers/2026-07-08" target="_blank" rel="noopener">Read the source</a><span class="read-source">huggingface.co</span>
+        <a class="read-link" href="https://arxiv.org/abs/2607.02770" target="_blank" rel="noopener">Read the source</a><span class="read-source">arxiv.org</span>
       </div>
     </div>
 
