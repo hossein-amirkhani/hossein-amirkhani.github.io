@@ -164,9 +164,9 @@ This page is generated automatically by an AI agent. Every evening it reviews th
     <div class="read-item">
       <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-08-paper.jpg' | relative_url }}" alt="Robot presenting a glowing research paper on a podium with a gemstone icon" loading="lazy">
       <div class="read-content">
-        <div class="read-title">Paper of the day: Benchmarking KV-Cache Optimizations for Long-Context LLM Serving</div>
-        <div class="read-desc">This paper (submitted today) compares KV-cache compression methods (quantization, pruning, merging) across real workloads and finds that compression ratio alone is a poor predictor of end-to-end performance. Different methods win on different tasks, and the authors argue for workload-aware selection rather than one-size-fits-all compression. Practical and directly useful for anyone deploying long-context models at scale.</div>
-        <a class="read-link" href="https://arxiv.org/abs/2607.05399" target="_blank" rel="noopener">Read the source</a><span class="read-source">arxiv.org</span>
+        <div class="read-title">Paper of the day: Prompt-to-Paper, an agentic system that writes full research manuscripts</div>
+        <div class="read-desc">This multi-agent framework (submitted Jul 5) generates complete bioinformatics manuscripts by grounding every claim in 60 to 100 verified papers, running real experiments through a coding agent, and iteratively improving quality via an eight-dimensional scorer. It produced submission-ready PDFs at about 31 cents each. Not from a frontier lab, but a concrete example of agents automating the research-writing pipeline end to end.</div>
+        <a class="read-link" href="https://arxiv.org/abs/2607.05456" target="_blank" rel="noopener">Read the source</a><span class="read-source">arxiv.org</span>
       </div>
     </div>
 
