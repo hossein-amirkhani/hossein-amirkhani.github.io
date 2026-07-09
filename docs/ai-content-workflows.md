@@ -231,9 +231,18 @@ approval each day. The page intro already states explicitly that it is AI-genera
      recent) and pick the single best paper. Prefer frontier labs, then major companies,
      then strong universities; weigh content (breakthrough or likely influential) and author
      reputation. Always include one paper; pick the strongest available even on quiet days.
+     IMPORTANT: check the arXiv "Submitted on" date. HF Daily surfaces papers days after
+     submission, so a paper "trending today" may have been submitted a week ago. Prefer
+     papers submitted in the last 2-3 days. If nothing recent and strong exists, pick the
+     best recent one and note its date honestly. Link the arXiv abstract page directly.
   2. TWEET OF THE DAY: the top tweet or community discussion. Check Simon Willison, Reddit
      r/MachineLearning, notable AI leader posts on X, or Import AI. Pick the single most
      important or insightful post. Always include one; pick the best available.
+     IMPORTANT: this must be an actual tweet or post (a specific post on X, a Reddit thread,
+     a blog entry) with a direct link to that post. It is NOT a news story repackaged as a
+     tweet. The "Read the source" link must go to the actual post URL (e.g. x.com/user/
+     status/..., reddit.com/r/.../comments/..., or a personal blog post). Do not link a
+     news outlet article or a category page.
   3-5. THREE TOP NEWS: the three most important news/industry items from the window. Sweep
      multiple outlets (The Decoder, TechCrunch, VentureBeat, Ars Technica, labs' own blogs,
      etc.) and select the three that genuinely matter most.
