@@ -227,14 +227,17 @@ approval each day. The page intro already states explicitly that it is AI-genera
   Face Daily surfaces papers days after submission. For a news article, the outlet's own
   article date is sufficient. Do not include something whose own page is clearly old.
 - Fixed structure: every day has exactly 5 items in this order:
-  1. PAPER OF THE DAY: the top research paper. Go directly to arXiv recent listings
-     (https://arxiv.org/list/cs.AI/recent or cs.CL/recent or cs.LG/recent) and pick the
-     single best paper from those submitted TODAY or YESTERDAY. Do NOT use Hugging Face
-     Daily Papers as the source (it lags days behind arXiv). Prefer frontier labs, then
-     major companies, then strong universities; weigh content (breakthrough or likely
-     influential) and author reputation. Always include one paper; pick the strongest
-     available even on quiet days. Link the arXiv abstract page directly
-     (e.g. arxiv.org/abs/YYMM.NNNNN).
+  1. PAPER OF THE DAY: the top research paper. Go directly to arXiv new listings
+     (https://arxiv.org/list/cs.AI/new or cs.CL/new or cs.LG/new). For EACH candidate,
+     open the arXiv abstract page and READ the "Submitted on" date in the Submission
+     history section. Only consider papers submitted in the last 1-2 days. The arXiv "new"
+     page shows papers that became public today, but many were submitted weeks or months
+     ago (arXiv has holding periods). Do NOT trust "appearing in today's new list" as
+     meaning "submitted today." You MUST verify the actual submission date.
+     Pick the strongest genuinely recent paper. Prefer frontier labs, then major companies,
+     then strong universities; weigh content and author reputation. But always include one
+     paper even if it is not from a top lab or not a breakthrough; just pick the best of
+     what was genuinely submitted today/yesterday. Link the arXiv abstract page directly.
   2. TWEET OF THE DAY: the top tweet or community discussion. Check Simon Willison, Reddit
      r/MachineLearning, notable AI leader posts on X, or Import AI. Pick the single most
      important or insightful post. Always include one; pick the best available.
