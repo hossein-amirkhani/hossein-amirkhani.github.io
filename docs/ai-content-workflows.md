@@ -227,14 +227,14 @@ approval each day. The page intro already states explicitly that it is AI-genera
   Face Daily surfaces papers days after submission. For a news article, the outlet's own
   article date is sufficient. Do not include something whose own page is clearly old.
 - Fixed structure: every day has exactly 5 items in this order:
-  1. PAPER OF THE DAY: the top research paper. Open Hugging Face Daily Papers (or arXiv
-     recent) and pick the single best paper. Prefer frontier labs, then major companies,
-     then strong universities; weigh content (breakthrough or likely influential) and author
-     reputation. Always include one paper; pick the strongest available even on quiet days.
-     IMPORTANT: check the arXiv "Submitted on" date. HF Daily surfaces papers days after
-     submission, so a paper "trending today" may have been submitted a week ago. Prefer
-     papers submitted in the last 2-3 days. If nothing recent and strong exists, pick the
-     best recent one and note its date honestly. Link the arXiv abstract page directly.
+  1. PAPER OF THE DAY: the top research paper. Go directly to arXiv recent listings
+     (https://arxiv.org/list/cs.AI/recent or cs.CL/recent or cs.LG/recent) and pick the
+     single best paper from those submitted TODAY or YESTERDAY. Do NOT use Hugging Face
+     Daily Papers as the source (it lags days behind arXiv). Prefer frontier labs, then
+     major companies, then strong universities; weigh content (breakthrough or likely
+     influential) and author reputation. Always include one paper; pick the strongest
+     available even on quiet days. Link the arXiv abstract page directly
+     (e.g. arxiv.org/abs/YYMM.NNNNN).
   2. TWEET OF THE DAY: the top tweet or community discussion. Check Simon Willison, Reddit
      r/MachineLearning, notable AI leader posts on X, or Import AI. Pick the single most
      important or insightful post. Always include one; pick the best available.
