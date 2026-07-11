@@ -238,6 +238,12 @@ approval each day. The page intro already states explicitly that it is AI-genera
      then strong universities; weigh content and author reputation. But always include one
      paper even if it is not from a top lab or not a breakthrough; just pick the best of
      what was genuinely submitted today/yesterday. Link the arXiv abstract page directly.
+     CRITICAL: this MUST be an actual research paper (arXiv preprint, technical report, or
+     published study). It is NEVER a news article about a research finding, a blog post
+     about a model release, or a product announcement. If you cannot find a paper with a
+     verified recent submission date on arXiv, search arXiv directly by date
+     (https://arxiv.org/search/?query=&searchtype=all&start=0) or check cs.LG/new as well.
+     There is always at least one decent paper submitted each day.
   2. TWEET OF THE DAY: the top tweet or community discussion. Check Simon Willison, Reddit
      r/MachineLearning, notable AI leader posts on X, or Import AI. Pick the single most
      important or insightful post. Always include one; pick the best available.
