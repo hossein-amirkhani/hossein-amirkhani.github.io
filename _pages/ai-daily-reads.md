@@ -160,9 +160,9 @@ This page is generated automatically by an AI agent. Every evening it reviews th
     <div class="read-item">
       <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-10-paper.jpg' | relative_url }}" alt="Large robot handing a smaller robot a glowing brain core" loading="lazy">
       <div class="read-content">
-        <div class="read-title">Paper of the day: GPT-5.6 Sol autonomously post-trained the smaller Luna model</div>
-        <div class="read-desc">OpenAI disclosed that Sol was given a "fairly underspecified prompt" and autonomously designed and ran the post-training pipeline for Luna, a smaller and cheaper model in the GPT-5.6 family. It is a concrete example of a frontier model doing the work of training another model with minimal human specification, a step toward recursive self-improvement in practice.</div>
-        <a class="read-link" href="https://the-decoder.com/openais-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model-with-a-fairly-underspecified-prompt/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+        <div class="read-title">Paper of the day: Infinity-Parser2, a multimodal model for end-to-end document parsing</div>
+        <div class="read-desc">This paper introduces a document parsing model that couples a controllable data-synthesis pipeline with multi-task reinforcement learning across eight objectives (OCR, layout, tables, math, charts, chemical formulas, VQA). It achieves state-of-the-art on OCR benchmarks, open-sources a 5-million-sample bilingual dataset, and offers a Flash variant with 3.7x throughput gain for production use.</div>
+        <a class="read-link" href="https://arxiv.org/abs/2607.07836" target="_blank" rel="noopener">Read the source</a><span class="read-source">arxiv.org</span>
       </div>
     </div>
 
