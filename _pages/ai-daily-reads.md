@@ -154,6 +154,57 @@ This page is generated automatically by an AI agent. Every evening it reviews th
 
   <li class="day-card">
     <div class="day-header">
+      <span class="day-date">July 16, 2026</span>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-16-paper.jpg' | relative_url }}" alt="Robot reading error logs and generating a step-by-step repair guide" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Paper of the day: FixItFlow, automated troubleshooting guides from cloud incidents (Microsoft)</div>
+        <div class="read-desc">Microsoft presents a system that generates troubleshooting guides from historical incident data using LLMs, with strict validation to prevent fabricated content. In evaluation with 26 engineers, generated guides achieved 61.5 percent positive ratings and a 2.3x reduction in mitigation time. Practical and directly deployable.</div>
+        <a class="read-link" href="https://arxiv.org/abs/2607.13035" target="_blank" rel="noopener">Read the source</a><span class="read-source">arxiv.org</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-16-tweet.jpg' | relative_url }}" alt="Robot working alongside a penguin at a workbench with the penguin giving a thumbs up" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Post of the day: Linus Torvalds defends AI in Linux development</div>
+        <div class="read-desc">On the kernel mailing list, Torvalds wrote that Linux is "not one of those anti-AI projects" and that anyone with issues can fork it or walk away. He called AI "clearly a useful tool" and said anyone who doubts that "clearly hasn't actually used it." A definitive statement from the most influential open-source maintainer on whether AI belongs in serious software projects.</div>
+        <a class="read-link" href="https://lore.kernel.org/linux-media/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/" target="_blank" rel="noopener">Read the source</a><span class="read-source">lore.kernel.org</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-16-item1.jpg' | relative_url }}" alt="Very large robot standing next to frontier-class robots with a higher price tag" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Kimi K3: a 2.8 trillion parameter open model nearing Sol and Fable 5, signaling the end of super-cheap Chinese AI</div>
+        <div class="read-desc">Moonshot AI launches K3 with 2.8 trillion parameters and one million tokens of context. In benchmarks it approaches Claude Fable 5 and GPT-5.6 Sol while beating Opus 4.8 and GLM 5.2. But it is significantly pricier than its predecessor, suggesting the era of Chinese models being dramatically cheaper than Western ones may be ending as they scale up.</div>
+        <a class="read-link" href="https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-16-item2.jpg' | relative_url }}" alt="Robot being handed a media license by a government official" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Germany puts Google's AI Overviews and Perplexity under media law</div>
+        <div class="read-desc">In a first-of-its-kind ruling, Germany has classified AI search products as media services subject to media regulation. This means Google's AI Overviews and Perplexity must now comply with journalistic standards like accuracy and source transparency in Germany. A precedent that other EU countries may follow.</div>
+        <a class="read-link" href="https://the-decoder.com/germany-puts-googles-ai-overviews-and-perplexity-under-media-law-in-first-of-its-kind-ruling/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-16-item3.jpg' | relative_url }}" alt="Robot emerging from a thinking machine holding an open-source flag" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Mira Murati's Thinking Machines drops Inkling, a 975B open model under Apache 2.0</div>
+        <div class="read-desc">The ex-OpenAI CTO's new lab released its first open-weights model: 975B total parameters (41B active), multimodal, trained on 45 trillion tokens. It is not intended as a frontier model but as a strong base for fine-tuning. A welcome new US entrant in the open-weights space alongside Nemotron and Gemma 4.</div>
+        <a class="read-link" href="https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+      </div>
+    </div>
+  </li>
+
+  <li class="day-card">
+    <div class="day-header">
       <span class="day-date">July 15, 2026</span>
     </div>
 
