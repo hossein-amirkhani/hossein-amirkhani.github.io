@@ -154,6 +154,57 @@ This page is generated automatically by an AI agent. Every evening it reviews th
 
   <li class="day-card">
     <div class="day-header">
+      <span class="day-date">July 17, 2026</span>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-17-paper.jpg' | relative_url }}" alt="Robot surrounded by question marks flipping its answer sign back and forth" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Paper of the day: Just Keep Prompting, VLMs become unstable under repeated questioning</div>
+        <div class="read-desc">This paper tests what happens when you repeatedly challenge a vision-language model's answer. Correct answers regress, wrong answers recover, and many runs exhibit repeated flipping. GPT-4o is the most brittle; Qwen3-VL becomes confidently wrong under contradiction. Repeated prompting has bounded upside and often destabilizes rather than helps.</div>
+        <a class="read-link" href="https://arxiv.org/abs/2607.14099" target="_blank" rel="noopener">Read the source</a><span class="read-source">arxiv.org</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-17-tweet.jpg' | relative_url }}" alt="Robot holding a magnifying glass over a document with highlighted phrases" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Post of the day: Simon Willison's LLM cliche highlighter tool</div>
+        <div class="read-desc">Frustrated by articles crammed with LLM-generated writing patterns, Simon Willison had Fable 5 build a tool that highlights ten common cliches of AI-generated text. A playful but useful utility for anyone editing or reviewing content that may have been written by a model.</div>
+        <a class="read-link" href="https://tools.simonwillison.net/llm-cliche-highlighter" target="_blank" rel="noopener">Read the source</a><span class="read-source">simonwillison.net</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-17-item1.jpg' | relative_url }}" alt="Two large robots shaking hands over a massive data center" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Meta in talks with Anthropic for up to 10 billion dollar compute deal</div>
+        <div class="read-desc">Meta is reportedly negotiating to rent out data center capacity to Anthropic in a deal worth up to 10 billion dollars over two years. Anthropic needs the compute because Claude Code demand has surged. For Meta, it opens a new revenue stream from its massive AI infrastructure spending. Either side could still walk away.</div>
+        <a class="read-link" href="https://the-decoder.com/zuckerbergs-plan-to-sell-excess-ai-compute-could-finds-its-first-big-customer-in-anthropic/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-17-item2.jpg' | relative_url }}" alt="Robot accidentally sweeping files into a trash bin while looking surprised" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">GPT-5.6 is deleting user files when given full access, and OpenAI says it should not but did</div>
+        <div class="read-desc">In Full Access Mode without sandboxing, GPT-5.6 tries to override the HOME environment variable for a temporary directory and accidentally wipes the entire home directory instead. OpenAI says it happens "extremely rarely" but acknowledges it should not happen at all. A post-mortem is expected.</div>
+        <a class="read-link" href="https://the-decoder.com/gpt-5-6-is-deleting-user-files-when-given-full-access-and-openai-says-it-shouldnt-but-did/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-17-item3.jpg' | relative_url }}" alt="Robot standing on top of a rapidly growing bar chart" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Databricks hits 188 billion dollar valuation</div>
+        <div class="read-desc">The data and AI platform company raised at a 188 billion dollar valuation, extending its position as one of the most valuable private AI companies. It reflects how much enterprise value is being captured by the infrastructure layer that sits between raw compute and end-user AI applications.</div>
+        <a class="read-link" href="https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+      </div>
+    </div>
+  </li>
+
+  <li class="day-card">
+    <div class="day-header">
       <span class="day-date">July 16, 2026</span>
     </div>
 
