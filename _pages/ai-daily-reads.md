@@ -158,15 +158,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
     </div>
 
     <div class="read-item">
-      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-20-paper.jpg' | relative_url }}" alt="Robot looking at a chip with neural network architecture baked into silicon" loading="lazy">
-      <div class="read-content">
-        <div class="read-title">Paper of the day: Google's Frozen v2 chip bakes Gemini's architecture directly into silicon</div>
-        <div class="read-desc">Google reportedly has a second-generation custom chip that hardwires Gemini's transformer architecture into the silicon itself, trading flexibility for efficiency. If real, it signals that Google believes its model architecture is stable enough to commit to hardware, a bet most labs are not yet willing to make.</div>
-        <a class="read-link" href="https://the-decoder.com/googles-frozen-v2-chip-reportedly-bakes-geminis-architecture-directly-into-silicon-for-efficiency-gains/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
-      </div>
-    </div>
-
-    <div class="read-item">
       <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-20-tweet.jpg' | relative_url }}" alt="Robot unlocking a chain around an open-source code repository with a key" loading="lazy">
       <div class="read-content">
         <div class="read-title">Post of the day: Ben Thompson proposes legalizing distillation to help US open models compete</div>
@@ -189,7 +180,7 @@ This page is generated automatically by an AI agent. Every evening it reviews th
       <div class="read-content">
         <div class="read-title">Nvidia's grip on AI chips weakens as Microsoft turns to AMD and Anthropic may follow</div>
         <div class="read-desc">Microsoft will deploy AMD's new Helios platform in Azure, and a leaked GitHub profile suggests Anthropic is testing AMD hardware at the highest priority level. AMD could confirm the Anthropic partnership at its upcoming conference. Nvidia still dominates but the competitive pressure is real and growing.</div>
-        <a class="read-link" href="https://the-decoder.com/nvidias-grip-on-ai-chips-weakens-as-microsoft-turns-to-amd-and-anthropic-may-follow/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+        <a class="read-link" href="https://blogs.microsoft.com/blog/2026/07/20/microsoft-expands-azure-ai-and-hpc-infrastructure-with-amd/" target="_blank" rel="noopener">Read the source</a><span class="read-source">microsoft.com</span>
       </div>
     </div>
 
