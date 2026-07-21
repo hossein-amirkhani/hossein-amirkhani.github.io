@@ -243,7 +243,9 @@ approval each day. The page intro already states explicitly that it is AI-genera
      about a model release, or a product announcement. If you cannot find a paper with a
      verified recent submission date on arXiv, search arXiv directly by date
      (https://arxiv.org/search/?query=&searchtype=all&start=0) or check cs.LG/new as well.
-     There is always at least one decent paper submitted each day.
+     If it is a weekend (Saturday or Sunday) and arXiv has not updated its new listings,
+     publish only 4 items (post + 3 news) and skip the paper slot rather than filling it
+     with a news article. On weekdays there is always at least one decent paper submitted.
   2. TWEET OF THE DAY: the top tweet or community discussion. Check Simon Willison, Reddit
      r/MachineLearning, notable AI leader posts on X, or Import AI. Pick the single most
      important or insightful post. Always include one; pick the best available.
@@ -281,14 +283,14 @@ approval each day. The page intro already states explicitly that it is AI-genera
   in the .read-desc text if useful (e.g. "as The Information reported"), but the LINK should
   be the accessible page you used. Always confirm the link resolves before publishing.
 - SOURCE DIVERSITY is the binding rule (Hossein's main concern). A day's digest must NOT
-  become a list where every item points to the same outlet. Actively pull from several
-  different sources across the day (different news outlets, labs' own blogs, arXiv / Hugging
-  Face, Reddit, Import AI, etc.) so the `.read-source` domains visibly vary. Practical
-  guideline: avoid having one outlet account for most of a single day's items. The ONLY
-  exception is when an item from an already-used outlet is genuinely too important to omit;
-  then include it even if it adds to that outlet's count. If your shortlist is turning into
-  mostly one source, go find equally good items elsewhere before publishing rather than
-  filling from the same site.
+  become a list where every item points to the same outlet. HARD RULE: the-decoder.com may
+  appear at most ONCE per day in the 3 news items (unless an item is genuinely too important
+  to omit). The same applies to techcrunch.com or any other single outlet. Actively pull
+  from several different sources: The Decoder, TechCrunch, VentureBeat, Ars Technica, The
+  Verge, MIT Tech Review, Wired, labs' own blogs, CNBC, Reuters, etc. The `.read-source`
+  domains across the 3 news items should be 3 different outlets whenever possible (2
+  different at minimum). If your shortlist is turning into mostly one source, go find equally
+  good items elsewhere before publishing rather than filling from the same site.
 
 ## Per-item content
 Each item needs: a short plain-English title, a 2-3 sentence explanation of what it is and
