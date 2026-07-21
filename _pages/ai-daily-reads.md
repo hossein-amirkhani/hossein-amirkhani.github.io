@@ -200,15 +200,6 @@ This page is generated automatically by an AI agent. Every evening it reviews th
     </div>
 
     <div class="read-item">
-      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-19-paper.jpg' | relative_url }}" alt="Robot watching a video screen and performing depth estimation and segmentation" loading="lazy">
-      <div class="read-content">
-        <div class="read-title">Paper of the day: Google DeepMind argues video generators already contain the world models computer vision has been missing</div>
-        <div class="read-desc">DeepMind's GenCeption repurposes a video generator for classic vision tasks like depth estimation and segmentation, matching state-of-the-art systems with far less training data. The model trained almost entirely on synthetic videos. The results add to the debate over whether video generators already encode a universal world model.</div>
-        <a class="read-link" href="https://the-decoder.com/google-deepmind-argues-video-generators-already-contain-the-world-models-computer-vision-has-been-missing/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
-      </div>
-    </div>
-
-    <div class="read-item">
       <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-19-tweet.jpg' | relative_url }}" alt="Executive robot in a suit presenting about AI with a blank thought bubble" loading="lazy">
       <div class="read-content">
         <div class="read-title">Post of the day: AI Mania Is Eviscerating Global Decision-Making</div>
