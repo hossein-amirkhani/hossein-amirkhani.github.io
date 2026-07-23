@@ -247,6 +247,8 @@ approval each day. The page intro already states explicitly that it is AI-genera
      If it is a weekend (Saturday or Sunday) and arXiv has not updated its new listings,
      publish only 4 items (post + 3 news) and skip the paper slot rather than filling it
      with a news article. On weekdays there is always at least one decent paper submitted.
+     NO DUPLICATES: never use the same paper that appeared in the previous day's edition.
+     Each day must have a different paper from the day before.
   2. TWEET / POST OF THE DAY: the top tweet or community discussion.
      SOURCE VARIETY: do NOT default to Simon Willison every day. Actively check X.com
      (notable AI researchers, lab leaders, practitioners), Reddit r/MachineLearning, Import
@@ -258,6 +260,11 @@ approval each day. The page intro already states explicitly that it is AI-genera
      to confirm it resolves (returns 200, not 404). Do NOT construct URLs from memory;
      always copy the real URL from the source page you read. If a link 404s, find the
      correct URL or pick a different post.
+     IN-WINDOW: the post/tweet must be from within the current day's window (roughly the
+     past 24 hours). Do NOT use a tweet from 5+ days ago just because it is from a notable
+     person. Check the tweet's timestamp. If it is clearly outside the window, pick a
+     different one.
+     NO DUPLICATES: never reuse the same post/tweet from the previous day's edition.
   3-5. THREE TOP NEWS: the three most important news/industry items from the window. Sweep
      multiple outlets (The Decoder, TechCrunch, VentureBeat, Ars Technica, labs' own blogs,
      etc.) and select the three that genuinely matter most.
