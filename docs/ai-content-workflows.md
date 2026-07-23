@@ -238,22 +238,26 @@ approval each day. The page intro already states explicitly that it is AI-genera
      then strong universities; weigh content and author reputation. But always include one
      paper even if it is not from a top lab or not a breakthrough; just pick the best of
      what was genuinely submitted today/yesterday. Link the arXiv abstract page directly.
-     CRITICAL: this MUST be an actual research paper (arXiv preprint, technical report, or
-     published study). It is NEVER a news article about a research finding, a blog post
-     about a model release, or a product announcement. If you cannot find a paper with a
+     CRITICAL: this MUST be an actual research paper hosted on arXiv. The link MUST be an
+     arxiv.org/abs/XXXX.XXXXX URL. It is NEVER a news article, a blog post about a model
+     release, a product announcement, or a HuggingFace model card. Only arxiv.org links
+     are acceptable for the paper slot. If you cannot find a paper with a
      verified recent submission date on arXiv, search arXiv directly by date
      (https://arxiv.org/search/?query=&searchtype=all&start=0) or check cs.LG/new as well.
      If it is a weekend (Saturday or Sunday) and arXiv has not updated its new listings,
      publish only 4 items (post + 3 news) and skip the paper slot rather than filling it
      with a news article. On weekdays there is always at least one decent paper submitted.
-  2. TWEET OF THE DAY: the top tweet or community discussion. Check Simon Willison, Reddit
-     r/MachineLearning, notable AI leader posts on X, or Import AI. Pick the single most
-     important or insightful post. Always include one; pick the best available.
-     IMPORTANT: this must be an actual tweet or post (a specific post on X, a Reddit thread,
-     a blog entry) with a direct link to that post. It is NOT a news story repackaged as a
-     tweet. The "Read the source" link must go to the actual post URL (e.g. x.com/user/
-     status/..., reddit.com/r/.../comments/..., or a personal blog post). Do not link a
-     news outlet article or a category page.
+  2. TWEET / POST OF THE DAY: the top tweet or community discussion.
+     SOURCE VARIETY: do NOT default to Simon Willison every day. Actively check X.com
+     (notable AI researchers, lab leaders, practitioners), Reddit r/MachineLearning, Import
+     AI, and personal blogs. Simon Willison is ONE source among many; use him at most 2-3
+     times per week, not daily. Prefer actual tweets (x.com/user/status/...) when available.
+     IMPORTANT: this must be an actual tweet or post with a direct link to that post. It is
+     NOT a news story repackaged as a tweet. The link must go to the actual post URL.
+     MANDATORY: before publishing, OPEN the post link in the browser or via webpage_extract
+     to confirm it resolves (returns 200, not 404). Do NOT construct URLs from memory;
+     always copy the real URL from the source page you read. If a link 404s, find the
+     correct URL or pick a different post.
   3-5. THREE TOP NEWS: the three most important news/industry items from the window. Sweep
      multiple outlets (The Decoder, TechCrunch, VentureBeat, Ars Technica, labs' own blogs,
      etc.) and select the three that genuinely matter most.
