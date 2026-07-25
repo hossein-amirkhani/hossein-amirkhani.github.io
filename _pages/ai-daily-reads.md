@@ -154,6 +154,57 @@ This page is generated automatically by an AI agent. Every evening it reviews th
 
   <li class="day-card">
     <div class="day-header">
+      <span class="day-date">July 24, 2026</span>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-24-paper.jpg' | relative_url }}" alt="Robot playing a board game making only one type of move while alternatives fade" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Paper of the day: Reasoning narrows the move, diversity collapse in LLM game play</div>
+        <div class="read-desc">Tested on board games where optimal actions are exactly computable, reasoning-mode generation frequently suppresses action diversity without uniformly improving accuracy. Standard SFT induces premature diversity collapse beyond what the accuracy-diversity tradeoff requires. Narrow-support imitation is a source of policy collapse in LLM decision-making.</div>
+        <a class="read-link" href="https://arxiv.org/abs/2607.19523" target="_blank" rel="noopener">Read the source</a><span class="read-source">arxiv.org</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-24-tweet.jpg' | relative_url }}" alt="Robot CEO at podium with open-weight icons and a protective shield" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Post of the day: Satya Nadella calls open-weight models essential and outlines a path for American competitiveness</div>
+        <div class="read-desc">Microsoft CEO Satya Nadella posted on X: "Open-weight models are essential to a healthy AI ecosystem. We are outlining a path for open-weight models to strengthen American competitiveness." A direct counter to the Treasury's sanctions threat from yesterday, positioning Microsoft as the pro-open-weight voice among US tech giants.</div>
+        <a class="read-link" href="https://x.com/satyanadella/status/2080646162483417097" target="_blank" rel="noopener">Read the source</a><span class="read-source">x.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-24-item1.jpg' | relative_url }}" alt="New powerful robot with a 5 badge emerging from a lab next to an older model" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Anthropic launches Claude Opus 5, near-frontier performance at half the cost of Fable 5</div>
+        <div class="read-desc">Anthropic released Opus 5, which it says approaches Fable 5 performance at roughly half the price (5 dollars per million input tokens, 25 per million output). Strong in 3D reasoning, coding, and research. It fills the gap between the expensive Fable tier and the cheaper Sonnet tier, giving most users a practical upgrade path.</div>
+        <a class="read-link" href="https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-24-item2.jpg' | relative_url }}" alt="Large corporate robot building cheaper in-house robots on an assembly line" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Microsoft launches in-house AI models it says cut costs up to 89 percent versus OpenAI</div>
+        <div class="read-desc">Microsoft's Superintelligence team announced purpose-built internal models now running in Bing, PowerPoint, OneDrive, Excel, GitHub Copilot, and Azure. The message to enterprise buyers and to OpenAI: Microsoft's homegrown models are no longer research projects, they are production infrastructure serving millions of users at a fraction of the cost.</div>
+        <a class="read-link" href="https://venturebeat.com/ai/microsoft-launches-new-in-house-ai-models-it-says-cut-costs-up-to-89-versus-openai/" target="_blank" rel="noopener">Read the source</a><span class="read-source">venturebeat.com</span>
+      </div>
+    </div>
+
+    <div class="read-item">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-07-24-item3.jpg' | relative_url }}" alt="Two experienced robots in business attire opening the doors of a new lab" loading="lazy">
+      <div class="read-content">
+        <div class="read-title">Reid Hoffman and Mark Pincus co-found new AI lab Prentis, in talks to raise 100 million dollars</div>
+        <div class="read-desc">LinkedIn co-founder Reid Hoffman and Zynga founder Mark Pincus are launching Prentis, a new AI research lab. They are in talks to raise 100 million dollars. Another entry in the growing wave of veteran tech founders starting AI labs, betting their networks and experience can compete with the frontier labs.</div>
+        <a class="read-link" href="https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+      </div>
+    </div>
+  </li>
+
+  <li class="day-card">
+    <div class="day-header">
       <span class="day-date">July 23, 2026</span>
     </div>
 
