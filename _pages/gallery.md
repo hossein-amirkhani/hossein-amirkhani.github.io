@@ -7,16 +7,16 @@ redirect_from:
   - /gallery
   - /gallery.html
 meta_gallery:
-  - image_path: /gallery/meta/IMG_4858.jpeg
+  - image_path: /images/gallery/meta/IMG_4858.jpeg
     alt: "Meta MPK, August 2026"
     title: "MPK, August 2026"
-  - image_path: /gallery/meta/IMG_4860.jpeg
+  - image_path: /images/gallery/meta/IMG_4860.jpeg
     alt: "Meta MPK, August 2026"
     title: "MPK, August 2026"
-  - image_path: /gallery/meta/IMG_4861.jpeg
+  - image_path: /images/gallery/meta/IMG_4861.jpeg
     alt: "Meta MPK, August 2026"
     title: "MPK, August 2026"
-  - image_path: /gallery/meta/IMG_4863.jpeg
+  - image_path: /images/gallery/meta/IMG_4863.jpeg
     alt: "Meta MPK, August 2026"
     title: "MPK, August 2026"
 ---
@@ -24,30 +24,101 @@ meta_gallery:
 <!--
   HOW TO ADD PHOTOS
   ------------------
-  1. Drop image files into the /images/gallery/ folder in this repo.
-  2. Add one entry per image to the `gallery` list in this page's front matter, e.g.:
+  1. Drop image files into the /images/gallery/<sub-folder>/ folder in this repo.
+  2. Add one entry per image to the relevant gallery list in this page's front
+     matter (e.g. `meta_gallery`), e.g.:
 
-     gallery:
-       - image_path: /gallery/photo-1.jpg
+     meta_gallery:
+       - image_path: /images/gallery/meta/photo-1.jpg
          alt: "short description"
          title: "short description"
-       - image_path: /gallery/photo-2.jpg
-         alt: "short description"
-         title: "short description"
 
-     NOTE: image_path is relative to /images/ (the include prepends "/images/"
-     automatically) — do NOT include "/images/" yourself in the path.
+     image_path is the FULL site-relative path (starting with /images/...).
 
-  3. Below, call the include: {% raw %}{% include gallery %}{% endraw %}
-     (it reads the `gallery` list above automatically).
-
-  For named sub-galleries (like Meta below), add a separate list to the front
-  matter (e.g. `meta_gallery`) and include it with an id:
-  {% raw %}{% include gallery id="meta_gallery" %}{% endraw %}
+  3. The custom .mpk-gallery grid below reads straight from that front-matter
+     list — no need to touch the HTML/CSS unless you're adding a new
+     named sub-gallery (copy the "Meta" block and swap in the new list name).
 -->
+
+<style>
+.mpk-section-kicker {
+  font-family: Georgia, Times, serif;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  color: #52adc8;
+  font-size: 0.95em;
+  margin: 0 0 0.15em;
+}
+
+.mpk-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 1.5em 0 2.5em;
+  padding: 0;
+  list-style: none;
+}
+
+.mpk-gallery__item {
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  cursor: zoom-in;
+  text-decoration: none;
+}
+
+.mpk-gallery__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  border-radius: 0;
+  transition: transform 0.45s ease;
+}
+
+.mpk-gallery__item:hover img,
+.mpk-gallery__item:focus img {
+  transform: scale(1.06);
+}
+
+.mpk-gallery__caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 28px 14px 12px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0));
+  color: #fff;
+  font-family: Georgia, Times, serif;
+  font-size: 0.9em;
+  letter-spacing: 0.02em;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.mpk-gallery__item:hover .mpk-gallery__caption,
+.mpk-gallery__item:focus .mpk-gallery__caption {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
 
 ## Meta
 
 I'm always curious about how a company's physical space reflects its culture — the layout, the details, the way a building is designed to say something about how people work and think together. Meta's offices are a great example of this, so I'm collecting photos of their buildings here.
 
-{% include gallery id="meta_gallery" %}
+<p class="mpk-section-kicker">MPK &middot; Menlo Park</p>
+
+<div class="mpk-gallery">
+  {% for photo in page.meta_gallery %}
+  <a class="mpk-gallery__item image-popup" href="{{ photo.image_path | relative_url }}" title="{{ photo.title }}">
+    <img src="{{ photo.image_path | relative_url }}" alt="{{ photo.alt }}" loading="lazy">
+    <span class="mpk-gallery__caption">{{ photo.title }}</span>
+  </a>
+  {% endfor %}
+</div>
