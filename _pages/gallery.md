@@ -7,9 +7,18 @@ redirect_from:
   - /gallery
   - /gallery.html
 meta_gallery:
-  - image_path: /images/gallery/meta/photo-1.jpg
-    alt: "Meta office building"
-    title: "Meta office building"
+  - image_path: /images/gallery/meta/IMG_4858.jpeg
+    alt: "Meta MPK, August 2026"
+    title: "MPK, August 2026"
+  - image_path: /images/gallery/meta/IMG_4860.jpeg
+    alt: "Meta MPK, August 2026"
+    title: "MPK, August 2026"
+  - image_path: /images/gallery/meta/IMG_4861.jpeg
+    alt: "Meta MPK, August 2026"
+    title: "MPK, August 2026"
+  - image_path: /images/gallery/meta/IMG_4863.jpeg
+    alt: "Meta MPK, August 2026"
+    title: "MPK, August 2026"
 ---
 
 <!--
