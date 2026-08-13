@@ -7,16 +7,16 @@ redirect_from:
   - /gallery
   - /gallery.html
 meta_gallery:
-  - image_path: /images/gallery/meta/IMG_4858.jpeg
+  - image_path: /gallery/meta/IMG_4858.jpeg
     alt: "Meta MPK, August 2026"
     title: "MPK, August 2026"
-  - image_path: /images/gallery/meta/IMG_4860.jpeg
+  - image_path: /gallery/meta/IMG_4860.jpeg
     alt: "Meta MPK, August 2026"
     title: "MPK, August 2026"
-  - image_path: /images/gallery/meta/IMG_4861.jpeg
+  - image_path: /gallery/meta/IMG_4861.jpeg
     alt: "Meta MPK, August 2026"
     title: "MPK, August 2026"
-  - image_path: /images/gallery/meta/IMG_4863.jpeg
+  - image_path: /gallery/meta/IMG_4863.jpeg
     alt: "Meta MPK, August 2026"
     title: "MPK, August 2026"
 ---
@@ -28,12 +28,15 @@ meta_gallery:
   2. Add one entry per image to the `gallery` list in this page's front matter, e.g.:
 
      gallery:
-       - image_path: /images/gallery/photo-1.jpg
+       - image_path: /gallery/photo-1.jpg
          alt: "short description"
          title: "short description"
-       - image_path: /images/gallery/photo-2.jpg
+       - image_path: /gallery/photo-2.jpg
          alt: "short description"
          title: "short description"
+
+     NOTE: image_path is relative to /images/ (the include prepends "/images/"
+     automatically) — do NOT include "/images/" yourself in the path.
 
   3. Below, call the include: {% raw %}{% include gallery %}{% endraw %}
      (it reads the `gallery` list above automatically).
