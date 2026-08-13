@@ -34,8 +34,6 @@ meta_gallery:
   {% raw %}{% include gallery id="meta_gallery" %}{% endraw %}
 -->
 
-Photos coming soon.
-
 ## Meta
 
 I'm always curious about how a company's physical space reflects its culture — the layout, the details, the way a building is designed to say something about how people work and think together. Meta's offices are a great example of this, so I'm collecting photos of their buildings here.
