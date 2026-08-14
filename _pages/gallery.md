@@ -38,15 +38,6 @@ meta_gallery:
 -->
 
 <style>
-.mpk-section-kicker {
-  font-family: Georgia, Times, serif;
-  font-style: italic;
-  letter-spacing: 0.02em;
-  color: #52adc8;
-  font-size: 0.95em;
-  margin: 0 0 0.15em;
-}
-
 .mpk-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -83,11 +74,9 @@ meta_gallery:
 }
 </style>
 
-## Meta
+## Meta (MPK 2026)
 
 I'm always curious about how a company's physical space reflects its culture — the layout, the details, the way a building is designed to say something about how people work and think together. Meta's offices are a great example of this, so I'm collecting photos of their buildings here.
-
-<p class="mpk-section-kicker">MPK 2026</p>
 
 <div class="mpk-gallery">
   {% for photo in page.meta_gallery %}
