@@ -8,17 +8,13 @@ redirect_from:
   - /gallery.html
 meta_gallery:
   - image_path: /images/gallery/meta/IMG_4858.jpeg
-    alt: "Meta MPK, August 2026"
-    title: "MPK, August 2026"
+    alt: "Meta MPK"
   - image_path: /images/gallery/meta/IMG_4860.jpeg
-    alt: "Meta MPK, August 2026"
-    title: "MPK, August 2026"
+    alt: "Meta MPK"
   - image_path: /images/gallery/meta/IMG_4861.jpeg
-    alt: "Meta MPK, August 2026"
-    title: "MPK, August 2026"
+    alt: "Meta MPK"
   - image_path: /images/gallery/meta/IMG_4863.jpeg
-    alt: "Meta MPK, August 2026"
-    title: "MPK, August 2026"
+    alt: "Meta MPK"
 ---
 
 <!--
@@ -31,11 +27,10 @@ meta_gallery:
      meta_gallery:
        - image_path: /images/gallery/meta/photo-1.jpg
          alt: "short description"
-         title: "short description"
 
      image_path is the FULL site-relative path (starting with /images/...).
-     alt/title are kept for accessibility/tooltips only — they are not
-     displayed visually on hover.
+     alt is kept for accessibility only — nothing is shown visually on
+     hover, and no caption/title appears in the click-to-zoom lightbox.
 
   3. The custom .mpk-gallery grid below reads straight from that front-matter
      list — no need to touch the HTML/CSS unless you're adding a new
@@ -92,11 +87,11 @@ meta_gallery:
 
 I'm always curious about how a company's physical space reflects its culture — the layout, the details, the way a building is designed to say something about how people work and think together. Meta's offices are a great example of this, so I'm collecting photos of their buildings here.
 
-<p class="mpk-section-kicker">MPK &middot; Menlo Park</p>
+<p class="mpk-section-kicker">MPK 2026</p>
 
 <div class="mpk-gallery">
   {% for photo in page.meta_gallery %}
-  <a class="mpk-gallery__item image-popup" href="{{ photo.image_path | relative_url }}" title="{{ photo.title }}">
+  <a class="mpk-gallery__item image-popup" href="{{ photo.image_path | relative_url }}">
     <img src="{{ photo.image_path | relative_url }}" alt="{{ photo.alt }}" loading="lazy">
   </a>
   {% endfor %}
