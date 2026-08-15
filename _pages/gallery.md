@@ -15,21 +15,21 @@ meta_gallery:
     alt: "Meta MPK"
   - image_path: /images/gallery/meta/IMG_4863.jpeg
     alt: "Meta MPK"
-  - image_path: /images/gallery/meta/mpk-2026-05.jpg
+  - image_path: /images/gallery/meta/IMG_4916.jpeg
     alt: "Meta MPK"
-  - image_path: /images/gallery/meta/mpk-2026-06.jpg
+  - image_path: /images/gallery/meta/IMG_4917.jpeg
     alt: "Meta MPK"
-  - image_path: /images/gallery/meta/mpk-2026-07.jpg
+  - image_path: /images/gallery/meta/IMG_4918.jpeg
     alt: "Meta MPK"
-  - image_path: /images/gallery/meta/mpk-2026-08.jpg
+  - image_path: /images/gallery/meta/IMG_4919.jpeg
     alt: "Meta MPK"
-  - image_path: /images/gallery/meta/mpk-2026-09.jpg
+  - image_path: /images/gallery/meta/IMG_4920.jpeg
     alt: "Meta MPK"
-  - image_path: /images/gallery/meta/mpk-2026-10.jpg
+  - image_path: /images/gallery/meta/IMG_4921.jpeg
     alt: "Meta MPK"
-  - image_path: /images/gallery/meta/mpk-2026-11.jpg
+  - image_path: /images/gallery/meta/IMG_4922.jpeg
     alt: "Meta MPK"
-  - image_path: /images/gallery/meta/mpk-2026-12.jpg
+  - image_path: /images/gallery/meta/IMG_4923.jpeg
     alt: "Meta MPK"
 ---
 
