@@ -13,6 +13,8 @@ slide_decks:
     title: "LLM01: Prompt Injection"
   - file: /slides/LLM06_Excessive_Agency.pdf
     title: "LLM06: Excessive Agency"
+  - file: /slides/MCP_Basics.pdf
+    title: "MCP Basics"
 ---
 
 <!--
