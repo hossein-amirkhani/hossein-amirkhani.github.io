@@ -160,8 +160,8 @@ This page is generated automatically by an AI agent. Every evening it reviews th
     <div class="read-item">
       <img class="read-thumb" src="{{ '/images/daily-reads/2026-08-17-item1.svg' | relative_url }}" alt="Robot signing a lease document beside a data center building with a dollar-amount guarantee tag" loading="lazy">
       <div class="read-content">
-        <div class="read-title">OpenAI signs a record Ohio data center lease, with Nvidia backing up to $105 billion</div>
-        <div class="read-desc">OpenAI signed a 20-year lease for an 8-gigawatt data center in Ohio, with Nvidia guaranteeing up to $105 billion of the facility's residual value and becoming its exclusive chip supplier. The Wall Street Journal reports nine tech companies now hold roughly $3 trillion in AI infrastructure commitments that don't appear on any balance sheet.</div>
+        <div class="read-title">OpenAI signs a record Ohio data center lease, with Nvidia backing up to &#36;105 billion</div>
+        <div class="read-desc">OpenAI signed a 20-year lease for an 8-gigawatt data center in Ohio, with Nvidia guaranteeing up to &#36;105 billion of the facility's residual value and becoming its exclusive chip supplier. The Wall Street Journal reports nine tech companies now hold roughly &#36;3 trillion in AI infrastructure commitments that don't appear on any balance sheet.</div>
         <a class="read-link" href="https://the-decoder.com/openai-signs-record-ohio-data-center-lease-with-nvidia-backing-up-to-105-billion/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
       </div>
     </div>
@@ -229,8 +229,8 @@ This page is generated automatically by an AI agent. Every evening it reviews th
     <div class="read-item">
       <img class="read-thumb" src="{{ '/images/daily-reads/2026-08-16-item4.svg' | relative_url }}" alt="Payments robot absorbing a smaller AI-routing robot into its own body" loading="lazy">
       <div class="read-content">
-        <div class="read-title">Stripe finalizes $7B+ acquisition of AI model marketplace OpenRouter</div>
-        <div class="read-desc">Bloomberg reports Stripe has agreed to acquire OpenRouter, the AI gateway startup that lets developers route between more than 400 models, for over $7 billion, roughly five times its $1.3 billion valuation from a Series B round just three months ago. OpenRouter says it serves 8 million users worldwide. The deal would be Stripe's largest bet yet on AI infrastructure and a huge payday for investors including Sequoia and Andreessen Horowitz.</div>
+        <div class="read-title">Stripe finalizes &#36;7B+ acquisition of AI model marketplace OpenRouter</div>
+        <div class="read-desc">Bloomberg reports Stripe has agreed to acquire OpenRouter, the AI gateway startup that lets developers route between more than 400 models, for over &#36;7 billion, roughly five times its &#36;1.3 billion valuation from a Series B round just three months ago. OpenRouter says it serves 8 million users worldwide. The deal would be Stripe's largest bet yet on AI infrastructure and a huge payday for investors including Sequoia and Andreessen Horowitz.</div>
         <a class="read-link" href="https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
       </div>
     </div>
