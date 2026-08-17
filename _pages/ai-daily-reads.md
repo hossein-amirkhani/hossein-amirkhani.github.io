@@ -158,7 +158,7 @@ This page is generated automatically by an AI agent. Every evening it reviews th
     </div>
 
     <div class="read-item">
-      <img class="read-thumb" src="{{ '/images/daily-reads/2026-08-16-item1.jpg' | relative_url }}" alt="Robot laboratory with an unlit warning light above a door left ajar" loading="lazy">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-08-16-item1.svg' | relative_url }}" alt="Robot laboratory with an unlit warning light above a door left ajar" loading="lazy">
       <div class="read-content">
         <div class="read-title">Anthropic's bio-weapons blocking filters were dark for nearly a year, exposing 133 million contractor chats</div>
         <div class="read-desc">Anthropic's new Risk Report discloses that the classifiers meant to block chemical and biological weapons queries were inactive across all human-feedback contractor traffic from May 2025 through April 2026. About 50,000 external contractors, screened only by third-party vendors, ran roughly 133 million chats during the gap. Anthropic says its internal investigation found no evidence of misuse and has since tightened contractor vetting.</div>
@@ -167,7 +167,7 @@ This page is generated automatically by an AI agent. Every evening it reviews th
     </div>
 
     <div class="read-item">
-      <img class="read-thumb" src="{{ '/images/daily-reads/2026-08-16-item2.jpg' | relative_url }}" alt="Robot removing its own warning-sensor badge and handing it to other departments" loading="lazy">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-08-16-item2.svg' | relative_url }}" alt="Robot removing its own warning-sensor badge and handing it to other departments" loading="lazy">
       <div class="read-content">
         <div class="read-title">OpenAI quietly dissolved its Preparedness team, the unit built to catch catastrophic AI risks</div>
         <div class="read-desc">The Financial Times reports OpenAI shut down its Preparedness team, which evaluated whether the company's models could pose serious or catastrophic risks, at the end of July, folding its biological and cyber risk work into other groups. Former unit lead Dylan Scandinaro has shifted focus to risks from recursively self-improving AI. Several safety staffers have departed recently, and internal sources describe growing unease over whether the company is doing enough on safety.</div>
@@ -176,7 +176,7 @@ This page is generated automatically by an AI agent. Every evening it reviews th
     </div>
 
     <div class="read-item">
-      <img class="read-thumb" src="{{ '/images/daily-reads/2026-08-16-item3.jpg' | relative_url }}" alt="Robot CEO addressing a skeptical crowd, holding up a scale balancing risk and benefit" loading="lazy">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-08-16-item3.svg' | relative_url }}" alt="Robot CEO addressing a skeptical crowd, holding up a scale balancing risk and benefit" loading="lazy">
       <div class="read-content">
         <div class="read-title">Anthropic CEO Dario Amodei: the AI backlash is "fundamentally a crisis of trust," not his own warnings</div>
         <div class="read-desc">Responding to investor Gavin Baker's claim that his risk warnings have fueled anti-AI sentiment, Amodei argued on X that public distrust of AI predates and goes beyond any single executive's messaging, rooted instead in a broader public suspicion of companies, governments, and the tech industry. He said the fairest criticism of Anthropic and its peers is that they haven't yet delivered on their promised benefits, and pushed back on the idea that regulation and industry concentration are the only two options on the table.</div>
@@ -185,7 +185,7 @@ This page is generated automatically by an AI agent. Every evening it reviews th
     </div>
 
     <div class="read-item">
-      <img class="read-thumb" src="{{ '/images/daily-reads/2026-08-16-item4.jpg' | relative_url }}" alt="Payments robot absorbing a smaller AI-routing robot into its own body" loading="lazy">
+      <img class="read-thumb" src="{{ '/images/daily-reads/2026-08-16-item4.svg' | relative_url }}" alt="Payments robot absorbing a smaller AI-routing robot into its own body" loading="lazy">
       <div class="read-content">
         <div class="read-title">Stripe finalizes $7B+ acquisition of AI model marketplace OpenRouter</div>
         <div class="read-desc">Bloomberg reports Stripe has agreed to acquire OpenRouter, the AI gateway startup that lets developers route between more than 400 models, for over $7 billion, roughly five times its $1.3 billion valuation from a Series B round just three months ago. OpenRouter says it serves 8 million users worldwide. The deal would be Stripe's largest bet yet on AI infrastructure and a huge payday for investors including Sequoia and Andreessen Horowitz.</div>
