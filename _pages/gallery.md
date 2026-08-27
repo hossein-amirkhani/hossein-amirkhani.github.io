@@ -31,6 +31,18 @@ meta_gallery:
     alt: "Meta MPK"
   - image_path: /images/gallery/meta/IMG_4923.jpeg
     alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_4963.jpg
+    alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_4964.jpg
+    alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_4976.jpg
+    alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_5016.jpg
+    alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_5017.jpg
+    alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_5018.jpg
+    alt: "Meta MPK"
 ---
 
 <!--
