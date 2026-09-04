@@ -15,6 +15,8 @@ slide_decks:
     title: "LLM06: Excessive Agency"
   - file: /slides/MCP_Basics.pdf
     title: "MCP Basics"
+  - file: /slides/agent_runtime_infra.pdf
+    title: "Agent Runtime Infrastructure"
 ---
 
 <!--
