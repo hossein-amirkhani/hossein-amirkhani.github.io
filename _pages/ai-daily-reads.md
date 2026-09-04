@@ -153,6 +153,57 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <!-- ============================================================ -->
   <li class="day-card">
   <div class="day-header">
+    <span class="day-date">September 4, 2026</span>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-04-item1.svg' | relative_url }}" alt="Robot reaching toward a glowing star with radiating light rays, with a small robot looking up" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">OpenAI declares the "AGI era" has begun with GPT-6 Astra</div>
+      <div class="read-desc">President Greg Brockman closed Astra's launch briefing by saying "welcome to the AGI era," arguing the model might already qualify as AGI under OpenAI's own bar of outperforming humans at most economically valuable work. Astra also hit a perfect score on OpenAI's cybersecurity exploit benchmark and found two real zero-day vulnerabilities during testing.</div>
+      <a class="read-link" href="https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-04-item2.svg' | relative_url }}" alt="Robot beside a shield with a checkmark, with a small robot next to a price tag" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Nvidia confirms it's buying Hugging Face for ＄12.9 billion</div>
+      <div class="read-desc">CEO Jensen Huang officially confirmed the deal, pledging to keep the 18-million-developer platform open and not require Nvidia hardware to build on it - ending weeks of speculation since the acquisition first leaked in late August.</div>
+      <a class="read-link" href="https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/" target="_blank" rel="noopener">Read the source</a><span class="read-source">blogs.nvidia.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-04-item3.svg' | relative_url }}" alt="Robot beside a stack of server racks, with a small robot next to a warning triangle" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Altman calls the AI compute buildout "unsustainable silliness"</div>
+      <div class="read-desc">In a podcast interview, OpenAI's CEO said cloud providers are announcing capacity far beyond what current customers or revenue can support, and warned a leap in model efficiency could strand today's expensive buildouts - even as he maintains OpenAI's own expansion is profitable and demand-driven.</div>
+      <a class="read-link" href="https://the-decoder.com/openai-ceo-sam-altman-warns-of-unsustainable-silliness-in-compute-buildout/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-04-item4.svg' | relative_url }}" alt="Robot beside a tied money bag, with a small robot next to an upward arrow and a coin" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Thinking Machines in talks to raise ＄1 billion at a ＄40 billion valuation</div>
+      <div class="read-desc">Accel is reportedly leading the round for Mira Murati's startup - a step down from the roughly ＄50 billion it sought late last year - even as its Tinker platform reportedly clears ＄100 million in annualized revenue.</div>
+      <a class="read-link" href="https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-04-item5.svg' | relative_url }}" alt="Robot beside a grid of six different-sized squares, with a small robot next to an open padlock" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">MBZUAI open-sources K2 Horizon, a "connected fleet" of six models from 0.9B to 375B parameters</div>
+      <div class="read-desc">All six share the same architecture, vocabulary, and training recipe so developers can move between sizes without retooling; the largest sparse model activates only about 23B of its 375B parameters per token. Weights, training data, and checkpoints are released under Apache 2.0.</div>
+      <a class="read-link" href="https://ifm.ai/blog/k2/" target="_blank" rel="noopener">Read the source</a><span class="read-source">ifm.ai</span>
+    </div>
+  </div>
+</li>
+
+  <li class="day-card">
+  <div class="day-header">
     <span class="day-date">September 3, 2026</span>
   </div>
 
