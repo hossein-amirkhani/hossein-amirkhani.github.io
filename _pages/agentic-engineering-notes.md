@@ -156,6 +156,29 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
    <div class="lesson-card-inner">
     <div class="lesson-main">
     <div class="lesson-header">
+      <span class="lesson-date">September 8, 2026</span>
+      <h3 class="lesson-title">"Preserve every retry" turned a small feature into a redesign</h3>
+    </div>
+    <div class="lesson-body">
+      <p><span class="label">What happened.</span> I asked an agent to add a simple retry behavior: when an operation fails, try again; if a retry succeeds, keep it; otherwise retain the original result. The agent instead preserved every attempt throughout the system. When that caused duplicate results, it proposed attempt identifiers, nested histories, canonical selection, and new reporting rules. Each addition solved a problem created by the previous addition.</p>
+
+      <p><span class="label">Why the agent missed it.</span> Its frame was "how should repeated attempts be represented?" The right frame was "which single result should we keep?" Because retry history could be useful for debugging, the agent treated it as required product data. That quietly changed the feature from result selection into a new data model.</p>
+
+      <p><span class="label">The fix.</span> The pushback was: "Keep the existing results. Retry only failed operations. If a retry succeeds, replace the failure; otherwise keep the original." Once that invariant was clear, the extra machinery disappeared. Retries stayed inside execution, and downstream behavior remained unchanged.</p>
+
+      <div class="lesson-takeaway">
+        When a small feature starts requiring new identifiers, schemas, and reporting semantics, revisit the original output contract. Intermediate work can be useful without becoming part of the product. Often the right solution is to select the correct final result, not preserve every step used to reach it.
+      </div>
+    </div>
+    </div>
+    <div class="lesson-image"><img src="/images/agentic-lessons/preserve-every-retry.svg" alt="A robot piles up crossed-out duplicate attempts while a person points to the one kept result" loading="lazy"></div>
+   </div>
+  </li>
+
+  <li class="lesson-card">
+   <div class="lesson-card-inner">
+    <div class="lesson-main">
+    <div class="lesson-header">
       <span class="lesson-date">June 18, 2026</span>
       <h3 class="lesson-title">"Almost working" kept the wrong tool in place</h3>
     </div>
