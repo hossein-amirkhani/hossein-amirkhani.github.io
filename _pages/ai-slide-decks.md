@@ -7,12 +7,14 @@ redirect_from:
   - /ai-slide-decks
   - /ai-slide-decks.html
 slide_decks:
-  - file: /slides/Agent_Frameworks.pdf
-    title: "Agent Frameworks"
   - file: /slides/LLM01_Prompt_Injection.pdf
     title: "LLM01: Prompt Injection"
+  - file: /slides/LLM02_Sensitive_Info_Disclosure.pdf
+    title: "LLM02: Sensitive Info Disclosure"
   - file: /slides/LLM06_Excessive_Agency.pdf
     title: "LLM06: Excessive Agency"
+  - file: /slides/Agent_Frameworks.pdf
+    title: "Agent Frameworks"
   - file: /slides/MCP_Basics.pdf
     title: "MCP Basics"
   - file: /slides/agent_runtime_infra.pdf
@@ -30,8 +32,10 @@ slide_decks:
          title: "My New Deck"
 
      file is the FULL site-relative path (starting with /slides/...).
-     Order in the list = order shown on the page (newest usually added last,
-     but feel free to reorder).
+     Order in the list = order shown on the page. Decks are grouped by
+     topic (currently: LLM security / OWASP Top 10, then agentic AI &
+     infrastructure); within a group, LLM Top-10 entries are numeric,
+     others are roughly conceptual order. Reorder as new topics emerge.
 -->
 
 <style>
