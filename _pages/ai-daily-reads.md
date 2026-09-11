@@ -151,6 +151,57 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <!-- NEW DAYS GO HERE (newest first). Copy a <li> block below.    -->
   <!-- Each day is one <li class="day-card"> with a date + items.   -->
   <!-- ============================================================ -->
+  <li class="day-card">
+  <div class="day-header">
+    <span class="day-date">September 11, 2026</span>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-11-item1.svg' | relative_url }}" alt="Robot beside a small linked network of circles, with a small robot beside a gear" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">OpenAI ships an Agents API, productizing the infrastructure behind Codex</div>
+      <div class="read-desc">The new managed service lets developers spin up production-ready cloud agents in a single call, with automatic long-session context management, parallel subagents, and a choice of sandbox providers. OpenAI says early customers saw 4x lower latency, 60% lower costs, and 86% fewer failed responses.</div>
+      <a class="read-link" href="https://openai.com/index/introducing-the-agents-api/" target="_blank" rel="noopener">Read the source</a><span class="read-source">openai.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-11-item2.svg' | relative_url }}" alt="Robot beside a gauge arcing toward its limit, with a small robot beside a padlock" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">OpenAI pauses new ChatGPT Pro signups as GPT-6 Astra demand overwhelms capacity</div>
+      <div class="read-desc">The ＄200/month Pro tier, which strains OpenAI's infrastructure the most, is temporarily closed to new subscribers so the company can protect quality for existing users while it adds compute. OpenAI called demand for the week-old Astra model "unprecedented."</div>
+      <a class="read-link" href="https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-11-item3.svg' | relative_url }}" alt="Robot beside a shield with a magnifying glass, with a small robot beside a checked grid" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Anthropic's new threat report catalogs agent swarms, nation-state hackers, and CAPTCHA-cracking scammers</div>
+      <div class="read-desc">Anthropic's latest misuse report details disrupted state-sponsored espionage and surveillance operations, autonomous "agent swarms" running reconnaissance and exploitation with minimal human oversight, and fraud rings using commercial CAPTCHA-solvers to mass-create accounts. It also describes an unsuccessful attempt to steal a pre-release Claude model.</div>
+      <a class="read-link" href="https://www.anthropic.com/threat-intelligence-report-september-2026" target="_blank" rel="noopener">Read the source</a><span class="read-source">anthropic.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-11-item4.svg' | relative_url }}" alt="Robot beside a code angle-bracket, with a small robot beside a lightning bolt" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Cognition's SWE-2 nears GPT-6 Astra's coding performance at a quarter of the price</div>
+      <div class="read-desc">Built by post-training a 2.8-trillion-parameter Kimi K3 base with large-scale reinforcement learning, SWE-2 hits 92.8% on Terminal-Bench 2.1 and matches GPT-5.6 Sol and Fable 5.1 at 64% lower cost, Cognition says. It's rolling out now across Devin's desktop, CLI, web, and Fusion platforms.</div>
+      <a class="read-link" href="https://cognition.com/blog/swe-2" target="_blank" rel="noopener">Read the source</a><span class="read-source">cognition.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-11-item5.svg' | relative_url }}" alt="Robot beside a scroll with mathematical symbols, with a small robot beside a padlock with a checkmark" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Fields medalist launches an institute to prove AI safety the way cryptographers prove codes unbreakable</div>
+      <div class="read-desc">Jacob Tsimerman's new Mathematical AI Safety Institute wants formal, cryptography-style proofs that AI systems behave correctly and that multi-agent systems can't cause harm, using tools like zero-knowledge proofs so labs don't have to expose proprietary methods. It opens in the Bay Area in January 2027 with 10-30 mathematicians on staff.</div>
+      <a class="read-link" href="https://the-decoder.com/the-mathematical-ai-safety-institute-wants-to-prove-ai-is-safe-the-way-cryptographers-prove-codes-are-unbreakable/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+    </div>
+  </div>
+</li>
+
     <li class="day-card">
   <div class="day-header">
     <span class="day-date">September 10, 2026</span>
