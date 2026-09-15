@@ -156,6 +156,29 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
    <div class="lesson-card-inner">
     <div class="lesson-main">
     <div class="lesson-header">
+      <span class="lesson-date">September 15, 2026</span>
+      <h3 class="lesson-title">Gemini knew it couldn't execute Python &mdash; and kept writing Python</h3>
+    </div>
+    <div class="lesson-body">
+      <p><span class="label">What happened.</span> I compared Gemini and GPT on the same file-processing task. The environment could read and write files but could not execute code. Gemini recognized this limitation, yet repeatedly created Python programs and runner scripts that it planned to execute. It ran for 27 minutes and 43 seconds, consumed 2.31 million tokens, and failed. GPT completed the task in 2 minutes and 37 seconds with 118,900 tokens.</p>
+
+      <p><span class="label">Why the agent missed it.</span> Gemini framed the problem as "how should I automate this transformation?" The correct frame was "how can I produce the outputs with the tools I have?" Although it identified the missing execution capability, that constraint did not survive later replanning. Writing another script looked like progress, even though every script depended on an unavailable next step.</p>
+
+      <p><span class="label">The fix.</span> The corrective invariant is simple: if execution is unavailable, do not create a plan that requires execution. Process the inputs directly and write the final outputs. The agent harness can reinforce this by detecting repeated creation of executable files when no executor exists and forcing a replan.</p>
+
+      <div class="lesson-takeaway">
+        When an agent repeatedly prepares for an action it cannot take, inspect the plan's prerequisites rather than the artifacts it produces. Tool discovery only helps when unavailable capabilities remain hard constraints through every replan.
+      </div>
+    </div>
+    </div>
+    <div class="lesson-image"><img src="/images/agentic-lessons/kept-writing-python.svg" alt="A robot keeps writing crossed-out Python scripts while a person points to output written directly" loading="lazy"></div>
+   </div>
+  </li>
+
+  <li class="lesson-card">
+   <div class="lesson-card-inner">
+    <div class="lesson-main">
+    <div class="lesson-header">
       <span class="lesson-date">September 8, 2026</span>
       <h3 class="lesson-title">"Preserve every retry" turned a small feature into a redesign</h3>
     </div>
