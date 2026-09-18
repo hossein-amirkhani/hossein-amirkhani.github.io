@@ -23,7 +23,7 @@
     </g>
     <g transform="translate(455,290)">
       <line x1="0" y1="-60" x2="0" y2="40" stroke="#2b3a55" stroke-width="6" stroke-linecap="round"/>
-      <line x1="-45" y1="-40" x2="45" y1="-40" stroke="#2b3a55" stroke-width="6" stroke-linecap="round"/>
+      <line x1="-45" y1="-40" x2="45" y2="-40" stroke="#2b3a55" stroke-width="6" stroke-linecap="round"/>
       <line x1="-45" y1="-40" x2="-45" y2="-15" stroke="#2b3a55" stroke-width="4"/>
       <line x1="45" y1="-40" x2="45" y2="-15" stroke="#2b3a55" stroke-width="4"/>
       <path d="M -60,-15 A 15 15 0 0 0 -30,-15 Z" fill="#5ec9e8" stroke="#2b3a55" stroke-width="3"/>
