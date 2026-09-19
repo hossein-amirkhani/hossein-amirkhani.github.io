@@ -153,6 +153,48 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <!-- ============================================================ -->
   <li class="day-card">
   <div class="day-header">
+    <span class="day-date">September 18, 2026</span>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-18-item1.svg' | relative_url }}" alt="Robot beside a legal document and a scale of justice" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">OpenAI launches Astra for Law, a legal AI foundation for firms</div>
+      <div class="read-desc">OpenAI paired GPT-6 Astra with a legal search index covering over 230 million sources and firm-specific tooling, launching it first with Sullivan & Cromwell, Ropes & Gray, Skadden, and other major firms. On a legal-research benchmark it answered questions correctly 40% more often than the base model working from web search alone.</div>
+      <a class="read-link" href="https://openai.com/index/astra-for-law/" target="_blank" rel="noopener">Read the source</a><span class="read-source">openai.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-18-item2.svg' | relative_url }}" alt="Robot beside a shield with a checkmark, small robot beside a crossed-out bug" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Bend wants to make AI-written bugs mathematically impossible</div>
+      <div class="read-desc">Bend is a new C-speed, GPU-parallel language built around a proof checker, so code that violates a project's declared "laws" can never be merged, only reworked until a proof holds. Its type checker runs in about a second even on mid-sized codebases, fast enough for an agent to verify every edit before committing.</div>
+      <a class="read-link" href="https://bend-lang.com/" target="_blank" rel="noopener">Read the source</a><span class="read-source">bend-lang.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-18-item3.svg' | relative_url }}" alt="Large robot shrinking into a smaller sparkling robot" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">PrismML's Bonsai 2 27B keeps 98% of a full model's smarts at a ninth its size</div>
+      <div class="read-desc">PrismML's new ternary-weight Bonsai 2 27B, built on Qwen3.8 27B, compresses to a 5.9GB footprint while retaining 98.2% of the uncompressed model's aggregate benchmark score across reasoning, coding, and agentic tasks. It runs locally at up to 143 tokens per second on an RTX 5090, making 27B-class capability practical on consumer hardware.</div>
+      <a class="read-link" href="https://prismml.com/news/bonsai-2-27b" target="_blank" rel="noopener">Read the source</a><span class="read-source">prismml.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-18-item4.svg' | relative_url }}" alt="Robot beside a looping arrow, small robot beside a gear" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">A hypernetwork proposal would let LLMs learn from a conversation without retraining</div>
+      <div class="read-desc">Researchers propose the Infinite-Parameter LLM, where a compact hypernetwork turns live conversation data into a temporary modulation of the model's own weights instead of stuffing it into the prompt. The belief driving that modulation keeps updating as a session continues, aiming to free up context space and generalize better than plain in-context learning.</div>
+      <a class="read-link" href="https://arxiv.org/abs/2609.18842" target="_blank" rel="noopener">Read the source</a><span class="read-source">arxiv.org</span>
+    </div>
+  </div>
+</li>
+
+  <li class="day-card">
+  <div class="day-header">
     <span class="day-date">September 17, 2026</span>
   </div>
 
