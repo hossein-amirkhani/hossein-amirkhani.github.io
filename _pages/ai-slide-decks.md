@@ -11,6 +11,8 @@ slide_decks:
     title: "LLM01: Prompt Injection"
   - file: /slides/LLM02_Sensitive_Info_Disclosure.pdf
     title: "LLM02: Sensitive Info Disclosure"
+  - file: /slides/LLM04_Supply_Chain.pdf
+    title: "LLM04: Supply Chain"
   - file: /slides/LLM06_Excessive_Agency.pdf
     title: "LLM06: Excessive Agency"
   - file: /slides/Agent_Frameworks.pdf
