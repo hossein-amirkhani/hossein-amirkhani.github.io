@@ -43,6 +43,26 @@ meta_gallery:
     alt: "Meta MPK"
   - image_path: /images/gallery/meta/IMG_5018.jpg
     alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_5221.jpeg
+    alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_5222.jpeg
+    alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_5223.jpeg
+    alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_5224.jpeg
+    alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_5225.jpeg
+    alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_5226.jpeg
+    alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_5227.jpeg
+    alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_5228.jpeg
+    alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_5229.jpeg
+    alt: "Meta MPK"
+  - image_path: /images/gallery/meta/IMG_5230.jpeg
+    alt: "Meta MPK"
 ---
 
 <!--
