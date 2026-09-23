@@ -14,45 +14,42 @@
 </defs>
 <rect width="600" height="600" fill="url(#bgGrad)"/>
 <circle cx="300" cy="270" r="230" fill="url(#glow)"/>
-<g transform="translate(190,320) rotate(0) scale(1.2)">
+
+<!-- spilled files -->
+<g stroke="#2b3a55" stroke-width="4" stroke-linejoin="round">
+<rect x="370" y="380" width="56" height="40" rx="5" fill="url(#bodyGrad)" transform="rotate(-8 398 400)"/>
+<rect x="420" y="410" width="56" height="40" rx="5" fill="url(#bodyGrad)" transform="rotate(10 448 430)"/>
+<rect x="345" y="430" width="56" height="40" rx="5" fill="url(#bodyGrad)" transform="rotate(-4 373 450)"/>
+</g>
+<g stroke="#4a90e2" stroke-width="3" opacity="0.8">
+<line x1="382" y1="392" x2="412" y2="392" transform="rotate(-8 398 400)"/>
+<line x1="382" y1="400" x2="412" y2="400" transform="rotate(-8 398 400)"/>
+<line x1="432" y1="422" x2="462" y2="422" transform="rotate(10 448 430)"/>
+<line x1="432" y1="430" x2="462" y2="430" transform="rotate(10 448 430)"/>
+</g>
+
+<!-- main robot with open chest panel -->
+<g transform="translate(230,320) rotate(0) scale(1.5)">
 <rect x="-32" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
 <rect x="8" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
 <rect x="-55" y="-30" width="110" height="105" rx="24" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
-<circle cx="0" cy="20" r="14" fill="none" stroke="#4a90e2" stroke-width="5"/>
+<rect x="-22" y="-5" width="44" height="55" rx="8" fill="#dce6f5" stroke="#4a90e2" stroke-width="4" stroke-dasharray="6 5"/>
+<line x1="-14" y1="8" x2="14" y2="8" stroke="#4a90e2" stroke-width="3"/>
+<line x1="-14" y1="20" x2="14" y2="20" stroke="#4a90e2" stroke-width="3"/>
+<line x1="-14" y1="32" x2="6" y2="32" stroke="#4a90e2" stroke-width="3"/>
 <g transform="rotate(35)"><rect x="-95" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
-<g transform="rotate(-10)"><rect x="71" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
+<g transform="rotate(-50)"><rect x="71" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
 <rect x="-42" y="-100" width="84" height="72" rx="22" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
 <line x1="0" y1="-100" x2="0" y2="-118" stroke="#2b3a55" stroke-width="5" stroke-linecap="round"/>
 <circle cx="0" cy="-122" r="6" fill="#4a90e2"/>
 <circle cx="-16" cy="-64" r="9" fill="#5ec9e8"/>
 <circle cx="16" cy="-64" r="9" fill="#5ec9e8"/>
-</g><g transform="translate(400,320) scale(-1.2,1.2)">
-<rect x="-32" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5" opacity="0.9"/>
-<rect x="8" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5" opacity="0.9"/>
-<rect x="-55" y="-30" width="110" height="105" rx="24" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5" opacity="0.9"/>
-<circle cx="0" cy="20" r="14" fill="none" stroke="#4a90e2" stroke-width="5"/>
-<g transform="rotate(35)"><rect x="-95" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5" opacity="0.9"/></g>
-<g transform="rotate(-10)"><rect x="71" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5" opacity="0.9"/></g>
-<rect x="-42" y="-100" width="84" height="72" rx="22" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5" opacity="0.9"/>
-<line x1="0" y1="-100" x2="0" y2="-118" stroke="#2b3a55" stroke-width="5" stroke-linecap="round"/>
-<circle cx="0" cy="-122" r="6" fill="#4a90e2"/>
-<circle cx="-16" cy="-64" r="9" fill="#5ec9e8"/>
-<circle cx="16" cy="-64" r="9" fill="#5ec9e8"/>
-</g><g transform="translate(470,480) rotate(6) scale(0.48)">
-<rect x="-32" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
-<rect x="8" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
-<rect x="-55" y="-30" width="110" height="105" rx="24" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
-<circle cx="0" cy="20" r="14" fill="none" stroke="#4a90e2" stroke-width="5"/>
-<g transform="rotate(20)"><rect x="-95" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
-<g transform="rotate(-30)"><rect x="71" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
-<rect x="-42" y="-100" width="84" height="72" rx="22" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
-<line x1="0" y1="-100" x2="0" y2="-118" stroke="#2b3a55" stroke-width="5" stroke-linecap="round"/>
-<circle cx="0" cy="-122" r="6" fill="#4a90e2"/>
-<circle cx="-16" cy="-64" r="9" fill="#5ec9e8"/>
-<circle cx="16" cy="-64" r="9" fill="#5ec9e8"/>
-</g><g transform="translate(545,430) scale(1)">
-<circle cx="0" cy="0" r="30" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
-<rect x="-16" y="-14" width="20" height="20" rx="5" fill="none" stroke="#5ec9e8" stroke-width="4"/>
-<rect x="-4" y="-2" width="20" height="20" rx="5" fill="none" stroke="#4a90e2" stroke-width="4"/>
+</g>
+
+<!-- unlocked padlock badge -->
+<g transform="translate(470,480)">
+<circle cx="0" cy="0" r="42" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<path d="M-10,-4 v-10 a10,10 0 0 1 20,-2" fill="none" stroke="#e2685a" stroke-width="5" stroke-linecap="round"/>
+<rect x="-14" y="-6" width="28" height="22" rx="5" fill="#e2685a"/>
 </g>
 </svg>
