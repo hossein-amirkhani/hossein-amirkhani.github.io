@@ -14,37 +14,38 @@
 </defs>
 <rect width="600" height="600" fill="url(#bgGrad)"/>
 <circle cx="300" cy="270" r="230" fill="url(#glow)"/>
-<g transform="translate(190,310) rotate(0) scale(1.35)">
-<rect x="-32" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
-<rect x="8" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
-<rect x="-55" y="-30" width="110" height="105" rx="24" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
-<circle cx="0" cy="20" r="14" fill="none" stroke="#4a90e2" stroke-width="5"/>
-<g transform="rotate(35)"><rect x="-95" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
-<g transform="rotate(-10)"><rect x="71" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
-<rect x="-42" y="-100" width="84" height="72" rx="22" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
-<line x1="0" y1="-100" x2="0" y2="-118" stroke="#2b3a55" stroke-width="5" stroke-linecap="round"/>
-<circle cx="0" cy="-122" r="6" fill="#4a90e2"/>
-<circle cx="-16" cy="-64" r="9" fill="#5ec9e8"/>
-<circle cx="16" cy="-64" r="9" fill="#5ec9e8"/>
-</g><g transform="translate(430,270) scale(1)">
-<path d="M-70,-50 L20,-50 L85,15 L20,80 L-70,80 Z" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/>
-<circle cx="45" cy="15" r="10" fill="none" stroke="#4a90e2" stroke-width="5"/>
-<text x="-25" y="30" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#4a90e2" text-anchor="middle">$</text>
-<path d="M-25,-32 L-25,-18 M-33,-24 L-17,-24" stroke="#5ec9e8" stroke-width="6" stroke-linecap="round"/>
-</g><g transform="translate(430,470) rotate(6) scale(0.48)">
+
+<!-- sound waves -->
+<g fill="none" stroke="#5ec9e8" stroke-width="6" stroke-linecap="round">
+<path d="M400,240 Q425,270 400,300"/>
+<path d="M425,215 Q470,270 425,325"/>
+<path d="M450,190 Q515,270 450,350"/>
+</g>
+
+<!-- main robot -->
+<g transform="translate(255,320) rotate(0) scale(1.55)">
 <rect x="-32" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
 <rect x="8" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
 <rect x="-55" y="-30" width="110" height="105" rx="24" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
 <circle cx="0" cy="20" r="14" fill="none" stroke="#4a90e2" stroke-width="5"/>
 <g transform="rotate(20)"><rect x="-95" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
-<g transform="rotate(-30)"><rect x="71" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
+<g transform="rotate(-35)"><rect x="71" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
 <rect x="-42" y="-100" width="84" height="72" rx="22" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
-<line x1="0" y1="-100" x2="0" y2="-118" stroke="#2b3a55" stroke-width="5" stroke-linecap="round"/>
-<circle cx="0" cy="-122" r="6" fill="#4a90e2"/>
+<!-- headphone band -->
+<path d="M-46,-84 Q0,-140 46,-84" fill="none" stroke="#2b3a55" stroke-width="6" stroke-linecap="round"/>
+<circle cx="-46" cy="-70" r="16" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<circle cx="46" cy="-70" r="16" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<circle cx="-46" cy="-70" r="6" fill="#4a90e2"/>
+<circle cx="46" cy="-70" r="6" fill="#4a90e2"/>
 <circle cx="-16" cy="-64" r="9" fill="#5ec9e8"/>
 <circle cx="16" cy="-64" r="9" fill="#5ec9e8"/>
-</g><g transform="translate(535,420) scale(1)">
-<circle cx="0" cy="0" r="30" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
-<path d="M4,-18 L-12,4 L-1,4 L-5,20 L13,-4 L2,-4 Z" fill="#5ec9e8" stroke="#2b3a55" stroke-width="3" stroke-linejoin="round"/>
+</g>
+
+<!-- price tag badge -->
+<g transform="translate(180,470)">
+<circle cx="0" cy="0" r="42" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<circle cx="-10" cy="-10" r="7" fill="#e2685a"/>
+<line x1="-14" y1="14" x2="14" y2="-14" stroke="#e2685a" stroke-width="6" stroke-linecap="round"/>
+<circle cx="10" cy="10" r="7" fill="#e2685a"/>
 </g>
 </svg>
