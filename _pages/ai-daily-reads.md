@@ -153,6 +153,57 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <!-- ============================================================ -->
   <li class="day-card">
   <div class="day-header">
+    <span class="day-date">September 23, 2026</span>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-23-item1.svg' | relative_url }}" alt="Robot next to a price tag with a dollar sign and down arrow, plus a small lightning-bolt speed icon" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Anthropic Ships Claude Opus 5.5, Cuts Price 40%</div>
+      <div class="read-desc">Anthropic's new flagship model matches Claude Fable 5.1 on most tasks while running roughly 40% cheaper (now ＄4/＄20 per million input/output tokens) and about 30% faster than Opus 5, with the biggest gains in long-horizon agentic coding and computer-use work. It also posts Anthropic's best-yet score on its own automated alignment audits.</div>
+      <a class="read-link" href="https://www.anthropic.com/claude-opus-5-5" target="_blank" rel="noopener">Read the source</a><span class="read-source">anthropic.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-23-item2.svg' | relative_url }}" alt="Robot beside a sun icon and a crescent moon, representing the Sol and Luna model twins" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">OpenAI Adds Cheaper GPT-6 Sol and Luna to the Lineup</div>
+      <div class="read-desc">OpenAI rolled out two lower-cost GPT-6 models: Sol beats Claude Opus 5 on agentic benchmarks at a fraction of the price, while budget model Luna undercuts rivals on coding tasks by over 90%. Both also cut factual errors roughly in half versus their predecessor and are live now in ChatGPT and Codex.</div>
+      <a class="read-link" href="https://openai.com/index/introducing-gpt-6-sol-and-luna/" target="_blank" rel="noopener">Read the source</a><span class="read-source">openai.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-23-item3.svg' | relative_url }}" alt="Two identical robots facing each other, representing one AI app mirroring another's design" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Meta Admits Its Muse App Was Built to Copy OpenClaw</div>
+      <div class="read-desc">After users noticed Meta's chart-topping Muse assistant shared config filenames with the open-source OpenClaw project, Meta's product lead confirmed it was deliberate, saying the team wanted a safer, more scalable version of what OpenClaw (whose creator has since joined OpenAI) got right. Muse has since become the No. 1 app on the US App Store.</div>
+      <a class="read-link" href="https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-23-item4.svg' | relative_url }}" alt="Robot holding a trophy, with a small warning icon beside a second robot" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Xiaomi's MiMo-V2.6 Tops the Open-Model Charts Amid a Claude Data Dispute</div>
+      <div class="read-desc">Xiaomi's new trillion-parameter MiMo-V2.6-Pro (42B active per request) now leads openly available models and ships with its RL training toolkit and thousands of graded tasks released for free. Anthropic contests the win, though, alleging Xiaomi routed weeks of Claude conversations through OpenClaw/OpenCode this spring to distill training data from Opus and Sonnet.</div>
+      <a class="read-link" href="https://the-decoder.com/xiaomis-affordable-flagship-ai-leads-the-open-models-and-anthropic-says-claude-helped-get-it-there/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-09-23-item5.svg' | relative_url }}" alt="Robot beside a chalkboard covered in math symbols, with a small question-mark icon nearby" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">OpenAI Says a Model Cracked 100+ Open Math Problems — Mathematicians Are Skeptical</div>
+      <div class="read-desc">OpenAI claims an internal model solved the Navier-Stokes Millennium Prize problem (one of math's ＄1 million grand challenges) plus over 100 other long-standing problems within a month of training, and it's forming an outside advisory group at the Institute for Advanced Study to vet the work. The announcement follows an open letter from mathematicians, including several Fields medalists, warning that treating open problems as AI benchmarks risks distorting the field.</div>
+      <a class="read-link" href="https://openai.com/index/advisory-group-on-mathematics-and-ai/" target="_blank" rel="noopener">Read the source</a><span class="read-source">openai.com</span>
+    </div>
+  </div>
+</li>
+
+  <li class="day-card">
+  <div class="day-header">
     <span class="day-date">September 22, 2026</span>
   </div>
 
