@@ -1,0 +1,45 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"><defs>
+  <radialGradient id="bgGrad" cx="50%" cy="40%" r="75%">
+    <stop offset="0%" stop-color="#f6f9fd"/>
+    <stop offset="100%" stop-color="#e2eaf7"/>
+  </radialGradient>
+  <radialGradient id="glow" cx="50%" cy="45%" r="50%">
+    <stop offset="0%" stop-color="#8ec7ff" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#8ec7ff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="100%" stop-color="#ecf1f9"/>
+  </linearGradient>
+</defs>
+<rect width="600" height="600" fill="url(#bgGrad)"/>
+<circle cx="300" cy="270" r="230" fill="url(#glow)"/>
+<g transform="translate(190,310) rotate(0) scale(1.35)">
+<rect x="-32" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<rect x="8" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<rect x="-55" y="-30" width="110" height="105" rx="24" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<circle cx="0" cy="20" r="14" fill="none" stroke="#4a90e2" stroke-width="5"/>
+<g transform="rotate(35)"><rect x="-95" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
+<g transform="rotate(-10)"><rect x="71" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
+<rect x="-42" y="-100" width="84" height="72" rx="22" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<line x1="0" y1="-100" x2="0" y2="-118" stroke="#2b3a55" stroke-width="5" stroke-linecap="round"/>
+<circle cx="0" cy="-122" r="6" fill="#4a90e2"/>
+<circle cx="-16" cy="-64" r="9" fill="#5ec9e8"/>
+<circle cx="16" cy="-64" r="9" fill="#5ec9e8"/>
+</g><g transform="translate(430,215) scale(1)"><g transform="rotate(0)"><line x1="0" y1="-55" x2="0" y2="-75" stroke="#4a90e2" stroke-width="7" stroke-linecap="round"/></g><g transform="rotate(45)"><line x1="0" y1="-55" x2="0" y2="-75" stroke="#4a90e2" stroke-width="7" stroke-linecap="round"/></g><g transform="rotate(90)"><line x1="0" y1="-55" x2="0" y2="-75" stroke="#4a90e2" stroke-width="7" stroke-linecap="round"/></g><g transform="rotate(135)"><line x1="0" y1="-55" x2="0" y2="-75" stroke="#4a90e2" stroke-width="7" stroke-linecap="round"/></g><g transform="rotate(180)"><line x1="0" y1="-55" x2="0" y2="-75" stroke="#4a90e2" stroke-width="7" stroke-linecap="round"/></g><g transform="rotate(225)"><line x1="0" y1="-55" x2="0" y2="-75" stroke="#4a90e2" stroke-width="7" stroke-linecap="round"/></g><g transform="rotate(270)"><line x1="0" y1="-55" x2="0" y2="-75" stroke="#4a90e2" stroke-width="7" stroke-linecap="round"/></g><g transform="rotate(315)"><line x1="0" y1="-55" x2="0" y2="-75" stroke="#4a90e2" stroke-width="7" stroke-linecap="round"/></g><circle cx="0" cy="0" r="42" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/><circle cx="0" cy="0" r="22" fill="#5ec9e8" opacity="0.8"/></g><g transform="translate(420,470) rotate(6) scale(0.48)">
+<rect x="-32" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<rect x="8" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<rect x="-55" y="-30" width="110" height="105" rx="24" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<circle cx="0" cy="20" r="14" fill="none" stroke="#4a90e2" stroke-width="5"/>
+<g transform="rotate(20)"><rect x="-95" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
+<g transform="rotate(-30)"><rect x="71" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
+<rect x="-42" y="-100" width="84" height="72" rx="22" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<line x1="0" y1="-100" x2="0" y2="-118" stroke="#2b3a55" stroke-width="5" stroke-linecap="round"/>
+<circle cx="0" cy="-122" r="6" fill="#4a90e2"/>
+<circle cx="-16" cy="-64" r="9" fill="#5ec9e8"/>
+<circle cx="16" cy="-64" r="9" fill="#5ec9e8"/>
+</g><g transform="translate(515,430) scale(0.9)">
+<path d="M8.9,-44.1 A45,45 0 1,0 43.1,13.0 A34,34 0 0,1 8.9,-44.1 Z" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="-24" cy="6" r="6" fill="#5ec9e8"/><circle cx="-8" cy="28" r="4" fill="#5ec9e8"/>
+</g>
+</svg>
