@@ -1,0 +1,39 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"><defs>
+  <radialGradient id="bgGrad" cx="50%" cy="40%" r="75%">
+    <stop offset="0%" stop-color="#f6f9fd"/>
+    <stop offset="100%" stop-color="#e2eaf7"/>
+  </radialGradient>
+  <radialGradient id="glow" cx="50%" cy="45%" r="50%">
+    <stop offset="0%" stop-color="#8ec7ff" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#8ec7ff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="100%" stop-color="#ecf1f9"/>
+  </linearGradient>
+</defs>
+<rect width="600" height="600" fill="url(#bgGrad)"/>
+<circle cx="300" cy="270" r="230" fill="url(#glow)"/>
+<g transform="translate(190,400) rotate(0) scale(1.4)">
+<rect x="-32" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<rect x="8" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<rect x="-55" y="-30" width="110" height="105" rx="24" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<g transform="rotate(-15)"><rect x="-95" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
+<g transform="rotate(55)"><rect x="71" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
+<rect x="-42" y="-100" width="84" height="72" rx="22" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<circle cx="-16" cy="-64" r="9" fill="#5ec9e8"/>
+<circle cx="16" cy="-64" r="9" fill="#5ec9e8"/>
+</g>
+<g transform="translate(420,330)">
+<rect x="-90" y="-100" width="180" height="150" rx="14" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<rect x="-70" y="-80" width="140" height="90" rx="6" fill="#dce6f5" fill-opacity="0.55" stroke="#4a90e2" stroke-width="3"/>
+<path d="M0,-65 v40 M-20,-45 h40" stroke="#4a90e2" stroke-width="8" stroke-linecap="round"/>
+<rect x="-30" y="60" width="60" height="16" rx="6" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="4"/>
+</g>
+<g transform="translate(340,255) rotate(15)" stroke="#e2635c" stroke-width="8" stroke-linecap="round">
+<circle cx="0" cy="0" r="26" fill="none" stroke="#e2635c" stroke-width="6"/>
+<rect x="-8" y="-14" width="16" height="20" rx="4" fill="none" stroke="#e2635c" stroke-width="6"/>
+<line x1="-14" y1="18" x2="14" y2="-18"/>
+</g>
+
+</svg>
