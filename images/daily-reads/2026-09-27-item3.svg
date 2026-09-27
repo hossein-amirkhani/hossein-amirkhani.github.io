@@ -1,0 +1,43 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"><defs>
+  <radialGradient id="bgGrad" cx="50%" cy="40%" r="75%">
+    <stop offset="0%" stop-color="#f6f9fd"/>
+    <stop offset="100%" stop-color="#e2eaf7"/>
+  </radialGradient>
+  <radialGradient id="glow" cx="50%" cy="45%" r="50%">
+    <stop offset="0%" stop-color="#8ec7ff" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#8ec7ff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="100%" stop-color="#ecf1f9"/>
+  </linearGradient>
+</defs>
+<rect width="600" height="600" fill="url(#bgGrad)"/>
+<circle cx="300" cy="270" r="230" fill="url(#glow)"/>
+<g transform="translate(415,300)">
+<rect x="-55" y="-75" width="110" height="150" rx="14" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<rect x="-22" y="-88" width="44" height="20" rx="6" fill="#dce6f5" stroke="#2b3a55" stroke-width="4"/>
+<polyline points="-38,-20 -18,-20 -6,-45 8,5 22,-30 38,-30" fill="none" stroke="#e2635c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="-38" y1="20" x2="38" y2="20" stroke="#4a90e2" stroke-width="5" stroke-linecap="round"/>
+<line x1="-38" y1="40" x2="38" y2="40" stroke="#4a90e2" stroke-width="5" stroke-linecap="round"/>
+<line x1="-38" y1="60" x2="10" y2="60" stroke="#4a90e2" stroke-width="5" stroke-linecap="round"/>
+</g>
+<g transform="translate(475,395) rotate(10)">
+<path d="M-18,10 h36 v14 l-18,11 l-18,-11 z" fill="#4a90e2"/>
+<line x1="0" y1="10" x2="0" y2="-18" stroke="#2b3a55" stroke-width="4"/>
+<text x="0" y="21" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">$</text>
+</g><g transform="translate(190,340) rotate(0) scale(1.3)">
+<rect x="-32" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<rect x="8" y="70" width="24" height="55" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<rect x="-55" y="-30" width="110" height="105" rx="24" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<g transform="rotate(-20)"><rect x="-95" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
+<g transform="rotate(55)"><rect x="71" y="-15" width="24" height="70" rx="10" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/></g>
+<rect x="-42" y="-100" width="84" height="72" rx="22" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<circle cx="-16" cy="-64" r="9" fill="#5ec9e8"/>
+<circle cx="16" cy="-64" r="9" fill="#5ec9e8"/>
+
+</g><g transform="translate(150,500)">
+<circle cx="0" cy="0" r="42" fill="url(#bodyGrad)" stroke="#2b3a55" stroke-width="5"/>
+<text x="0" y="12" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="#4a90e2" text-anchor="middle">$</text>
+</g>
+</svg>
