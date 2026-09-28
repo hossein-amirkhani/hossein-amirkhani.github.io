@@ -15,6 +15,8 @@ slide_decks:
     title: "LLM03: Excessive Agency"
   - file: /slides/LLM04_Supply_Chain.pdf
     title: "LLM04: Supply Chain"
+  - file: /slides/LLM08_Hidden_Context_Exposure.pdf
+    title: "LLM08: Hidden Context Exposure"
   - file: /slides/Agent_Frameworks.pdf
     title: "Agent Frameworks"
   - file: /slides/MCP_Basics.pdf
