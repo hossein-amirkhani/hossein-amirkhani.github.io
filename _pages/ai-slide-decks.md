@@ -15,6 +15,8 @@ slide_decks:
     title: "LLM03: Excessive Agency"
   - file: /slides/LLM04_Supply_Chain.pdf
     title: "LLM04: Supply Chain"
+  - file: /slides/LLM06_Unbounded_Consumption.pdf
+    title: "LLM06: Unbounded Consumption"
   - file: /slides/LLM08_Hidden_Context_Exposure.pdf
     title: "LLM08: Hidden Context Exposure"
   - file: /slides/Agent_Frameworks.pdf
