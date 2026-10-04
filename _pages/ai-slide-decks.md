@@ -19,6 +19,8 @@ slide_decks:
     title: "LLM06: Unbounded Consumption"
   - file: /slides/LLM08_Hidden_Context_Exposure.pdf
     title: "LLM08: Hidden Context Exposure"
+  - file: /slides/LLM10_Improper_Output_Handling.pdf
+    title: "LLM10: Improper Output Handling"
   - file: /slides/Agent_Frameworks.pdf
     title: "Agent Frameworks"
   - file: /slides/MCP_Basics.pdf
