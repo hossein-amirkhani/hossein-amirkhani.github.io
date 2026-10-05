@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+<defs><radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#f6f9fd"/><stop offset="1" stop-color="#e2eaf7"/></radialGradient>
+<radialGradient id="gl" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8ec7ff" stop-opacity=".5"/><stop offset="1" stop-color="#8ec7ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="rb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#ecf1f9"/></linearGradient></defs>
+<rect width="600" height="600" fill="url(#bg)"/><circle cx="300" cy="300" r="260" fill="url(#gl)"/>
+<g transform="translate(180,230) scale(1) rotate(0)">
+<rect x="-70" y="-10" width="140" height="150" rx="30" fill="url(#rb)" stroke="#2b3a55" stroke-width="6"/>
+<rect x="-100" y="10" width="30" height="90" rx="15" fill="url(#rb)" stroke="#2b3a55" stroke-width="6"/>
+<rect x="70" y="10" width="30" height="90" rx="15" fill="url(#rb)" stroke="#2b3a55" stroke-width="6"/>
+<rect x="-50" y="130" width="35" height="70" rx="14" fill="url(#rb)" stroke="#2b3a55" stroke-width="6"/>
+<rect x="15" y="130" width="35" height="70" rx="14" fill="url(#rb)" stroke="#2b3a55" stroke-width="6"/>
+<circle cx="0" cy="70" r="14" fill="#4a90e2"/>
+<rect x="-65" y="-110" width="130" height="95" rx="32" fill="url(#rb)" stroke="#2b3a55" stroke-width="6"/>
+<circle cx="-25" cy="-63" r="12" fill="#5ec9e8"/><circle cx="25" cy="-63" r="12" fill="#5ec9e8"/>
+<line x1="0" y1="-110" x2="0" y2="-135" stroke="#2b3a55" stroke-width="6"/><circle cx="0" cy="-140" r="8" fill="#4a90e2"/>
+</g><rect x="330" y="150" width="200" height="170" rx="16" fill="#fff" stroke="#2b3a55" stroke-width="6"/><circle cx="380" cy="200" r="16" fill="#5ec9e8"/><path d="M345 305 L405 235 L445 285 L475 255 L520 305Z" fill="#4a90e2"/><rect x="440" y="130" width="80" height="34" rx="12" fill="#4a90e2" stroke="#2b3a55" stroke-width="6"/><rect x="458" y="143" width="44" height="8" rx="4" fill="#fff"/></svg>
