@@ -151,6 +151,56 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <!-- NEW DAYS GO HERE (newest first). Copy a <li> block below.    -->
   <!-- Each day is one <li class="day-card"> with a date + items.   -->
   <!-- ============================================================ -->
+  <li class="day-card">
+  <div class="day-header">
+    <span class="day-date">October 13, 2026</span>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-13-item1.svg' | relative_url }}" alt="A robot beside a chip labeled M and a small network of nodes" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Meta releases its first frontier model, Muse Wonder</div>
+      <div class="read-desc">Meta's Superintelligence Lab launched Muse Wonder through its API at ＄4 per million input tokens and ＄20 per million output tokens, with a larger Wonder Full limited to Muse Code subscribers. Meta's own tests reportedly show it matching top rival models and beating them on a memory benchmark.</div>
+      <a class="read-link" href="https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-13-item2.svg' | relative_url }}" alt="A robot next to a set of balance scales" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Microsoft's Brad Smith: the UK is best placed to lead AI regulation</div>
+      <div class="read-desc">Smith says voluntary commitments fall short because responsible firms comply while others may not, and backs measures like breach-notification duties and kill switches. He argues Washington views London differently than Brussels.</div>
+      <a class="read-link" href="https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-13-item3.svg' | relative_url }}" alt="A robot beside a closed door with a red no-entry sign" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">QGIS moves to ban AI-assisted contributions</div>
+      <div class="read-desc">A QGIS enhancement proposal would switch the project's AI policy to strictly not allowed, framed by maintainers as a temporary "closed door" that could be loosened case by case. Open questions remain on whether it covers reviews and security work.</div>
+      <a class="read-link" href="https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387" target="_blank" rel="noopener">Read the source</a><span class="read-source">github.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-13-item4.svg' | relative_url }}" alt="A robot beside stacked image frames and a rising line chart" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">KlingAI's DiffusionART: roughly 12x fewer GPU hours for diffusion RL</div>
+      <div class="read-desc">The method fine-tunes diffusion models with black-box rewards and, on HunyuanVideo-13B, matched strong baselines using about 12x fewer GPU hours. It also reached higher mean training rewards.</div>
+      <a class="read-link" href="https://huggingface.co/papers/2610.12572" target="_blank" rel="noopener">Read the source</a><span class="read-source">huggingface.co</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-13-item5.svg' | relative_url }}" alt="A robot next to app windows with a mouse cursor" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">SoftwareGym synthesizes 182 apps to train computer-use agents</div>
+      <div class="read-desc">An automated pipeline built 182 runnable GUI apps, and an agent trained on them rose from 41.4% to 57.0% Pass@3 on the out-of-domain OSWorld benchmark.</div>
+      <a class="read-link" href="https://huggingface.co/papers/2610.12611" target="_blank" rel="noopener">Read the source</a><span class="read-source">huggingface.co</span>
+    </div>
+  </div>
+</li>
 <li class="day-card">
   <div class="day-header">
     <span class="day-date">October 12, 2026</span>
