@@ -153,6 +153,156 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <!-- ============================================================ -->
   <li class="day-card">
   <div class="day-header">
+    <span class="day-date">October 21, 2026</span>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-21-item1.svg' | relative_url }}" alt="A robot beside a scorpion" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Claude designs protein binders against scorpion venom</div>
+      <div class="read-desc">Claude largely autonomously generated 318,484 designs against five scorpion toxins; 17 of 211 lab-tested designs bound their target. Whether they work as antivenom is still untested.</div>
+      <a class="read-link" href="https://the-decoder.com/claude-science-tackles-deadly-scorpion-stings-by-designing-protein-binders-from-scratch/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-21-item2.svg' | relative_url }}" alt="A robot connected to a computer chip" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Deepseek open-sources DeepInfer, the engine behind its cheapest model</div>
+      <div class="read-desc">The Apache-licensed serving stack, built on vLLM, adds optimized kernels and multi-chip support for NVIDIA and Huawei hardware. It adds further pricing pressure on Western labs.</div>
+      <a class="read-link" href="https://github.com/deepseek-ai/DeepInfer" target="_blank" rel="noopener">Read the source</a><span class="read-source">github.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-21-item3.svg' | relative_url }}" alt="A robot beside a prohibition sign" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">US bans Deepseek across federal civilian agencies</div>
+      <div class="read-desc">A DHS order tells agencies to remove Deepseek products and avoid buying new ones, including third-party services built on them. It sets no deadline and names no specific security concern.</div>
+      <a class="read-link" href="https://the-decoder.com/us-bans-deepseek-technology-across-federal-civilian-agencies/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-21-item4.svg' | relative_url }}" alt="A robot beside a microphone" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Mistral launches Voxtral 3, a full real-time voice agent stack</div>
+      <div class="read-desc">The family combines transcription, reasoning, tool calling and speech synthesis across 50+ languages, hosted in the EU or on your own infrastructure.</div>
+      <a class="read-link" href="https://mistral.ai/news/voxtral-3/" target="_blank" rel="noopener">Read the source</a><span class="read-source">mistral.ai</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-21-item5.svg' | relative_url }}" alt="A robot with a magnifying glass over a chat bubble" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">WhatsApp help pages hid instructions for its AI support bot</div>
+      <div class="read-desc">An investigation found invisible text on 80 of 545 help pages, including a note telling the AI not to point users to data protection regulators. WhatsApp calls it a bug and says it is fixed.</div>
+      <a class="read-link" href="https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions" target="_blank" rel="noopener">Read the source</a><span class="read-source">redact.dev</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-21-item6.svg' | relative_url }}" alt="A robot beside a code window with a loop arrow" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Microsoft's Self-HPO tunes the harness and the model together</div>
+      <div class="read-desc">Alternating harness and policy optimization lifted a Qwen3.5-35B-A3B coding agent from 57.8% to 64.8% across three benchmarks, beating either approach alone.</div>
+      <a class="read-link" href="https://huggingface.co/papers/2610.22791" target="_blank" rel="noopener">Read the source</a><span class="read-source">huggingface.co</span>
+    </div>
+  </div>
+</li>
+  <li class="day-card">
+  <div class="day-header">
+    <span class="day-date">October 20, 2026</span>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-20-item1.svg' | relative_url }}" alt="A robot beside a globe with a flame and a coin" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Anthropic will put 5% of its shares into a public benefit fund</div>
+      <div class="read-desc">Subject to stockholder approval, a company-owned LLC would hold the stake, which grows as Anthropic's valuation rises, to fund public-good work such as AI's effects on workers. Musk countered by promising SpaceX shares to US children.</div>
+      <a class="read-link" href="https://www.anthropic.com/news/public-benefit-fund" target="_blank" rel="noopener">Read the source</a><span class="read-source">anthropic.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-20-item2.svg' | relative_url }}" alt="A robot beside a document under a judge's gavel" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Two German courts now hold Google liable for what its AI Overviews say</div>
+      <div class="read-desc">Munich and Aachen courts treated AI Overview text as Google's own statements, with Aachen issuing an injunction over false claims tying a doctor to crimes. It is an early sign that AI summaries may carry publisher-style liability in Europe.</div>
+      <a class="read-link" href="https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-20-item3.svg' | relative_url }}" alt="A robot beside a code document with a migration arrow" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">OpenAI says its new models finally handle COBOL and other legacy languages</div>
+      <div class="read-desc">GPT-6 Astra lifted a 20-language SQLite-building pass rate from 26.8% to 87.4%, and GPT-6.1 Sol reached 86.6% on COBOL migration versus 5.4% for GPT-5.6 Sol. That points to cheaper modernization of old enterprise code.</div>
+      <a class="read-link" href="https://openai.com/index/low-resource-programming-languages/" target="_blank" rel="noopener">Read the source</a><span class="read-source">openai.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-20-item4.svg' | relative_url }}" alt="A robot beside a tower of blocks with a warning sign" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">A neocloud shakeout is coming, and Nvidia has the most to lose</div>
+      <div class="read-desc">Executives expect only seven to ten of the hundreds of young AI cloud providers to survive, after CoreWeave's slump and a canceled Firmus IPO. Nvidia is exposed because non-hyperscaler customers make up 45 percent of its data center revenue.</div>
+      <a class="read-link" href="https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+    </div>
+  </div>
+</li>
+  <li class="day-card">
+  <div class="day-header">
+    <span class="day-date">October 19, 2026</span>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-19-item1.svg' | relative_url }}" alt="A friendly robot with a heart on its chest next to a pie chart slice" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Anthropic earmarks 5% of its shares for a public benefit fund</div>
+      <div class="read-desc">The fund will sit inside the company and can grow by another 2% each time its valuation rises by half. Who decides what it backs is still undecided, with governance details promised in the coming months.</div>
+      <a class="read-link" href="https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-19-item2.svg' | relative_url }}" alt="A large robot beside small robots at a desk, a clock marked 6x, and stacked documents" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Anthropic's junior share of technical hires fell from 27% to 9%</div>
+      <div class="read-desc">Its own study finds AI agents now log about six times as many hours as the employees directing them. Fewer entry-level roles today could mean a thinner expert pipeline later.</div>
+      <a class="read-link" href="https://www.anthropic.com/research/employment-at-anthropic" target="_blank" rel="noopener">Read the source</a><span class="read-source">anthropic.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-19-item3.svg' | relative_url }}" alt="A robot standing beside the scales of justice" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">A second German court holds Google liable for its AI answers</div>
+      <div class="read-desc">Aachen's court barred Google from repeating false claims its AI Mode attached to a doctor, with fines up to 250,000 euros per violation. It follows Munich in treating AI-generated answers as Google's own statements; the ruling isn't final yet.</div>
+      <a class="read-link" href="https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-19-item4.svg' | relative_url }}" alt="Two robots swapping places with arrows between them and a document above" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Replit makes OpenAI its default model provider over Anthropic</div>
+      <div class="read-desc">CEO Amjad Masad cited cost, the partnership and model performance, though users can still pick Claude. An insider disputes that the Anthropic deal has actually ended.</div>
+      <a class="read-link" href="https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-10-19-item5.svg' | relative_url }}" alt="A robot with a thought bubble of dots and text lines beside a document" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Hybrid Reasoning Agents think in latent space and act through text</div>
+      <div class="read-desc">The paper switches between silent internal reasoning and text tool calls in one pass. Across 11 benchmarks it reports about 10% better results with 35-55% fewer tokens; it topped Hacker News today.</div>
+      <a class="read-link" href="https://arxiv.org/abs/2610.18861" target="_blank" rel="noopener">Read the source</a><span class="read-source">arxiv.org</span>
+    </div>
+  </div>
+</li>
+  <li class="day-card">
+  <div class="day-header">
     <span class="day-date">October 18, 2026</span>
   </div>
 
