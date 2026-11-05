@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+<defs><radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#f6f9fd"/><stop offset="1" stop-color="#e2eaf7"/></radialGradient>
+<radialGradient id="gl"><stop offset="0" stop-color="#8ec7ff" stop-opacity=".5"/><stop offset="1" stop-color="#8ec7ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="rb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#ecf1f9"/></linearGradient></defs>
+<rect width="600" height="600" fill="url(#bg)"/><circle cx="300" cy="300" r="260" fill="url(#gl)"/>
+<g transform="translate(190,250) rotate(0) scale(1.1)">
+<rect x="-70" y="10" width="140" height="150" rx="34" fill="url(#rb)" stroke="#2b3a55" stroke-width="6"/>
+<rect x="-100" y="30" width="30" height="90" rx="15" fill="url(#rb)" stroke="#2b3a55" stroke-width="6"/>
+<rect x="70" y="30" width="30" height="90" rx="15" fill="url(#rb)" stroke="#2b3a55" stroke-width="6"/>
+<rect x="-50" y="150" width="34" height="60" rx="14" fill="url(#rb)" stroke="#2b3a55" stroke-width="6"/>
+<rect x="16" y="150" width="34" height="60" rx="14" fill="url(#rb)" stroke="#2b3a55" stroke-width="6"/>
+<rect x="-62" y="-90" width="124" height="94" rx="30" fill="url(#rb)" stroke="#2b3a55" stroke-width="6"/>
+<circle cx="-24" cy="-44" r="11" fill="#5ec9e8"/><circle cx="24" cy="-44" r="11" fill="#5ec9e8"/>
+<rect x="-30" y="55" width="60" height="14" rx="7" fill="#4a90e2"/></g><rect x="350" y="200" width="150" height="220" rx="14" fill="#fff" stroke="#2b3a55" stroke-width="6"/>
+<rect x="368" y="220" width="114" height="32" rx="6" fill="#dbe9fb"/><rect x="368" y="266" width="114" height="32" rx="6" fill="#dbe9fb"/><rect x="368" y="312" width="114" height="32" rx="6" fill="#dbe9fb"/>
+<circle cx="500" cy="200" r="46" fill="#fff" stroke="#e25a5a" stroke-width="10"/><line x1="468" y1="232" x2="532" y2="168" stroke="#e25a5a" stroke-width="10"/>
+<rect x="355" y="440" width="140" height="70" rx="8" fill="#fff" stroke="#2b3a55" stroke-width="6"/><path d="M400 475 l15 15 l30 -30" fill="none" stroke="#4a90e2" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></svg>
