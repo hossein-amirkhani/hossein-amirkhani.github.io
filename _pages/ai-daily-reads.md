@@ -153,6 +153,97 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <!-- ============================================================ -->
   <li class="day-card">
   <div class="day-header">
+    <span class="day-date">November 6, 2026</span>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-06-item1.svg' | relative_url }}" alt="A robot beside a hexagonal particle, tagged 3D structure" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Anthropic used Claude to solve the first 3D structure of a bacterial vault particle</div>
+      <div class="read-desc">Claude helped with sequence searches, DNA design and cryo-EM processing, and a faster purification cut a roughly three-day step to about 90 minutes. What vaults actually do is still unknown.</div>
+      <a class="read-link" href="https://www.anthropic.com/research/investigating-vault-particles-with-claude" target="_blank" rel="noopener">Read the source</a><span class="read-source">anthropic.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-06-item2.svg' | relative_url }}" alt="A robot beside a news page with a vote box, tagged licensed data" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Anthropic signs its first publisher licensing deal, with the AP, for election coverage</div>
+      <div class="read-desc">The deal lets Claude show AP-attributed election information ahead of the midterms; financial terms and duration weren't disclosed.</div>
+      <a class="read-link" href="https://www.adweek.com/media/anthropic-licensing-deal-ap-election/" target="_blank" rel="noopener">Read the source</a><span class="read-source">adweek.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-06-item3.svg' | relative_url }}" alt="Three small robots connected to a central play button, tagged parallel agents" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Meta acquires Conductor, the tool for running multiple coding agents in parallel</div>
+      <div class="read-desc">Conductor's cloud service shuts down November 20 with customer cloud data deleted afterward; Meta gave no price or product plans.</div>
+      <a class="read-link" href="https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-06-item4.svg' | relative_url }}" alt="A robot beside a grid of parameters, tagged 2.8T params" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Moonshot AI releases Kimi K3.1 Pro, a 2.8-trillion-parameter open-weight multimodal model</div>
+      <div class="read-desc">Only about 104 billion parameters are active per request, and it offers a 1-million-token context window aimed at agentic work.</div>
+      <a class="read-link" href="https://huggingface.co/moonshotai/Kimi-K3.1-Pro" target="_blank" rel="noopener">Read the source</a><span class="read-source">huggingface.co</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-06-item5.svg' | relative_url }}" alt="A robot beside stacked animation frames, tagged text to GIF" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">ChatGPT can now turn prompts and photos into animated GIFs with Images 2.6</div>
+      <div class="read-desc">Users can adjust speed and edit individual frames, and the new model keeps characters consistent across frames; it also reaches Codex.</div>
+      <a class="read-link" href="https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+    </div>
+  </div>
+</li>
+  <li class="day-card">
+  <div class="day-header">
+    <span class="day-date">November 5, 2026</span>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-05-item1.svg' | relative_url }}" alt="A robot beside a laptop with a crossed-out magnifying glass" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Google will cut off Search for schools that switch off its AI, starting in 2027</div>
+      <div class="read-desc">Gemini and Search will be off by default for student accounts, and schools that block AI entirely also lose the AI-free version of Search, since Google says the two can't be separated.</div>
+      <a class="read-link" href="https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-05-item2.svg' | relative_url }}" alt="A robot beside a data-center rack with a prohibition sign and a ballot" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Ohio voters reject local AI data centers in at least 14 municipalities</div>
+      <div class="read-desc">Of 21 ballot measures across 18 municipalities, at least 14 passed bans or restrictions, with Ohio now above 125 local data-center moratoriums.</div>
+      <a class="read-link" href="https://fortune.com/2026/11/04/ohio-data-center-ballot-measures-midterm-elections/" target="_blank" rel="noopener">Read the source</a><span class="read-source">fortune.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-05-item3.svg' | relative_url }}" alt="A robot beside a document stamped with a verified checkmark seal" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Anthropic's FlashProve lets you cryptographically verify which model produced a response</div>
+      <div class="read-desc">The open-source prototype proves an answer came from a committed set of weights, but it is still very costly (roughly 70 to 95 times the GPU time) and limited to small greedy-decoded runs.</div>
+      <a class="read-link" href="https://www.anthropic.com/research/provable-inference" target="_blank" rel="noopener">Read the source</a><span class="read-source">anthropic.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-05-item4.svg' | relative_url }}" alt="A robot beside two virtual machine boxes joined by a red crack" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Two Xen flaws let one malicious VM read and write other VMs' memory</div>
+      <div class="read-desc">The bugs (XSA-523) skip a needed permission re-check during grant copy, and Xen 4.6 to 4.16 has no patch, while some distributions already ship fixes.</div>
+      <a class="read-link" href="https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html" target="_blank" rel="noopener">Read the source</a><span class="read-source">thehackernews.com</span>
+    </div>
+  </div>
+</li>
+  <li class="day-card">
+  <div class="day-header">
     <span class="day-date">November 4, 2026</span>
   </div>
 
