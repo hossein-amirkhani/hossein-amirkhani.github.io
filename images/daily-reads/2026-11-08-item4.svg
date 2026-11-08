@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+<defs><radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#f6f9fd"/><stop offset="1" stop-color="#e2eaf7"/></radialGradient>
+<radialGradient id="gl"><stop offset="0" stop-color="#8ec7ff" stop-opacity=".5"/><stop offset="1" stop-color="#8ec7ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="bd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#ecf1f9"/></linearGradient></defs>
+<rect width="600" height="600" fill="url(#bg)"/><circle cx="300" cy="300" r="260" fill="url(#gl)"/>
+<g transform="translate(210,260) rotate(0) scale(1.2)">
+<rect x="-70" y="-10" width="140" height="150" rx="34" fill="url(#bd)" stroke="#2b3a55" stroke-width="6"/>
+<rect x="-110" y="10" width="34" height="95" rx="17" fill="url(#bd)" stroke="#2b3a55" stroke-width="6"/>
+<rect x="76" y="10" width="34" height="95" rx="17" fill="url(#bd)" stroke="#2b3a55" stroke-width="6"/>
+<rect x="-52" y="135" width="40" height="70" rx="16" fill="url(#bd)" stroke="#2b3a55" stroke-width="6"/>
+<rect x="12" y="135" width="40" height="70" rx="16" fill="url(#bd)" stroke="#2b3a55" stroke-width="6"/>
+<rect x="-80" y="-120" width="160" height="120" rx="40" fill="url(#bd)" stroke="#2b3a55" stroke-width="6"/>
+<circle cx="-30" cy="-62" r="15" fill="#5ec9e8"/><circle cx="30" cy="-62" r="15" fill="#5ec9e8"/>
+<rect x="-18" y="-30" width="36" height="8" rx="4" fill="#4a90e2"/></g><g transform="translate(440,300)"><rect x="-30" y="-150" width="60" height="70" rx="12" fill="#cfe6fb" stroke="#2b3a55" stroke-width="6"/><rect x="-30" y="80" width="60" height="70" rx="12" fill="#cfe6fb" stroke="#2b3a55" stroke-width="6"/><rect x="-70" y="-90" width="140" height="180" rx="36" fill="#fff" stroke="#2b3a55" stroke-width="6"/><path d="M-45 5 h25 l12 -30 l22 60 l12 -30 h25" fill="none" stroke="#e25c6a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(360,500)"><rect width="160" height="46" rx="23" fill="#4a90e2"/><text x="80.0" y="31" font-family="Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#fff" text-anchor="middle">no cuff</text></g></svg>
