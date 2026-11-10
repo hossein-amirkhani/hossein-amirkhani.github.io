@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600"><defs>
+<radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#f6f9fd"/><stop offset="1" stop-color="#e2eaf7"/></radialGradient>
+<radialGradient id="gl" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8ec7ff" stop-opacity=".5"/><stop offset="1" stop-color="#8ec7ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="rb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#ecf1f9"/></linearGradient></defs>
+<rect width="600" height="600" fill="url(#bg)"/><circle cx="300" cy="300" r="260" fill="url(#gl)"/><g transform="translate(220,300) scale(0.8) rotate(0)" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round">
+<rect x="-60" y="10" width="120" height="130" rx="28" fill="url(#rb)"/>
+<rect x="-50" y="130" width="38" height="60" rx="14" fill="url(#rb)"/><rect x="12" y="130" width="38" height="60" rx="14" fill="url(#rb)"/>
+<rect x="-95" y="30" width="30" height="85" rx="14" fill="url(#rb)"/><rect x="65" y="30" width="30" height="85" rx="14" fill="url(#rb)"/>
+<rect x="-55" y="-90" width="110" height="90" rx="30" fill="url(#rb)"/>
+<circle cx="-22" cy="-45" r="12" fill="#5ec9e8"/><circle cx="22" cy="-45" r="12" fill="#5ec9e8"/>
+<rect x="-14" y="-18" width="28" height="6" rx="3" fill="#4a90e2" stroke="none"/>
+<line x1="0" y1="-90" x2="0" y2="-115"/><circle cx="0" cy="-122" r="8" fill="#4a90e2"/></g><g transform="translate(400,200)"><path d="M30 80V55a45 45 0 0 1 90 0v25" fill="none" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/><rect y="80" width="150" height="120" rx="18" fill="#fff" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/><circle cx="75" cy="135" r="14" fill="#4a90e2"/><path d="M80 80l-14 40 20 14-16 40" fill="none" stroke="#e25a5a" stroke-width="6"/></g><g transform="translate(395,430)"><rect width="160" height="46" rx="12" fill="#4a90e2" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/><text x="80.0" y="31" font-family="Arial" font-weight="700" font-size="22" fill="#fff" text-anchor="middle">breach</text></g><circle cx="360" cy="380" r="6" fill="#4a90e2"/><circle cx="340" cy="410" r="5" fill="#5ec9e8"/></svg>
