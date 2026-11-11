@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600"><defs>
+<radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#f6f9fd"/><stop offset="1" stop-color="#e2eaf7"/></radialGradient>
+<radialGradient id="gl" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8ec7ff" stop-opacity=".5"/><stop offset="1" stop-color="#8ec7ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="rb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#ecf1f9"/></linearGradient></defs>
+<rect width="600" height="600" fill="url(#bg)"/><circle cx="300" cy="300" r="260" fill="url(#gl)"/><g transform="translate(60,250)"><rect x="0" y="0" width="180" height="120" rx="12" fill="#fff" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/><rect x="-20" y="120" width="220" height="18" rx="8" fill="url(#rb)" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/></g><g transform="translate(340,250)"><rect x="0" y="0" width="180" height="120" rx="12" fill="#fff" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/><rect x="-20" y="120" width="220" height="18" rx="8" fill="url(#rb)" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/></g><g transform="translate(150,305) scale(0.3) rotate(0)" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round">
+<rect x="-60" y="10" width="120" height="130" rx="28" fill="url(#rb)"/>
+<rect x="-50" y="130" width="38" height="60" rx="14" fill="url(#rb)"/><rect x="12" y="130" width="38" height="60" rx="14" fill="url(#rb)"/>
+<rect x="-95" y="30" width="30" height="85" rx="14" fill="url(#rb)"/><rect x="65" y="30" width="30" height="85" rx="14" fill="url(#rb)"/>
+<rect x="-55" y="-90" width="110" height="90" rx="30" fill="url(#rb)"/>
+<circle cx="-22" cy="-45" r="12" fill="#5ec9e8"/><circle cx="22" cy="-45" r="12" fill="#5ec9e8"/>
+<rect x="-14" y="-18" width="28" height="6" rx="3" fill="#4a90e2" stroke="none"/>
+<line x1="0" y1="-90" x2="0" y2="-115"/><circle cx="0" cy="-122" r="8" fill="#4a90e2"/></g><g transform="translate(430,305) scale(0.3) rotate(0)" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round">
+<rect x="-60" y="10" width="120" height="130" rx="28" fill="url(#rb)"/>
+<rect x="-50" y="130" width="38" height="60" rx="14" fill="url(#rb)"/><rect x="12" y="130" width="38" height="60" rx="14" fill="url(#rb)"/>
+<rect x="-95" y="30" width="30" height="85" rx="14" fill="url(#rb)"/><rect x="65" y="30" width="30" height="85" rx="14" fill="url(#rb)"/>
+<rect x="-55" y="-90" width="110" height="90" rx="30" fill="url(#rb)"/>
+<circle cx="-22" cy="-45" r="12" fill="#5ec9e8"/><circle cx="22" cy="-45" r="12" fill="#5ec9e8"/>
+<rect x="-14" y="-18" width="28" height="6" rx="3" fill="#4a90e2" stroke="none"/>
+<line x1="0" y1="-90" x2="0" y2="-115"/><circle cx="0" cy="-122" r="8" fill="#4a90e2"/></g><path d="M240,395 q60,50 120,0" fill="none" stroke="#4a90e2" stroke-width="7" stroke-dasharray="14 10"/><path d="M300,415 l-12,-28 h10 l-6,-20 l20,30 h-10 l8,18z" fill="#5ec9e8" stroke="#2b3a55" stroke-width="3"/><g transform="translate(205,460)"><rect width="190" height="46" rx="12" fill="#4a90e2" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/><text x="95.0" y="31" font-family="Arial" font-weight="700" font-size="22" fill="#fff" text-anchor="middle">local AI</text></g></svg>
