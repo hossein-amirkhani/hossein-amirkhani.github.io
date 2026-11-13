@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600"><defs>
+<radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#f6f9fd"/><stop offset="1" stop-color="#e2eaf7"/></radialGradient>
+<radialGradient id="gl" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8ec7ff" stop-opacity=".5"/><stop offset="1" stop-color="#8ec7ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="rb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#ecf1f9"/></linearGradient></defs>
+<rect width="600" height="600" fill="url(#bg)"/><circle cx="300" cy="300" r="260" fill="url(#gl)"/><line x1="60" y1="250" x2="170" y2="250" stroke="#4a90e2" stroke-width="7" stroke-linecap="round" opacity=".6"/><line x1="68" y1="290" x2="178" y2="290" stroke="#4a90e2" stroke-width="7" stroke-linecap="round" opacity=".6"/><line x1="76" y1="330" x2="186" y2="330" stroke="#4a90e2" stroke-width="7" stroke-linecap="round" opacity=".6"/><line x1="84" y1="370" x2="194" y2="370" stroke="#4a90e2" stroke-width="7" stroke-linecap="round" opacity=".6"/><g transform="translate(270,330) scale(0.95) rotate(8)" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round">
+<rect x="-60" y="10" width="120" height="130" rx="28" fill="url(#rb)"/>
+<rect x="-50" y="130" width="38" height="60" rx="14" fill="url(#rb)"/><rect x="12" y="130" width="38" height="60" rx="14" fill="url(#rb)"/>
+<rect x="-95" y="30" width="30" height="85" rx="14" fill="url(#rb)" transform="rotate(40,-80,40)"/><rect x="65" y="30" width="30" height="85" rx="14" fill="url(#rb)" transform="rotate(-60,80,40)"/>
+<rect x="-55" y="-90" width="110" height="90" rx="30" fill="url(#rb)"/>
+<circle cx="-22" cy="-45" r="12" fill="#5ec9e8"/><circle cx="22" cy="-45" r="12" fill="#5ec9e8"/>
+<path d="M-14,-20 q14,12 28,0" fill="none" stroke="#4a90e2" stroke-width="5" stroke-linecap="round"/><line x1="0" y1="-90" x2="0" y2="-115"/><circle cx="0" cy="-122" r="8" fill="#4a90e2"/></g><g transform="translate(420,170)" stroke="#2b3a55" stroke-width="5" fill="none">
+<ellipse rx="95" ry="38" transform="rotate(30)"/><ellipse rx="95" ry="38" transform="rotate(-30)"/>
+<circle r="30" fill="#4a90e2"/><text x="0" y="12" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="bold" fill="#fff" stroke="none" text-anchor="middle">H</text>
+<circle cx="82" cy="47" r="11" fill="#5ec9e8"/><circle cx="-82" cy="47" r="11" fill="#5ec9e8"/></g><path d="M455,330 l-40,80 h35 l-25,75 l70,-100 h-38 l28,-55 z" fill="#5ec9e8" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/></svg>
