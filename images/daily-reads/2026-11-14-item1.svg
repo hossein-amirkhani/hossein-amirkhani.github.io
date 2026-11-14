@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600"><defs>
+<radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#f6f9fd"/><stop offset="1" stop-color="#e2eaf7"/></radialGradient>
+<radialGradient id="gl" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8ec7ff" stop-opacity=".5"/><stop offset="1" stop-color="#8ec7ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="rb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#ecf1f9"/></linearGradient></defs>
+<rect width="600" height="600" fill="url(#bg)"/><circle cx="300" cy="300" r="260" fill="url(#gl)"/><line x1="315" y1="470" x2="565" y2="470" stroke="#2b3a55" stroke-width="6" stroke-linecap="round"/><rect x="330" y="410" width="28" height="60" rx="6" fill="#5ec9e8" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/><rect x="368" y="375" width="28" height="95" rx="6" fill="#5ec9e8" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/><rect x="406" y="340" width="28" height="130" rx="6" fill="#5ec9e8" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/><rect x="444" y="295" width="28" height="175" rx="6" fill="#5ec9e8" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/><rect x="482" y="245" width="28" height="225" rx="6" fill="#5ec9e8" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/><rect x="520" y="170" width="28" height="300" rx="6" fill="#4a90e2" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/>
+<path d="M335,360 L410,300 L470,320 L550,180" fill="none" stroke="#2b3a55" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M550,180 l-6,30 l-22,-18 z" fill="#2b3a55" stroke="#2b3a55" stroke-width="4" stroke-linejoin="round"/>
+<g transform="translate(70,70)"><rect width="200" height="80" rx="16" fill="#fff" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/><text x="100" y="40" font-size="30" fill="#2b3a55" font-family="Arial, Helvetica, sans-serif" font-weight="bold" stroke="none" text-anchor="middle">ANT</text>
+<path d="M150,30 l12,-14 l12,14 z" fill="#4a90e2" stroke="none"/><rect x="25" y="52" width="150" height="10" rx="5" fill="#cfdcef" stroke="none"/></g>
+<g transform="translate(250,200)"><circle r="34" fill="#4a90e2" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round"/><text y="12" font-size="34" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-weight="bold" stroke="none" text-anchor="middle">6×</text></g>
+<g transform="translate(170,330) scale(0.95) rotate(0)" stroke="#2b3a55" stroke-width="5" stroke-linejoin="round">
+<rect x="-60" y="10" width="120" height="130" rx="28" fill="url(#rb)"/>
+<rect x="-50" y="130" width="38" height="60" rx="14" fill="url(#rb)"/><rect x="12" y="130" width="38" height="60" rx="14" fill="url(#rb)"/>
+<rect x="-95" y="30" width="30" height="85" rx="14" fill="url(#rb)" transform="rotate(0,-80,40)"/><rect x="65" y="30" width="30" height="85" rx="14" fill="url(#rb)" transform="rotate(-130,80,40)"/>
+<rect x="-55" y="-90" width="110" height="90" rx="30" fill="url(#rb)"/>
+<circle cx="-22" cy="-45" r="12" fill="#5ec9e8"/><circle cx="22" cy="-45" r="12" fill="#5ec9e8"/><path d="M-12,-20 q12,12 24,0" fill="none" stroke-linecap="round"/>
+<line x1="0" y1="-90" x2="0" y2="-115"/><circle cx="0" cy="-122" r="8" fill="#4a90e2"/></g></svg>
