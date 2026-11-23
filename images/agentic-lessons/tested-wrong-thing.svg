@@ -1,0 +1,76 @@
+<svg width="640" height="640" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="640" fill="#ffffff"/>
+  <circle cx="330" cy="345" r="230" fill="#eaf1f9"/>
+
+  <!-- ===================== checklist: all checks passed ===================== -->
+  <g>
+    <rect x="202" y="128" width="120" height="150" rx="10" fill="#ffffff" stroke="#aebfd6" stroke-width="3"/>
+    <rect x="240" y="118" width="44" height="18" rx="6" fill="#aebfd6"/>
+    <circle cx="226" cy="168" r="11" fill="#3f9d6e"/>
+    <path d="M220 168 l4 5 l8 -10" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="244" y="163" width="60" height="9" rx="4" fill="#d6deea"/>
+    <circle cx="226" cy="206" r="11" fill="#3f9d6e"/>
+    <path d="M220 206 l4 5 l8 -10" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="244" y="201" width="60" height="9" rx="4" fill="#d6deea"/>
+    <circle cx="226" cy="244" r="11" fill="#3f9d6e"/>
+    <path d="M220 244 l4 5 l8 -10" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="244" y="239" width="60" height="9" rx="4" fill="#d6deea"/>
+  </g>
+
+  <!-- ===================== what was tested: half old, half new ===================== -->
+  <g>
+    <text x="300" y="318" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5a6b80" text-anchor="middle">tested</text>
+    <rect x="252" y="328" width="48" height="60" fill="#c7ccd6"/>
+    <rect x="300" y="328" width="48" height="60" fill="#8fb4dc"/>
+    <rect x="252" y="328" width="96" height="60" rx="10" fill="none" stroke="#7c8798" stroke-width="3"/>
+    <text x="276" y="363" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#4b5563" text-anchor="middle">old</text>
+    <text x="324" y="363" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f3f63" text-anchor="middle">new</text>
+  </g>
+
+  <!-- ===================== what was intended: fully new, with a question ===================== -->
+  <g>
+    <text x="386" y="148" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#5a6b80" text-anchor="middle">intended</text>
+    <rect x="338" y="158" width="96" height="60" rx="10" fill="#8fb4dc" stroke="#2f5d8a" stroke-width="3" stroke-dasharray="7 5"/>
+    <text x="386" y="193" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f3f63" text-anchor="middle">new</text>
+    <circle cx="430" cy="158" r="15" fill="#e0a43a"/>
+    <text x="430" y="164" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">?</text>
+  </g>
+
+  <!-- ===================== robot (left), holding up the checklist ===================== -->
+  <g>
+    <ellipse cx="150" cy="470" rx="95" ry="90" fill="#eaf1f9"/>
+    <rect x="95" y="380" width="110" height="130" rx="26" fill="#e7edf5" stroke="#aebfd6" stroke-width="3"/>
+    <rect x="118" y="400" width="64" height="14" rx="7" fill="#bcd0ea"/>
+    <path d="M180 400 C 205 380, 205 320, 205 284" stroke="#cdd8e8" stroke-width="26" stroke-linecap="round" fill="none"/>
+    <circle cx="205" cy="278" r="16" fill="#dfe7f2" stroke="#aebfd6" stroke-width="3"/>
+    <path d="M195 450 C 220 440, 238 410, 248 390" stroke="#cdd8e8" stroke-width="24" stroke-linecap="round" fill="none"/>
+    <circle cx="250" cy="386" r="15" fill="#dfe7f2" stroke="#aebfd6" stroke-width="3"/>
+    <rect x="100" y="300" width="100" height="86" rx="30" fill="#f2f5fa" stroke="#aebfd6" stroke-width="3"/>
+    <circle cx="150" cy="288" r="8" fill="#aebfd6"/>
+    <line x1="150" y1="280" x2="150" y2="300" stroke="#aebfd6" stroke-width="4"/>
+    <rect x="118" y="322" width="64" height="38" rx="14" fill="#28405e"/>
+    <circle cx="138" cy="341" r="7" fill="#6fd6e8"/>
+    <circle cx="162" cy="341" r="7" fill="#6fd6e8"/>
+    <path d="M138 352 Q150 360 162 352" stroke="#6fd6e8" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- ===================== person (right), pointing at the intended experiment ===================== -->
+  <g>
+    <rect x="420" y="470" width="34" height="110" rx="10" fill="#7c8798"/>
+    <rect x="470" y="470" width="34" height="110" rx="10" fill="#7c8798"/>
+    <rect x="414" y="565" width="46" height="20" rx="8" fill="#1f2937"/>
+    <rect x="464" y="565" width="46" height="20" rx="8" fill="#1f2937"/>
+    <path d="M405 355 C 405 340, 425 328, 462 328 C 499 328, 519 340, 519 355 L 528 475 C 505 490, 420 490, 397 475 Z" fill="#2c3e60"/>
+    <path d="M448 335 L 462 400 L 476 335 Z" fill="#ffffff"/>
+    <path d="M418 352 C 392 330, 382 285, 386 240" stroke="#2c3e60" stroke-width="26" stroke-linecap="round" fill="none"/>
+    <circle cx="386" cy="232" r="13" fill="#f2c29b"/>
+    <path d="M386 226 l0 -12" stroke="#f2c29b" stroke-width="7" stroke-linecap="round"/>
+    <path d="M505 355 C 520 375, 520 400, 505 415" stroke="#2c3e60" stroke-width="26" stroke-linecap="round" fill="none"/>
+    <circle cx="503" cy="418" r="14" fill="#f2c29b"/>
+    <circle cx="462" cy="295" r="42" fill="#f2c29b"/>
+    <path d="M420 290 C 415 250, 445 225, 465 225 C 495 225, 508 250, 505 285 C 500 270, 485 260, 462 260 C 450 275, 432 280, 420 290 Z" fill="#22293a"/>
+    <circle cx="447" cy="298" r="4" fill="#33261c"/>
+    <circle cx="477" cy="298" r="4" fill="#33261c"/>
+    <path d="M451 318 L473 318" stroke="#8a5a3c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -156,6 +156,31 @@ Simon Willison recently started documenting <a href="https://simonwillison.net/g
    <div class="lesson-card-inner">
     <div class="lesson-main">
     <div class="lesson-header">
+      <span class="lesson-date">November 23, 2026</span>
+      <h3 class="lesson-title">The experiment ran correctly &mdash; but tested the wrong thing</h3>
+    </div>
+    <div class="lesson-body">
+      <p><span class="label">What happened.</span> I asked an agent to evaluate an updated system. The results were worse than before, so I initially thought the update had made the system worse. Then I discovered that the agent had applied only part of the update. It changed how information was prepared, but left out the accompanying instructions for interpreting that information. The experiment had tested a combination of old and new components.</p>
+
+      <p><span class="label">Why the agent missed it.</span> The agent focused on keeping the comparison controlled. That was a reasonable goal, but it drew the boundary in the wrong place: it treated two related changes as independent. The narrower experiment it constructed was not the experiment I intended.</p>
+
+      <p>The checks still passed. The inputs matched, the settings were recorded, and the calculations were correct. Those checks established that the experiment was executed consistently. They did not establish that it answered my question.</p>
+
+      <p><span class="label">The fix.</span> I asked the agent to explain exactly what it had changed and what it had kept. That exposed the mismatch. We corrected the interpretation of the results: they described the partial update, while the intended update still needed to be tested.</p>
+
+      <div class="lesson-takeaway">
+        A carefully executed experiment can still answer the wrong question. Before running one, an agent should explain its consequential assumptions in terms of their effect on the comparison. &ldquo;I kept this unchanged&rdquo; is not enough when that choice changes what the results will mean.
+      </div>
+    </div>
+    </div>
+    <div class="lesson-image"><img src="/images/agentic-lessons/tested-wrong-thing.svg" alt="A robot shows a checklist of passed checks for a half-old, half-new test while a person points to the fully new experiment that was intended" loading="lazy"></div>
+   </div>
+  </li>
+
+  <li class="lesson-card">
+   <div class="lesson-card-inner">
+    <div class="lesson-main">
+    <div class="lesson-header">
       <span class="lesson-date">September 15, 2026</span>
       <h3 class="lesson-title">Gemini knew it couldn't execute Python &mdash; and kept writing Python</h3>
     </div>
