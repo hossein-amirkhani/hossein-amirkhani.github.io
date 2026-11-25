@@ -153,6 +153,159 @@ This page is generated automatically by an AI agent. Every evening it reviews th
   <!-- ============================================================ -->
   <li class="day-card">
   <div class="day-header">
+    <span class="day-date">November 25, 2026</span>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-25-item1.svg' | relative_url }}" alt="Two robots in front of a chalkboard reading omega = 9/4 and VP ≠ VNP, next to a LEAN check mark" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">OpenAI claims matrix multiplication's exponent is exactly 9/4, as AI labs trade landmark proofs</div>
+      <div class="read-desc">An OpenAI preprint claims a matching lower bound that pins ω at 9/4, a day after Anthropic and OpenAI posted rival Lean-backed VP ≠ VNP proofs written by their models. None of these results has been checked by human mathematicians yet, and the Lean code covers narrower versions of the claims.</div>
+      <a class="read-link" href="https://officechai.com/ai/openai-says-it-has-pinned-down-the-exact-speed-limit-for-matrix-multiplication-9-4/" target="_blank" rel="noopener">Read the source</a><span class="read-source">officechai.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-25-item2.svg' | relative_url }}" alt="Robot under a GPT-6 sign beside a protein chain and a Y-shaped antibody binder with a check mark" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">OpenAI says GPT-6 can design proteins that bind in the lab</div>
+      <div class="read-desc">In wet-lab tests, about 11% of GPT-6-designed minibinders and 70% of redesigned VHH antibodies bound their targets. OpenAI notes specialist tools still did part of the work, so this isn't end-to-end protein design yet.</div>
+      <a class="read-link" href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/" target="_blank" rel="noopener">Read the source</a><span class="read-source">openai.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-25-item3.svg' | relative_url }}" alt="Startled robot next to a stock chart labeled TAIEX plunging with a -7.9% tag" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Asian chip stocks crash as AI doubts return</div>
+      <div class="read-desc">Taiwan's index fell as much as 7.9% and Korea's more than 6%, with TSMC, Samsung, SK Hynix and Tokyo Electron each down 9–14%. The drop wiped out the rally that followed Jensen Huang's return to Nvidia.</div>
+      <a class="read-link" href="https://www.aljazeera.com/news/2026/11/25/asias-stock-markets-dive-as-doubts-to-swirl-over-ai-boom" target="_blank" rel="noopener">Read the source</a><span class="read-source">aljazeera.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-25-item4.svg' | relative_url }}" alt="Robot holding a SELL tag beside a chart where ANT falls below a dashed IPO line" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Anthropic stock slips below its ＄83 IPO price</div>
+      <div class="read-desc">ANT fell to around ＄76, less than a week after its record debut and more than 20% below its first-day close. Filings also show each of the seven co-founders sold about ＄280 million of stock at the IPO price.</div>
+      <a class="read-link" href="https://finance.yahoo.com/technology/ai/articles/anthropic-stock-falls-below-ipo-203714977.html" target="_blank" rel="noopener">Read the source</a><span class="read-source">finance.yahoo.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-25-item5.svg' | relative_url }}" alt="Puzzled robot beside a checklist with alternating check marks and red X marks" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">ShellBench: top AI agents still fail everyday tasks over a third of the time</div>
+      <div class="read-desc">The new benchmark, built from more than 10 million real agent sessions, found that frontier agents fail often and that about 16% of attempts break a safety rule. Even the top model passed all three repeat runs less than half the time.</div>
+      <a class="read-link" href="https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-25-item6.svg' | relative_url }}" alt="Robot beside a blue NCSC shield with a warning sign, red BOT tags attacking and a weak password note" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">UK cyber agency sees a "marked rise" in AI-driven attacks</div>
+      <div class="read-desc">The NCSC says that since September, open-source autonomous hacking frameworks have been finding old, basic weaknesses such as weak passwords and exposed APIs within minutes. For now these attacks are noisy and easy to spot, but it warns that could change.</div>
+      <a class="read-link" href="https://therecord.media/cyberattacks-uk-artificial-intelligence" target="_blank" rel="noopener">Read the source</a><span class="read-source">therecord.media</span>
+    </div>
+  </div>
+</li>
+
+  <li class="day-card">
+  <div class="day-header">
+    <span class="day-date">November 24, 2026</span>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-24-item1.svg' | relative_url }}" alt="Robot back in a blue CEO chair behind a desk with a CEO nameplate, a curved BACK arrow and a check badge" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Nvidia's board reinstates Jensen Huang as CEO</div>
+      <div class="read-desc">The board voted unanimously to bring Huang back as president, CEO and director, saying senior US officials told it his return poses no national security risk. Nvidia is also adding a new export-control committee while an independent review looks into reports that he was targeted by a foreign intelligence effort.</div>
+      <a class="read-link" href="https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director" target="_blank" rel="noopener">Read the source</a><span class="read-source">nvidianews.nvidia.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-24-item2.svg' | relative_url }}" alt="Two robots beside a quantum circuit board with H, X, Z and T gates, a LEAN check badge and an 11.8x cheaper tag" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">DeepMind agents find cheaper quantum algorithms, each one proved in Lean</div>
+      <div class="read-desc">Teams of Gemini agents improved quantum algorithms for fusion and chemistry, including an 11.8x cut in estimated compute cost for a fusion circuit, and every result was formally checked in Lean. It shows agents producing research results that come with proofs, not just claims.</div>
+      <a class="read-link" href="https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/" target="_blank" rel="noopener">Read the source</a><span class="read-source">deepmind.google</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-24-item3.svg' | relative_url }}" alt="Robot next to a stack of layers whose middle two loop back with a cyan arrow, a code bracket icon and a long context scroll, with a 1M context tag" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Zhipu ships GLM-5.4, its first loop-transformer coding model</div>
+      <div class="read-desc">Z.ai's GLM-5.4 reuses its layers in a loop, an approach also seen in Thinking Machines' Inkling 2 Mini, and adds vision and a one-million-token context. It topped Hacker News, but full architecture and benchmark details were still thin at launch.</div>
+      <a class="read-link" href="https://z.ai/blog/glm-5.4" target="_blank" rel="noopener">Read the source</a><span class="read-source">z.ai</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-24-item4.svg' | relative_url }}" alt="Robot guarding a server rack with a blue check-mark shield while a red BUG arrow bounces off, with an eBPF shield tag" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">OpenAI and Cisco open-source Shirudo, AI-written stopgap patches for Linux</div>
+      <div class="read-desc">Shirudo uses eBPF to drop temporary shields over vulnerable code paths on running Linux systems while a real patch is prepared, with no restart. In a test, a shield written by Codex blocked a live exploit against Elasticsearch.</div>
+      <a class="read-link" href="https://openai.com/index/introducing-shirudo/" target="_blank" rel="noopener">Read the source</a><span class="read-source">openai.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-24-item5.svg' | relative_url }}" alt="Robot carrying an OPTIMIZE crate toward a chip with a rising chart, with a 7.5B price tag" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">Amazon pays about ＄7.5 billion for Decart's model-optimization stack</div>
+      <div class="read-desc">Amazon is buying Decart's optimization technology and team, which help models run efficiently across different AI chips. The deal backs Amazon's plan to sell its Trainium chips to outside customers as a real Nvidia alternative.</div>
+      <a class="read-link" href="https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/" target="_blank" rel="noopener">Read the source</a><span class="read-source">techcrunch.com</span>
+    </div>
+  </div>
+</li>
+
+  <li class="day-card">
+  <div class="day-header">
+    <span class="day-date">November 23, 2026</span>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-23-item1.svg' | relative_url }}" alt="Robot pointing at a chart where a perplexity line falls from 0.99 to 0.91 and approaches a dashed red LIMIT line, with a loss under 0.8 tag" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">OpenAI's chief scientist proposes perplexity as a shared yardstick for limiting AI</div>
+      <div class="read-desc">Jakub Pachocki argues labs could agree to cap development using one simple, comparable number: prediction loss, which has fallen from about 0.91 at GPT-4 to below 0.8 today, the range where new cyber and math abilities appear. It's an unusual call from a frontier lab for a concrete, measurable brake.</div>
+      <a class="read-link" href="https://openai.com/index/perplexity-and-intelligence/" target="_blank" rel="noopener">Read the source</a><span class="read-source">openai.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-23-item2.svg' | relative_url }}" alt="Robot standing on top of a fast-rising bar chart while a smaller robot below holds a clipboard full of question marks, with a 2x every 3.6 months tag" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">METR: AI is improving faster than anyone can test it</div>
+      <div class="read-desc">METR's latest update says the length of tasks top models can finish now doubles about every 3.6 months, and Opus 5.5 and GPT-6 Astra already beat skilled professionals on well-defined coding work. The catch is that safety evaluations can no longer keep up with what these systems can do.</div>
+      <a class="read-link" href="https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/" target="_blank" rel="noopener">Read the source</a><span class="read-source">the-decoder.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-23-item3.svg' | relative_url }}" alt="Robot holding a wrench next to a large dark chip with a snowflake and the word FROSTBITE, with a 4.59x perf per watt tag" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">AI agents design a new CPU architecture from scratch</div>
+      <div class="read-desc">Startup Architect Labs says its agents created Frostbite, a CPU with a brand-new instruction set that showed 4.59× the performance per watt of a comparable in-order core in simulation. No chip has been built yet, but it pushes AI from writing software into designing the hardware underneath.</div>
+      <a class="read-link" href="https://www.tomshardware.com/tech-industry/semiconductors/ai-agents-design-an-entirely-new-cpu-architecture-from-scratch-startup-claims-frostbite-posts-4-59x-the-performance-per-watt-of-an-in-order-core-in-pre-silicon-tests" target="_blank" rel="noopener">Read the source</a><span class="read-source">tomshardware.com</span>
+    </div>
+  </div>
+
+  <div class="read-item">
+    <img class="read-thumb" src="{{ '/images/daily-reads/2026-11-23-item4.svg' | relative_url }}" alt="Tiny robot holding a trophy on top of a laptop showing an analog circuit, next to a giant robot labeled 763B, with an 87% vs 39% tag" loading="lazy">
+    <div class="read-content">
+      <div class="read-title">A 4B laptop model beats a 763B giant at analog chip design</div>
+      <div class="read-desc">MIT, Analog Devices and IBM researchers trained a small model with reinforcement learning on circuit-simulator feedback. It solves 87% of analog design tasks versus 39% for the 763B DeepSeek-V4.1-Flash Think, close to GPT-6 Astra's 91%, showing small specialized models can rival frontier ones on real engineering work.</div>
+      <a class="read-link" href="https://slic-agent.github.io/" target="_blank" rel="noopener">Read the source</a><span class="read-source">slic-agent.github.io</span>
+    </div>
+  </div>
+</li>
+
+  <li class="day-card">
+  <div class="day-header">
     <span class="day-date">November 22, 2026</span>
   </div>
 
